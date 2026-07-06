@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>小红书早餐号涨粉建议｜Tiny.C</title>
+  <style>
+    :root {
+      --bg: #fff7ef;
+      --card: #ffffff;
+      --text: #243024;
+      --muted: #66705f;
+      --brand: #ff6b35;
+      --brand-2: #3f8f5f;
+      --line: #f0dccb;
+      --soft: #fff1df;
+      --soft-green: #edf7ee;
+      --shadow: 0 18px 45px rgba(76, 46, 20, 0.12);
+      --radius: 24px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(255, 214, 165, 0.75), transparent 34rem),
+        radial-gradient(circle at bottom right, rgba(170, 222, 171, 0.55), transparent 34rem),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+    }
+
+    .wrap {
+      width: min(1080px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 42px 0 56px;
+    }
+
+    header {
+      background: linear-gradient(135deg, #ffffff 0%, #fff5e8 55%, #eef8ef 100%);
+      border: 1px solid rgba(255, 255, 255, 0.7);
+      border-radius: 32px;
+      padding: clamp(26px, 5vw, 52px);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      position: relative;
+    }
+
+    header::after {
+      content: "";
+      position: absolute;
+      width: 260px;
+      height: 260px;
+      right: -90px;
+      top: -90px;
+      border-radius: 999px;
+      background: rgba(255, 107, 53, 0.12);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 14px;
+      border-radius: 999px;
+      color: var(--brand-2);
+      background: var(--soft-green);
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(32px, 6vw, 58px);
+      line-height: 1.12;
+      letter-spacing: -0.04em;
+    }
+
+    .lead {
+      margin: 22px 0 0;
+      max-width: 760px;
+      font-size: clamp(17px, 2.4vw, 22px);
+      color: var(--muted);
+    }
+
+    .hero-point {
+      margin-top: 28px;
+      padding: 18px 20px;
+      border-left: 5px solid var(--brand);
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.72);
+      font-weight: 700;
+    }
+
+    main {
+      display: grid;
+      gap: 22px;
+      margin-top: 26px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: clamp(22px, 4vw, 34px);
+      box-shadow: 0 12px 32px rgba(76, 46, 20, 0.08);
+    }
+
+    .card-title {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      margin-bottom: 14px;
+    }
+
+    .num {
+      flex: 0 0 auto;
+      display: grid;
+      place-items: center;
+      width: 42px;
+      height: 42px;
+      border-radius: 14px;
+      background: var(--brand);
+      color: #fff;
+      font-size: 22px;
+      font-weight: 800;
+      box-shadow: 0 8px 20px rgba(255, 107, 53, 0.24);
+    }
+
+    h2 {
+      margin: 0;
+      font-size: clamp(22px, 3vw, 31px);
+      line-height: 1.28;
+      letter-spacing: -0.02em;
+    }
+
+    p { margin: 12px 0; }
+
+    .example {
+      display: grid;
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .example-box {
+      padding: 16px 18px;
+      border-radius: 18px;
+      background: var(--soft);
+      border: 1px solid #f5d3b2;
+    }
+
+    .example-box strong {
+      color: #9f421a;
+    }
+
+    .before-after {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-top: 16px;
+    }
+
+    .mini {
+      padding: 16px;
+      border-radius: 18px;
+      background: #fafafa;
+      border: 1px solid #eeeeee;
+    }
+
+    .mini b {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .mini.good {
+      background: var(--soft-green);
+      border-color: #c9e8ce;
+    }
+
+    .mini.good b { color: var(--brand-2); }
+
+    .quote {
+      margin-top: 18px;
+      padding: 18px 20px;
+      border-radius: 18px;
+      background: #f6faf6;
+      border: 1px dashed #a8d4ad;
+      font-weight: 700;
+    }
+
+    .script {
+      white-space: pre-line;
+      padding: 18px 20px;
+      border-radius: 18px;
+      background: #20261f;
+      color: #fff6eb;
+      font-size: 15px;
+      line-height: 1.8;
+      overflow-x: auto;
+    }
+
+    .checklist {
+      display: grid;
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    .check {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      padding: 14px 16px;
+      border-radius: 16px;
+      background: #fffaf4;
+      border: 1px solid var(--line);
+    }
+
+    .check span:first-child {
+      color: var(--brand-2);
+      font-weight: 900;
+    }
+
+    .final-card {
+      background: linear-gradient(135deg, #2f7a4f, #65a66b);
+      color: #fff;
+      border: 0;
+    }
+
+    .final-card h2,
+    .final-card p { color: #fff; }
+
+    .final-card .check {
+      background: rgba(255, 255, 255, 0.12);
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+
+    footer {
+      margin-top: 24px;
+      color: var(--muted);
+      font-size: 13px;
+      text-align: center;
+    }
+
+    footer a {
+      color: var(--brand-2);
+      text-decoration: none;
+      border-bottom: 1px solid currentColor;
+    }
+
+    @media (max-width: 760px) {
+      .wrap { width: min(100% - 24px, 1080px); padding-top: 20px; }
+      header { border-radius: 24px; }
+      .before-after { grid-template-columns: 1fr; }
+      .card-title { align-items: flex-start; }
+      .num { width: 38px; height: 38px; border-radius: 12px; font-size: 20px; }
+    }
+
+    @media print {
+      body { background: #fff; }
+      .wrap { width: 100%; padding: 0; }
+      header, .card { box-shadow: none; break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="eyebrow">Tiny.C 小红书涨粉优化</div>
+      <h1>让“收藏型早餐帖”变成“关注型账号”</h1>
+      <p class="lead">你的内容不是不够有用，而是太像一张可收藏的工具图。用户保存完就走了。关注通常发生在用户判断：这个人以后还会持续帮到我。</p>
+      <div class="hero-point">核心改法：不要只让用户记住“这张菜单”，要让用户记住“Tiny.C 每天都能帮我解决早餐”。</div>
+    </header>
+
+    <main>
+      <section class="card">
+        <div class="card-title">
+          <div class="num">1</div>
+          <h2>把每篇做成“连续栏目”，让用户有追更理由</h2>
+        </div>
+        <p>你现在的标题是：</p>
+        <div class="before-after">
+          <div class="mini">
+            <b>现在</b>
+            四口之家明日营养早餐计划
+          </div>
+          <div class="mini good">
+            <b>建议改成</b>
+            跟着 Tiny.C 吃 30 天早餐｜第 07 天｜四口之家 20 分钟中式早餐
+          </div>
+        </div>
+        <div class="example">
+          <div class="example-box"><strong>封面固定加角标：</strong>关注我，明早更第 08 天：不喝牛奶也高钙版</div>
+          <div class="example-box"><strong>正文第一句话：</strong>我每天发 1 套适合家有孩子+老人同住的 20 分钟中式早餐，关注我=每天不用想早餐。</div>
+        </div>
+        <p>这一步最重要。用户现在收藏的是“这张菜单”，不是“Tiny.C 这个人”。你要让她意识到：关注你，比收藏单篇更省事。</p>
+      </section>
+
+      <section class="card">
+        <div class="card-title">
+          <div class="num">2</div>
+          <h2>减少“AI资料图感”，加一层真实家庭人设</h2>
+        </div>
+        <p>你这张图信息很完整，但也很像“AI营养海报/资料卡”。这类内容容易被收藏，却不容易让人产生信任和亲近感。</p>
+        <div class="checklist">
+          <div class="check"><span>✓</span><span><strong>第 1 张：</strong>真实成品图，最好是你家桌面实拍。标题写：今天我家 8 岁娃吃光的早餐｜20 分钟</span></div>
+          <div class="check"><span>✓</span><span><strong>第 2 张：</strong>你现在这种营养早餐计划图。</span></div>
+          <div class="check"><span>✓</span><span><strong>第 3 张：</strong>备菜/下锅步骤图。</span></div>
+          <div class="check"><span>✓</span><span><strong>第 4 张：</strong>购物清单+明天预告。</span></div>
+        </div>
+        <div class="quote">我家是孩子+老人一起吃，所以早餐尽量做成：软、热、蛋白够、调味淡、20 分钟内能上桌。</div>
+        <p>用户会因为“有用”收藏，但会因为“这个人和我家情况很像”关注。你要从“早餐生成器”变成“家里真正在做早餐的人”。</p>
+      </section>
+
+      <section class="card">
+        <div class="card-title">
+          <div class="num">3</div>
+          <h2>每篇都设计一个“评论—关注—下一篇”的动作</h2>
+        </div>
+        <p>不要只写“早餐这不就有了吗”。你需要把用户从收藏引到互动，再引到关注。</p>
+        <p><strong>每篇结尾固定这样写：</strong></p>
+        <div class="script">明天我做 4 个版本：
+A. 小学生长高版
+B. 老人好消化版
+C. 上班族快手版
+D. 评论区留下你专属版
+
+你家更需要哪个？评论 A/B/C/D，我按票数发；选 D 的直接留下年龄、家庭人数、忌口和早上可用时间。
+关注我，明早直接抄作业。</div>
+        <p><strong>置顶评论写：</strong></p>
+        <div class="script">想要「7 天不重样早餐表」的，评论“7天”。我会整理成系列，后面每天更新。</div>
+        <p>这样用户就不是单纯收藏，而是会参与选择；一旦她评论了、等下一篇了，关注概率会高很多。</p>
+      </section>
+
+      <section class="card">
+        <div class="card-title">
+          <div class="num">4</div>
+          <h2>话题标签用“5 个精准垂类 + 5 个本周热词”</h2>
+        </div>
+        <p>小红书单篇话题数量有限，不要把 10 个名额都用在泛早餐词上。前 5 个负责告诉系统和用户“你是谁”，后 5 个负责借本周正在涨的流量入口。</p>
+        <div class="checklist">
+          <div class="check"><span>✓</span><span><strong>前 5 个固定垂类：</strong>早餐、儿童早餐、家庭早餐、长高早餐、四口之家早餐。每篇只按内容微调，不频繁大换。</span></div>
+          <div class="check"><span>✓</span><span><strong>后 5 个动态热词：</strong>每周从小红书站内热搜/话题页、创作者服务平台、千瓜/新榜周榜里挑选本周最热且能贴合早餐、育儿、家庭生活、夏季饮食的标签。</span></div>
+          <div class="check"><span>✓</span><span><strong>筛选标准：</strong>先保相关性，再看热度；不蹭和早餐家庭场景无关的纯娱乐热词，避免系统分发人群跑偏。</span></div>
+        </div>
+        <div class="example">
+          <div class="example-box"><strong>发布前固定检查：</strong>话题总数控制在 10 个；前 5 个稳定沉淀账号标签，后 5 个每周更新一次。</div>
+          <div class="example-box"><strong>建议记录：</strong>每篇记录后 5 个热词、曝光、收藏、评论、关注转化，下周只保留带来关注的热词类型。</div>
+        </div>
+      </section>
+
+      <section class="card final-card">
+        <h2>马上执行的 4 个改动</h2>
+        <div class="checklist">
+          <div class="check"><span>✓</span><span>封面加“第 X 天 + 明天预告”。</span></div>
+          <div class="check"><span>✓</span><span>首图换成真实成品，后面再放营养计划图。</span></div>
+          <div class="check"><span>✓</span><span>结尾用 A/B/C/D 让用户评论，并引导关注追更。</span></div>
+          <div class="check"><span>✓</span><span>话题标签按“前 5 个垂类 + 后 5 个本周热词”执行，每周复盘替换。</span></div>
+        </div>
+        <p>收藏已经证明你的选题对了。现在要做的是把“有用”升级成“值得持续关注”。</p>
+      </section>
+    </main>
+
+    <footer>
+      参考来源：<a href="https://www.cbndata.com/information/236740" target="_blank" rel="noopener">CBNData</a> · <a href="https://creator.xiaohongshu.com/" target="_blank" rel="noopener">小红书创作者服务平台</a> · <a href="https://www.qian-gua.com/" target="_blank" rel="noopener">千瓜数据</a> · <a href="https://xh.newrank.cn/" target="_blank" rel="noopener">新榜小红书数据</a>
+    </footer>
+  </div>
+</body>
+</html>

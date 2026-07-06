@@ -1,0 +1,4 @@
+interface:
+  display_name: "小红书早餐"
+  short_description: "每日四口之家中式早餐小红书内容。"
+  default_prompt: "使用 $breakfast-xiaohongshu 生成明天四口之家早餐信息图、小红书文案、标签和发布描述；只生成内容，不自动发布。"
