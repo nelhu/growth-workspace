@@ -1,0 +1,58 @@
+{
+  "target_date": "2026-07-12",
+  "coverage_start": "2026-07-06",
+  "coverage_end": "2026-07-12",
+  "collected_at": "2026-07-12T18:00:00+08:00",
+  "candidates": [
+    {
+      "tag": "#一锅出",
+      "source_name": "千瓜数据",
+      "source_url": "https://www.qian-gua.com/information/detail/3326",
+      "source_type": "trend_report",
+      "rank_context": "千瓜趋势洞察中将“一锅出”列为小红书饮食内容高频做法词。",
+      "observed_at": "2026-07-12T18:00:00+08:00",
+      "rank": 1,
+      "relevance": "可承接番茄牛肉面的一锅完成和缩短早餐清洗时间。"
+    },
+    {
+      "tag": "#不开火备餐",
+      "source_name": "千瓜数据",
+      "source_url": "https://www.qian-gua.com/information/detail/3326",
+      "source_type": "trend_report",
+      "rank_context": "千瓜趋势洞察中将“不开火备餐”列为小红书饮食内容高频备餐词。",
+      "observed_at": "2026-07-12T18:00:00+08:00",
+      "rank": 2,
+      "relevance": "可承接前一晚切菜、备好牛肉和饼皮的家庭早餐流程。"
+    },
+    {
+      "tag": "#干净饮食",
+      "source_name": "千瓜数据",
+      "source_url": "https://www.qian-gua.com/blog/detail/3273.html",
+      "source_type": "trend_report",
+      "rank_context": "千瓜美食饮品种草报告：干净饮食相关词进入内容热词 TOP100。",
+      "observed_at": "2026-07-12T18:00:00+08:00",
+      "rank": 3,
+      "relevance": "与番茄、牛肉、鸡蛋和绿叶菜组成的家常高蛋白早餐相符。"
+    },
+    {
+      "tag": "#中式轻食",
+      "source_name": "千瓜数据",
+      "source_url": "https://www.qian-gua.com/information/detail/3033",
+      "source_type": "trend_report",
+      "rank_context": "千瓜新生活方式报告将中式轻食列入美食保健趋势。",
+      "observed_at": "2026-07-12T18:00:00+08:00",
+      "rank": 4,
+      "relevance": "与低油、温热、易消化的中式家庭早餐定位一致。"
+    },
+    {
+      "tag": "#家常美食",
+      "source_name": "千瓜数据",
+      "source_url": "https://www.qian-gua.com/information/detail/3183",
+      "source_type": "trend_report",
+      "rank_context": "千瓜饮食趋势解读指出家常美食是健康饮食内容的重要表达方向。",
+      "observed_at": "2026-07-12T18:00:00+08:00",
+      "rank": 5,
+      "relevance": "与固定家庭餐桌、四口人20分钟实操早餐的账号定位直接一致。"
+    }
+  ]
+}

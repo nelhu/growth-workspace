@@ -1,0 +1,151 @@
+{
+  "date": "2026-07-12",
+  "weekday": "星期日",
+  "title": "跟着 Tiny.C 吃30天早餐｜第13天｜四口之家20分钟牛肉面早餐",
+  "content": "第13天做牛肉面类：番茄牛肉面配鸡蛋蔬菜卷，再加玉米小馒头、温牛奶和水果。番茄开胃，牛肉鸡蛋补优质蛋白，孩子长高有料，老人吃着软和，上班族也能顶饱。今晚切好番茄胡萝卜、分装牛肉，早上20分钟上桌。关注我，明早继续抄作业。",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-12/01-real-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-12/02-final-infographic.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-12/03-tomato-beef-noodle-process.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-12/04-egg-vegetable-roll-process.png"
+  ],
+  "image_plan": [
+    {
+      "order": 1,
+      "type": "real_family_table",
+      "description": "固定家庭餐桌和餐厅背景的真实早餐成品图"
+    },
+    {
+      "order": 2,
+      "type": "final_infographic",
+      "description": "暖色高信息密度总览信息图：顶部5个计划模块，中部2×2菜品卡，底部营养亮点和小贴士"
+    },
+    {
+      "order": 3,
+      "type": "dish_process",
+      "dish": "番茄牛肉面",
+      "description": "菜品制作过程图"
+    },
+    {
+      "order": 4,
+      "type": "dish_process",
+      "dish": "鸡蛋蔬菜卷",
+      "description": "菜品制作过程图"
+    }
+  ],
+  "first_image_references": [
+    "https://github.com/nelhu/growth-workspace/blob/main/assets/image1_example/image_5eb39cb3.jpg",
+    "https://github.com/nelhu/growth-workspace/blob/main/assets/image1_example/image_44641b65.jpg"
+  ],
+  "tags": [
+    "#早餐",
+    "#儿童早餐",
+    "#家庭早餐",
+    "#长高早餐",
+    "#四口之家早餐",
+    "#一锅出",
+    "#不开火备餐",
+    "#干净饮食",
+    "#中式轻食",
+    "#家常美食"
+  ],
+  "tag_strategy": {
+    "fixed_vertical_tags": [
+      "#早餐",
+      "#儿童早餐",
+      "#家庭早餐",
+      "#长高早餐",
+      "#四口之家早餐"
+    ],
+    "weekly_hot_tags": [
+      "#一锅出",
+      "#不开火备餐",
+      "#干净饮食",
+      "#中式轻食",
+      "#家常美食"
+    ],
+    "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-12/weekly-hot-tags.json",
+    "weekly_hot_tag_evidence": [
+      {
+        "tag": "#一锅出",
+        "source_name": "千瓜数据",
+        "source_url": "https://www.qian-gua.com/information/detail/3326",
+        "source_type": "trend_report",
+        "rank_context": "千瓜趋势洞察中将“一锅出”列为小红书饮食内容高频做法词。",
+        "observed_at": "2026-07-12T18:00:00+08:00",
+        "rank": 1
+      },
+      {
+        "tag": "#不开火备餐",
+        "source_name": "千瓜数据",
+        "source_url": "https://www.qian-gua.com/information/detail/3326",
+        "source_type": "trend_report",
+        "rank_context": "千瓜趋势洞察中将“不开火备餐”列为小红书饮食内容高频备餐词。",
+        "observed_at": "2026-07-12T18:00:00+08:00",
+        "rank": 2
+      },
+      {
+        "tag": "#干净饮食",
+        "source_name": "千瓜数据",
+        "source_url": "https://www.qian-gua.com/blog/detail/3273.html",
+        "source_type": "trend_report",
+        "rank_context": "千瓜美食饮品种草报告：干净饮食相关词进入内容热词 TOP100。",
+        "observed_at": "2026-07-12T18:00:00+08:00",
+        "rank": 3
+      },
+      {
+        "tag": "#中式轻食",
+        "source_name": "千瓜数据",
+        "source_url": "https://www.qian-gua.com/information/detail/3033",
+        "source_type": "trend_report",
+        "rank_context": "千瓜新生活方式报告将中式轻食列入美食保健趋势。",
+        "observed_at": "2026-07-12T18:00:00+08:00",
+        "rank": 4
+      },
+      {
+        "tag": "#家常美食",
+        "source_name": "千瓜数据",
+        "source_url": "https://www.qian-gua.com/information/detail/3183",
+        "source_type": "trend_report",
+        "rank_context": "千瓜饮食趋势解读指出家常美食是健康饮食内容的重要表达方向。",
+        "observed_at": "2026-07-12T18:00:00+08:00",
+        "rank": 5
+      }
+    ]
+  },
+  "interaction_question": "明天我做 4 个版本：\nA. 小学生长高版\nB. 老人好消化版\nC. 上班族快手版\nD. 评论区留下你专属版\n\n你家更需要哪个？评论 A/B/C/D，我按票数发；选 D 的直接留下年龄、家庭人数、忌口和早上可用时间。\n关注我，明早直接抄作业。",
+  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，后面每天更新。",
+  "tomorrow_preview": "明天预告：不喝牛奶也高钙版四口之家20分钟中式早餐。",
+  "publish_description": "仅供人工确认发布：图片顺序为 01 真实家庭餐桌图、02 最终信息图、03 番茄牛肉面过程图、04 鸡蛋蔬菜卷过程图；标题、正文、话题、互动问题、置顶评论和明天预告分别复制对应字段。上海时间18:00生成后，请人工检查图片文字再发布。",
+  "status": "ready_for_review",
+  "should_publish": false,
+  "is_original": true,
+  "strategy": {
+    "structure": "牛肉面类",
+    "soup_type": "番茄牛肉面",
+    "dry_main": "鸡蛋蔬菜卷",
+    "color_palette": "暖橙番茄红",
+    "protein_focus": [
+      "鸡蛋",
+      "牛肉",
+      "牛奶"
+    ],
+    "budget_rmb": 40,
+    "time_limit_minutes": 20,
+    "emergency_plan": "番茄牛肉速食面 + 即食鸡蛋 + 全麦卷饼 + 常温奶 + 水果",
+    "image_standard": "4张图新版交付；第2张为暖色高信息密度总览信息图，顶部5个计划模块，中部2×2菜品卡，底部营养亮点和小贴士；全部图片853x1280 px"
+  },
+  "repository_artifacts": {
+    "directory_path": "dist/breakfast-xiaohongshu/2026-07-12",
+    "directory_url": "https://github.com/nelhu/growth-workspace/tree/main/dist/breakfast-xiaohongshu/2026-07-12",
+    "content_package_path": "dist/breakfast-xiaohongshu/2026-07-12/content-package.json",
+    "content_package_url": "https://github.com/nelhu/growth-workspace/blob/main/dist/breakfast-xiaohongshu/2026-07-12/content-package.json",
+    "image_paths": [
+      "dist/breakfast-xiaohongshu/2026-07-12/01-real-family-table.png",
+      "dist/breakfast-xiaohongshu/2026-07-12/02-final-infographic.png",
+      "dist/breakfast-xiaohongshu/2026-07-12/03-tomato-beef-noodle-process.png",
+      "dist/breakfast-xiaohongshu/2026-07-12/04-egg-vegetable-roll-process.png"
+    ],
+    "weekly_hot_tags_path": "dist/breakfast-xiaohongshu/2026-07-12/weekly-hot-tags.json"
+  }
+}
