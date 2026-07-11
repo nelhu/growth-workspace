@@ -1,0 +1,39 @@
+{
+  "status": "ready_for_review",
+  "should_publish": false,
+  "title": "香港维港夜景｜把城市的灯火装进相册",
+  "body": "下午四点到星光大道，海风把白天的闷热吹散，天际线也亮起来。沿着海滨慢慢走，看李小龙雕像、听渡轮汽笛，再望向对岸中环。等到八点灯光秀，整片维港像被撒了碎钻。记得日落前半小时到，带水和薄外套，拍照更舒服。",
+  "topics": [
+    "#香港旅行",
+    "#维多利亚港",
+    "#香港夜景",
+    "#星光大道",
+    "#旅行打卡"
+  ],
+  "first_comment": "补充一个小提醒：想拍人像的话，日落后的蓝调时刻最出片；拍完再慢慢等八点灯光秀，行程会更从容。",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/drafts/xiaohongshu-hong-kong/01-victoria-harbour-cc0.jpg"
+  ],
+  "repository_artifacts": {
+    "post_path": "drafts/xiaohongshu-hong-kong/post.json",
+    "post_url": "https://github.com/nelhu/growth-workspace/blob/main/drafts/xiaohongshu-hong-kong/post.json",
+    "image_paths": [
+      "drafts/xiaohongshu-hong-kong/01-victoria-harbour-cc0.jpg"
+    ],
+    "image_urls": [
+      "https://github.com/nelhu/growth-workspace/blob/main/drafts/xiaohongshu-hong-kong/01-victoria-harbour-cc0.jpg"
+    ]
+  },
+  "image_sources": [
+    {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Victoria_Harbour_skyscrapers.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Victoria_Harbour_skyscrapers.jpg",
+      "license": "CC0",
+      "author": "Wpcpey",
+      "note": "实拍维多利亚港天际线；照片拍摄位置并非星光大道，正文应作为星光大道游览建议使用，不应声称此照片由作者在现场拍摄。"
+    }
+  ],
+  "fact_sources": [
+    "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-avenue-of-stars.html"
+  ]
+}

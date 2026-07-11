@@ -1,0 +1,151 @@
+{
+  "date": "2026-07-11",
+  "weekday": "星期六",
+  "title": "跟着 Tiny.C 吃30天早餐｜第12天｜四口之家20分钟杂粮糊早餐",
+  "content": "第12天换杂粮糊类：黑豆山药燕麦杂粮糊配牛肉末豆腐鸡蛋小饼，再加龙利鱼青菜和水果。黑豆、豆腐、牛肉末、鱼肉、鸡蛋把蛋白质拉满，牛奶补钙，孩子长高营养优先，老人也吃得软和。今晚泡黑豆、切山药，早上煎小饼和鱼片，20分钟上桌。关注我，明早继续抄作业。",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-11/01-real-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-11/02-final-infographic.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-11/03-grain-paste-process.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-11/04-beef-tofu-egg-pancake-process.png"
+  ],
+  "image_plan": [
+    {
+      "order": 1,
+      "type": "real_family_table",
+      "description": "固定家庭餐桌和餐厅背景的真实早餐成品图"
+    },
+    {
+      "order": 2,
+      "type": "final_infographic",
+      "description": "暖色高信息密度总览信息图：顶部5个计划模块，中部2×2菜品卡，底部营养亮点和小贴士"
+    },
+    {
+      "order": 3,
+      "type": "dish_process",
+      "dish": "黑豆山药燕麦杂粮糊",
+      "description": "菜品制作过程图"
+    },
+    {
+      "order": 4,
+      "type": "dish_process",
+      "dish": "牛肉末豆腐鸡蛋小饼",
+      "description": "菜品制作过程图"
+    }
+  ],
+  "first_image_references": [
+    "https://github.com/nelhu/growth-workspace/blob/main/assets/image1_example/image_5eb39cb3.jpg",
+    "https://github.com/nelhu/growth-workspace/blob/main/assets/image1_example/image_44641b65.jpg"
+  ],
+  "tags": [
+    "#早餐",
+    "#儿童早餐",
+    "#家庭早餐",
+    "#长高早餐",
+    "#四口之家早餐",
+    "#一锅出",
+    "#不开火备餐",
+    "#干净饮食",
+    "#健康生活",
+    "#暑假早餐"
+  ],
+  "tag_strategy": {
+    "fixed_vertical_tags": [
+      "#早餐",
+      "#儿童早餐",
+      "#家庭早餐",
+      "#长高早餐",
+      "#四口之家早餐"
+    ],
+    "weekly_hot_tags": [
+      "#一锅出",
+      "#不开火备餐",
+      "#干净饮食",
+      "#健康生活",
+      "#暑假早餐"
+    ],
+    "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-11/weekly-hot-tags.json",
+    "weekly_hot_tag_evidence": [
+      {
+        "tag": "#一锅出",
+        "source_name": "千瓜数据",
+        "source_url": "https://www.qian-gua.com/information/detail/3326",
+        "source_type": "trend_report",
+        "rank_context": "千瓜 2026 新独居生活趋势洞察：小红书饮食内容中频现“一锅出”。",
+        "observed_at": "2026-07-11T20:10:00+08:00",
+        "rank": 1
+      },
+      {
+        "tag": "#不开火备餐",
+        "source_name": "千瓜数据",
+        "source_url": "https://www.qian-gua.com/information/detail/3326",
+        "source_type": "trend_report",
+        "rank_context": "千瓜 2026 新独居生活趋势洞察：小红书饮食内容中频现“不开火备餐”。",
+        "observed_at": "2026-07-11T20:10:00+08:00",
+        "rank": 2
+      },
+      {
+        "tag": "#干净饮食",
+        "source_name": "千瓜数据",
+        "source_url": "https://www.qian-gua.com/information/detail/3273",
+        "source_type": "trend_report",
+        "rank_context": "千瓜美食种草数据报告：干净饮食相关热词中“干净”跻身 TOP100，#干净饮食浏览量达14亿+。",
+        "observed_at": "2026-07-11T20:11:00+08:00",
+        "rank": 3
+      },
+      {
+        "tag": "#健康生活",
+        "source_name": "千瓜数据",
+        "source_url": "https://www.qian-gua.com/information/detail/3277",
+        "source_type": "trend_report",
+        "rank_context": "千瓜年度生活趋势洞察：健康生活是小红书生活方式内容的长期高热主题。",
+        "observed_at": "2026-07-11T20:12:00+08:00",
+        "rank": 4
+      },
+      {
+        "tag": "#暑假早餐",
+        "source_name": "千瓜数据",
+        "source_url": "https://www.qian-gua.com/Home/HotRankView?datecode=20260710&period=1&tagId=87&type=1",
+        "source_type": "industry_rank",
+        "rank_context": "千瓜 2026-07-10 小红书美食饮品日榜；暑假期间以家庭早餐场景承接美食饮品榜单流量。",
+        "observed_at": "2026-07-11T20:13:00+08:00",
+        "rank": 5
+      }
+    ]
+  },
+  "interaction_question": "明天我做 4 个版本：\nA. 小学生长高版\nB. 老人好消化版\nC. 上班族快手版\nD. 评论区留下你专属版\n\n你家更需要哪个？评论 A/B/C/D，我按票数发；选 D 的直接留下年龄、家庭人数、忌口和早上可用时间。\n关注我，明早直接抄作业。",
+  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，后面每天更新。",
+  "tomorrow_preview": "明天预告：老人软和好消化版四口之家20分钟中式早餐。",
+  "publish_description": "仅供人工确认发布：图片顺序为 01 真实家庭餐桌图、02 最终信息图、03 黑豆山药燕麦杂粮糊过程图、04 牛肉末豆腐鸡蛋小饼过程图；标题《跟着 Tiny.C 吃30天早餐｜第12天｜四口之家20分钟杂粮糊早餐》；正文为 content 字段；话题使用 tags 字段；互动问题、置顶评论和明天预告按对应字段复制。请在上海时间 18:00 生成后人工检查图片文字并发布。",
+  "status": "ready_for_review",
+  "should_publish": false,
+  "is_original": true,
+  "strategy": {
+    "structure": "杂粮糊类",
+    "soup_type": "黑豆山药燕麦杂粮糊",
+    "dry_main": "牛肉末豆腐鸡蛋小饼",
+    "color_palette": "奶油橙暖木色",
+    "protein_focus": [
+      "豆腐",
+      "鱼类",
+      "牛肉末"
+    ],
+    "budget_rmb": 40,
+    "time_limit_minutes": 20,
+    "emergency_plan": "预约杂粮糊 + 即食牛肉/鱼片 + 水煮蛋 + 即食豆腐/豆干 + 水果",
+    "image_standard": "4张图新版交付；第2张为暖色高信息密度总览信息图，顶部5个计划模块，中部2×2菜品卡，底部营养亮点和小贴士；全部图片853x1280 px"
+  },
+  "repository_artifacts": {
+    "directory_path": "dist/breakfast-xiaohongshu/2026-07-11",
+    "directory_url": "https://github.com/nelhu/growth-workspace/tree/main/dist/breakfast-xiaohongshu/2026-07-11",
+    "content_package_path": "dist/breakfast-xiaohongshu/2026-07-11/content-package.json",
+    "content_package_url": "https://github.com/nelhu/growth-workspace/blob/main/dist/breakfast-xiaohongshu/2026-07-11/content-package.json",
+    "image_paths": [
+      "dist/breakfast-xiaohongshu/2026-07-11/01-real-family-table.png",
+      "dist/breakfast-xiaohongshu/2026-07-11/02-final-infographic.png",
+      "dist/breakfast-xiaohongshu/2026-07-11/03-grain-paste-process.png",
+      "dist/breakfast-xiaohongshu/2026-07-11/04-beef-tofu-egg-pancake-process.png"
+    ],
+    "weekly_hot_tags_path": "dist/breakfast-xiaohongshu/2026-07-11/weekly-hot-tags.json"
+  }
+}

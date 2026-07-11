@@ -1,0 +1,58 @@
+{
+  "collected_at": "2026-07-11T20:16:00+08:00",
+  "candidates": [
+    {
+      "tag": "#一锅出",
+      "source_name": "千瓜数据",
+      "source_url": "https://www.qian-gua.com/information/detail/3326",
+      "source_type": "trend_report",
+      "rank_context": "千瓜 2026 新独居生活趋势洞察：小红书饮食内容中频现“一锅出”。",
+      "observed_at": "2026-07-11T20:10:00+08:00",
+      "rank": 1,
+      "relevance": "与四口之家20分钟并行备餐和减少洗锅的真实早餐场景相关。"
+    },
+    {
+      "tag": "#不开火备餐",
+      "source_name": "千瓜数据",
+      "source_url": "https://www.qian-gua.com/information/detail/3326",
+      "source_type": "trend_report",
+      "rank_context": "千瓜 2026 新独居生活趋势洞察：小红书饮食内容中频现“不开火备餐”。",
+      "observed_at": "2026-07-11T20:10:00+08:00",
+      "rank": 2,
+      "relevance": "与极忙5分钟替代方案及前一晚处理食材的内容直接相关。"
+    },
+    {
+      "tag": "#干净饮食",
+      "source_name": "千瓜数据",
+      "source_url": "https://www.qian-gua.com/information/detail/3273",
+      "source_type": "trend_report",
+      "rank_context": "千瓜美食种草数据报告：干净饮食相关热词中“干净”跻身 TOP100，#干净饮食浏览量达14亿+。",
+      "observed_at": "2026-07-11T20:11:00+08:00",
+      "rank": 3,
+      "relevance": "与家庭早餐使用原型食材、优质蛋白和少油烹饪的内容相符。"
+    },
+    {
+      "tag": "#健康生活",
+      "source_name": "千瓜数据",
+      "source_url": "https://www.qian-gua.com/information/detail/3277",
+      "source_type": "trend_report",
+      "rank_context": "千瓜年度生活趋势洞察：健康生活是小红书生活方式内容的长期高热主题。",
+      "observed_at": "2026-07-11T20:12:00+08:00",
+      "rank": 4,
+      "relevance": "与孩子长高、哺乳期营养、老人易消化和全家早餐长期执行相关。"
+    },
+    {
+      "tag": "#暑假早餐",
+      "source_name": "千瓜数据",
+      "source_url": "https://www.qian-gua.com/Home/HotRankView?datecode=20260710&period=1&tagId=87&type=1",
+      "source_type": "industry_rank",
+      "rank_context": "千瓜 2026-07-10 小红书美食饮品日榜；暑假期间以家庭早餐场景承接美食饮品榜单流量。",
+      "observed_at": "2026-07-11T20:13:00+08:00",
+      "rank": 5,
+      "relevance": "目标日期处于暑假，适合承接孩子在家、营养早餐和家庭作息内容。"
+    }
+  ],
+  "target_date": "2026-07-11",
+  "coverage_start": "2026-07-05",
+  "coverage_end": "2026-07-11"
+}

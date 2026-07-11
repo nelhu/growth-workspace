@@ -1,0 +1,1426 @@
+[
+  {
+    "desc": "$$livesites.agent.description",
+    "name": "$$livesites.agent.name",
+    "region": "all",
+    "agentId": "accio-site-builder-agent",
+    "terminalType": "pc",
+    "primaryCategory": [
+      {
+        "id": "media-kit",
+        "icon": "https://img.alicdn.com/imgextra/i2/O1CN01egGEiu25jSCSMoNIp_!!6000000007562-55-tps-24-24.svg",
+        "title": "$$livesites.category.mediakit.title"
+      },
+      {
+        "id": "link-in-bio",
+        "icon": "https://img.alicdn.com/imgextra/i4/O1CN01vXZkMP1O2NTEGLkKc_!!6000000001647-55-tps-24-24.svg",
+        "title": "$$livesites.category.linkinbio.title"
+      },
+      {
+        "id": "portfolio",
+        "icon": "https://img.alicdn.com/imgextra/i2/O1CN01ENy0q92696NZG3tEE_!!6000000007618-55-tps-24-24.svg",
+        "title": "$$livesites.category.portfolio.title"
+      },
+      {
+        "id": "landing",
+        "icon": "https://img.alicdn.com/imgextra/i3/O1CN019yYANJ1GM3YuLwBUN_!!6000000000607-55-tps-24-24.svg",
+        "title": "$$livesites.category.landing.title"
+      },
+      {
+        "id": "showcase",
+        "icon": "https://img.alicdn.com/imgextra/i1/O1CN01ld11HH1zzaSM9XxM5_!!6000000006785-55-tps-24-24.svg",
+        "title": "$$livesites.category.showcase.title"
+      },
+      {
+        "id": "testing",
+        "icon": "https://img.alicdn.com/imgextra/i4/O1CN01qOcAl61mdWMxyvIlh_!!6000000004977-55-tps-24-24.svg",
+        "title": "$$livesites.category.testing.title"
+      },
+      {
+        "id": "enterprise",
+        "icon": "https://img.alicdn.com/imgextra/i4/O1CN01dE5lkb29BLA7GrQSK_!!6000000008029-55-tps-24-24.svg",
+        "title": "$$livesites.category.enterprise.title"
+      },
+      {
+        "id": "dashboard",
+        "icon": "https://img.alicdn.com/imgextra/i1/O1CN0187mBSM1ky0rIeBelr_!!6000000004751-55-tps-24-24.svg",
+        "title": "$$livesites.category.dashboard.title"
+      },
+      {
+        "id": "blog",
+        "icon": "https://img.alicdn.com/imgextra/i1/O1CN017Ub6Qs1CykYmHl0Dl_!!6000000000150-55-tps-24-24.svg",
+        "title": "$$livesites.category.blog.title"
+      }
+    ],
+    "sampleQuery": [
+      {
+        "icon": "https://img.alicdn.com/imgextra/i2/O1CN01egGEiu25jSCSMoNIp_!!6000000007562-55-tps-24-24.svg",
+        "type": "image-text",
+        "title": "$$livesites.category.mediakit.title",
+        "prompts": [
+          {
+            "text": "$$ba.livesite.priyamed.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://priyamed.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.mediakit.priyamed.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i2/O1CN01arm83A22Y3UguKqRd_!!6000000007131-0-tps-1600-2946.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i2/O1CN01arm83A22Y3UguKqRd_!!6000000007131-0-tps-1600-2946.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i2/O1CN012fIPLW1PRr7ROY3wn_!!6000000001838-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.lunaglow.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://lunaglow.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.mediakit.lunaglow.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i2/O1CN01FH924d24XiQpcUycD_!!6000000007401-0-tps-1600-6489.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i2/O1CN01FH924d24XiQpcUycD_!!6000000007401-0-tps-1600-6489.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i4/O1CN01aquAbh25YSh5SGRpi_!!6000000007538-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.theomedi.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://theomedi.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.mediakit.theomedi.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i3/O1CN01kBXKqj1TuULEjlMXw_!!6000000002442-0-tps-1600-4673.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i3/O1CN01kBXKqj1TuULEjlMXw_!!6000000002442-0-tps-1600-4673.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i2/O1CN01HCOmBw214ug6Zr6RL_!!6000000006932-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.bellaros.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://bellaros.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.mediakit.bellaros.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i2/O1CN01m5NJGK1QgnencL6SU_!!6000000002006-0-tps-1600-5604.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i2/O1CN01m5NJGK1QgnencL6SU_!!6000000002006-0-tps-1600-5604.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i2/O1CN015i5r051kF82nqDyOp_!!6000000004653-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.sagemedi.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://sagemedi.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.mediakit.sagemedi.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i4/O1CN016na5bO1L9IbnZFuxz_!!6000000001256-2-tps-1440-7616.png",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i4/O1CN016na5bO1L9IbnZFuxz_!!6000000001256-2-tps-1440-7616.png"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i2/O1CN01cXT1lh1SArGdPK7K8_!!6000000002207-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.kairenne.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://kairenne.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.mediakit.kairenne.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i4/O1CN01zkFaPL1DzUoxMl96V_!!6000000000287-2-tps-1440-5915.png",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i4/O1CN01zkFaPL1DzUoxMl96V_!!6000000000287-2-tps-1440-5915.png"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i4/O1CN015nsxYL1YnE8sfnshL_!!6000000003103-2-tps-240-128.png"
+          }
+        ],
+        "primaryCategory": "media-kit"
+      },
+      {
+        "icon": "https://img.alicdn.com/imgextra/i4/O1CN01vXZkMP1O2NTEGLkKc_!!6000000001647-55-tps-24-24.svg",
+        "type": "image-text",
+        "title": "$$livesites.category.linkinbio.title",
+        "prompts": [
+          {
+            "text": "$$ba.livesite.coastall.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://coastall.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.linkinbio.coastall.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i1/O1CN01Yg9u0x1R3F3xu57n3_!!6000000002055-0-tps-1600-1023.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i1/O1CN01Yg9u0x1R3F3xu57n3_!!6000000002055-0-tps-1600-1023.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i1/O1CN01yhZGFf1gGixYiWtrq_!!6000000004115-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.verdantb.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://verdantb.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.linkinbio.verdantb.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i3/O1CN01azaE5V1C8znsAK1zZ_!!6000000000037-0-tps-1600-895.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i3/O1CN01azaE5V1C8znsAK1zZ_!!6000000000037-0-tps-1600-895.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i3/O1CN01hKSB1j1qWt61NceT1_!!6000000005504-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.noalinks.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://noalinks.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.linkinbio.noalinks.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i1/O1CN01HRd8H81qJbbpITqqC_!!6000000005475-0-tps-1600-875.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i1/O1CN01HRd8H81qJbbpITqqC_!!6000000005475-0-tps-1600-875.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i1/O1CN01V031Mq1jwLo0AbnLD_!!6000000004612-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.margaret.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://margaret.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.linkinbio.margaret.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i4/O1CN01LiFXdo1HMnp17LZU4_!!6000000000744-0-tps-1600-876.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i4/O1CN01LiFXdo1HMnp17LZU4_!!6000000000744-0-tps-1600-876.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i4/O1CN01qwI8Kz1DOOjvIckSe_!!6000000000206-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.trailbio.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://trailbio.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.linkinbio.trailbio.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i3/O1CN014DRoPp1en7kPVR1Bw_!!6000000003915-2-tps-1440-900.png",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i3/O1CN014DRoPp1en7kPVR1Bw_!!6000000003915-2-tps-1440-900.png"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i1/O1CN01ryV3dE1kBvGuDJRWh_!!6000000004646-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.saffrons.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://saffrons.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.linkinbio.saffrons.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i3/O1CN01Xv0D4y1P8cU54yZjg_!!6000000001796-2-tps-1440-800.png",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i3/O1CN01Xv0D4y1P8cU54yZjg_!!6000000001796-2-tps-1440-800.png"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i4/O1CN01rNq4vj1EukKUyQxeC_!!6000000000412-2-tps-240-128.png"
+          }
+        ],
+        "primaryCategory": "link-in-bio"
+      },
+      {
+        "icon": "https://img.alicdn.com/imgextra/i2/O1CN01ENy0q92696NZG3tEE_!!6000000007618-55-tps-24-24.svg",
+        "type": "image-text",
+        "title": "$$livesites.category.portfolio.title",
+        "prompts": [
+          {
+            "text": "$$ba.livesite.finderbl.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://finderbl.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.portfolio.finderbl.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i2/O1CN01aCzLUq20B2MFHqYka_!!6000000006810-2-tps-2922-1534.png",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i2/O1CN01aCzLUq20B2MFHqYka_!!6000000006810-2-tps-2922-1534.png"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i4/O1CN01wPgs4K1IMdIAFiElU_!!6000000000879-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.elaravan.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://elaravan.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.portfolio.elaravan.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i1/O1CN0118o6fd1VKQO0MPG3e_!!6000000002634-0-tps-1600-1095.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i1/O1CN0118o6fd1VKQO0MPG3e_!!6000000002634-0-tps-1600-1095.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i3/O1CN01Ol4TgK1ZYrKiCQBIP_!!6000000003207-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.floating.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://floating.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.portfolio.floating.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i2/O1CN01wBs4J81VtEUIH7Aps_!!6000000002710-0-tps-1600-6607.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i2/O1CN01wBs4J81VtEUIH7Aps_!!6000000002710-0-tps-1600-6607.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i3/O1CN01360edg28duFWrypDE_!!6000000007956-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.resumeev.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://resumeev.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.portfolio.resumeev.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i3/O1CN01Jv76w31XXMoH6Hkq5_!!6000000002933-0-tps-1600-2135.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i3/O1CN01Jv76w31XXMoH6Hkq5_!!6000000002933-0-tps-1600-2135.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i1/O1CN012bZiF21dqV3FMqMv5_!!6000000003787-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.elaravos.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://elaravos.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.portfolio.elaravos.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i1/O1CN01NaoBrB1SRLWeDTw6a_!!6000000002243-2-tps-1440-5354.png",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i1/O1CN01NaoBrB1SRLWeDTw6a_!!6000000002243-2-tps-1440-5354.png"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i3/O1CN01EMqCFa1Jsysi54ZpY_!!6000000001085-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.director.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://director.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.portfolio.director.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i1/O1CN01eVLWFq1sW5dc4TdrG_!!6000000005773-2-tps-2910-6576.png",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i1/O1CN01eVLWFq1sW5dc4TdrG_!!6000000005773-2-tps-2910-6576.png"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i4/O1CN01F5GJOJ1zBCtBjotmk_!!6000000006675-2-tps-240-128.png"
+          }
+        ],
+        "primaryCategory": "portfolio"
+      },
+      {
+        "icon": "https://img.alicdn.com/imgextra/i3/O1CN019yYANJ1GM3YuLwBUN_!!6000000000607-55-tps-24-24.svg",
+        "type": "image-text",
+        "title": "$$livesites.category.landing.title",
+        "prompts": [
+          {
+            "text": "$$ba.livesite.buildyou.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://buildyou.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.landing.buildyou.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i2/O1CN0152RvRH26tMNfqfMu8_!!6000000007719-0-tps-1600-7992.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i2/O1CN0152RvRH26tMNfqfMu8_!!6000000007719-0-tps-1600-7992.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i2/O1CN013qgu9T1TpRzDjHicC_!!6000000002431-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.redcanyo.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://redcanyo.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.landing.redcanyo.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i2/O1CN01KDywRF1SP3XnPSh7f_!!6000000002238-0-tps-1600-910.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i2/O1CN01KDywRF1SP3XnPSh7f_!!6000000002238-0-tps-1600-910.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i2/O1CN01VUqNpV1O7PpLRIiAP_!!6000000001658-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.circuitc.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://circuitc.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.landing.circuitc.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i4/O1CN0168IM3J1qQ19bt2q4R_!!6000000005489-0-tps-1600-5419.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i4/O1CN0168IM3J1qQ19bt2q4R_!!6000000005489-0-tps-1600-5419.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i2/O1CN01LIDnRZ1dsn2125ike_!!6000000003792-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.carlandi.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://carlandi.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.landing.carlandi.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i4/O1CN01Wl171T1OrfpR7NGRI_!!6000000001759-0-tps-1600-3169.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i4/O1CN01Wl171T1OrfpR7NGRI_!!6000000001759-0-tps-1600-3169.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i3/O1CN013SmSyZ1jgmL5pp3Ms_!!6000000004578-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.maisonlu.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://maisonlu.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.landing.maisonlu.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i4/O1CN01lHMcG41tTd7tWEvVM_!!6000000005903-2-tps-2908-12064.png",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i4/O1CN01lHMcG41tTd7tWEvVM_!!6000000005903-2-tps-2908-12064.png"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i1/O1CN01ik7fos286TKvng2ge_!!6000000007883-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.weddingi.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://weddingi.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.landing.weddingi.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i4/O1CN01SuzpTP1iBnwCq9KAP_!!6000000004375-2-tps-2908-4444.png",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i4/O1CN01SuzpTP1iBnwCq9KAP_!!6000000004375-2-tps-2908-4444.png"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i4/O1CN01BOxUJv1vGvN1oELqQ_!!6000000006146-2-tps-240-128.png"
+          }
+        ],
+        "primaryCategory": "landing"
+      },
+      {
+        "icon": "https://img.alicdn.com/imgextra/i1/O1CN01ld11HH1zzaSM9XxM5_!!6000000006785-55-tps-24-24.svg",
+        "type": "image-text",
+        "title": "$$livesites.category.showcase.title",
+        "prompts": [
+          {
+            "text": "$$ba.livesite.verdures.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://verdures.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.showcase.verdures.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i4/O1CN01Ujvurg1vkEiTCnoT3_!!6000000006210-0-tps-1600-10372.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i4/O1CN01Ujvurg1vkEiTCnoT3_!!6000000006210-0-tps-1600-10372.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i1/O1CN010jFTfP1qEZFmVkEus_!!6000000005464-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.maisonat.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://maisonat.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.showcase.maisonat.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i4/O1CN01CIJWiN27TXfbByi6v_!!6000000007798-0-tps-1600-4139.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i4/O1CN01CIJWiN27TXfbByi6v_!!6000000007798-0-tps-1600-4139.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i3/O1CN01vEsQt8233ep8GXS2Q_!!6000000007200-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.glowdrops.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://glowdrops.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.showcase.glowdrops.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i2/O1CN01XiPcUH25ZpsgFeJYG_!!6000000007541-0-tps-1600-3941.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i2/O1CN01XiPcUH25ZpsgFeJYG_!!6000000007541-0-tps-1600-3941.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i2/O1CN01NSe57c1gif7YHK6Is_!!6000000004176-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.auraone.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://auraone.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.showcase.auraone.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i4/O1CN01l8weCw1OZLz7gN0JW_!!6000000001719-0-tps-1600-10340.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i4/O1CN01l8weCw1OZLz7gN0JW_!!6000000001719-0-tps-1600-10340.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i1/O1CN01v6v5FF1XolrTXZTzK_!!6000000002971-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.bauhau.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://bauhau.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.showcase.bauhau.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i4/O1CN011BQvtq1Iu4CkbeQol_!!6000000000952-2-tps-1440-2277.png",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i4/O1CN011BQvtq1Iu4CkbeQol_!!6000000000952-2-tps-1440-2277.png"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i4/O1CN01eSfHfA245mGzbhp2S_!!6000000007340-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.riotblo.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://riotblo.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.showcase.riotblo.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i1/O1CN01ytaw1e1J5W6eHuskA_!!6000000000977-2-tps-1440-2880.png",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i1/O1CN01ytaw1e1J5W6eHuskA_!!6000000000977-2-tps-1440-2880.png"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i4/O1CN01LRZtAF1Ke9fzJzys0_!!6000000001188-2-tps-240-128.png"
+          }
+        ],
+        "primaryCategory": "showcase"
+      },
+      {
+        "icon": "https://img.alicdn.com/imgextra/i4/O1CN01qOcAl61mdWMxyvIlh_!!6000000004977-55-tps-24-24.svg",
+        "type": "image-text",
+        "title": "$$livesites.category.testing.title",
+        "prompts": [
+          {
+            "text": "$$ba.livesite.auraform.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://auraform.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.testing.auraform.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i2/O1CN01qGoU2L1yWu2BEhFxu_!!6000000006587-0-tps-1600-768.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i2/O1CN01qGoU2L1yWu2BEhFxu_!!6000000006587-0-tps-1600-768.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i3/O1CN01qRD1D61jVKR7Zppkq_!!6000000004553-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.weare.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://weare.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.testing.weare.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i2/O1CN01yVfxma1bYWGo16z7b_!!6000000003477-0-tps-1600-2287.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i2/O1CN01yVfxma1bYWGo16z7b_!!6000000003477-0-tps-1600-2287.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i2/O1CN01V28oIB1tguc1fIZgp_!!6000000005932-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.beeum.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://beeum.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.testing.beeum.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i3/O1CN01CumMtN1tbsFpefhbA_!!6000000005921-0-tps-1600-1769.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i3/O1CN01CumMtN1tbsFpefhbA_!!6000000005921-0-tps-1600-1769.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i4/O1CN01KfDypM1gHBMBgK0Id_!!6000000004116-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.runwaylo.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://runwaylo.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.testing.runwaylo.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i4/O1CN01lKMVNS1ahqipfSVqW_!!6000000003362-0-tps-1600-768.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i4/O1CN01lKMVNS1ahqipfSVqW_!!6000000003362-0-tps-1600-768.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i1/O1CN01uK603T2AI2ZX8s9aY_!!6000000008179-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.uipkvote.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://uipkvote.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.testing.uipkvote.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i4/O1CN01xNj8cX1SeAc95qP5X_!!6000000002271-2-tps-1440-4670.png",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i4/O1CN01xNj8cX1SeAc95qP5X_!!6000000002271-2-tps-1440-4670.png"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i3/O1CN01ZK9zqS274oHdUKjqN_!!6000000007744-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.aurellej.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://aurellej.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.testing.aurellej.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i1/O1CN01F2vscg1J5yVCzKopM_!!6000000000978-2-tps-1440-1526.png",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i1/O1CN01F2vscg1J5yVCzKopM_!!6000000000978-2-tps-1440-1526.png"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i1/O1CN01jhkfI01sOlIiEAIuQ_!!6000000005757-2-tps-240-128.png"
+          }
+        ],
+        "primaryCategory": "testing"
+      },
+      {
+        "icon": "https://img.alicdn.com/imgextra/i4/O1CN01dE5lkb29BLA7GrQSK_!!6000000008029-55-tps-24-24.svg",
+        "type": "image-text",
+        "title": "$$livesites.category.enterprise.title",
+        "prompts": [
+          {
+            "text": "$$ba.livesite.casacrem.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://casacrem.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.enterprise.casacrem.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i3/O1CN01VG8lub1JeKCqMOrvU_!!6000000001053-0-tps-1600-4585.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i3/O1CN01VG8lub1JeKCqMOrvU_!!6000000001053-0-tps-1600-4585.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i2/O1CN018I97Wp23IltUaJfgD_!!6000000007233-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.serenity.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://serenity.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.enterprise.serenity.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i2/O1CN01PBQDEH1xAd9roQBZ5_!!6000000006403-0-tps-1600-5457.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i2/O1CN01PBQDEH1xAd9roQBZ5_!!6000000006403-0-tps-1600-5457.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i4/O1CN01P1SUTD1fpFCI85S6A_!!6000000004055-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.mckenzie.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://mckenzie.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.enterprise.mckenzie.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i2/O1CN01epXI4g1pH1lRWY3F6_!!6000000005334-0-tps-1600-6326.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i2/O1CN01epXI4g1pH1lRWY3F6_!!6000000005334-0-tps-1600-6326.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i4/O1CN01y8Uvtr1s3h53lZ2S2_!!6000000005711-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.factorys.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://factorys.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.enterprise.factorys.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i2/O1CN017O593l1SV0h1eyBrf_!!6000000002251-0-tps-1600-5945.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i2/O1CN017O593l1SV0h1eyBrf_!!6000000002251-0-tps-1600-5945.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i4/O1CN01ezuD891sNO72mnp2d_!!6000000005754-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.auraaxis.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://auraaxis.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.enterprise.auraaxis.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i2/O1CN01aWMot91shzw5RA1gn_!!6000000005799-2-tps-1440-5368.png",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i2/O1CN01aWMot91shzw5RA1gn_!!6000000005799-2-tps-1440-5368.png"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i1/O1CN01DSqNH71WjRdjLbJje_!!6000000002824-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.luminate.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://luminate.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.enterprise.luminate.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i3/O1CN01WFWZfK1NPRnxjT6Ad_!!6000000001562-2-tps-2908-10980.png",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i3/O1CN01WFWZfK1NPRnxjT6Ad_!!6000000001562-2-tps-2908-10980.png"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i1/O1CN01h7YMiS21HHN7UEZE1_!!6000000006959-2-tps-240-128.png"
+          }
+        ],
+        "primaryCategory": "enterprise"
+      },
+      {
+        "icon": "https://img.alicdn.com/imgextra/i1/O1CN0187mBSM1ky0rIeBelr_!!6000000004751-55-tps-24-24.svg",
+        "type": "image-text",
+        "title": "$$livesites.category.dashboard.title",
+        "prompts": [
+          {
+            "text": "$$ba.livesite.opsdashb.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://opsdashb.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.dashboard.opsdashb.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i4/O1CN01Emq5QQ1gCbOYQ7q3P_!!6000000004106-0-tps-1600-2276.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i4/O1CN01Emq5QQ1gCbOYQ7q3P_!!6000000004106-0-tps-1600-2276.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i2/O1CN01b4th141hepQAsdHPz_!!6000000004303-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.project.dashboard.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://project-dashboard.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.dashboard.projectdashboard.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i2/O1CN01OMlpZG1vL2vxTubup_!!6000000006155-0-tps-1600-802.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i2/O1CN01OMlpZG1vL2vxTubup_!!6000000006155-0-tps-1600-802.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i3/O1CN01kMvDXA1lKuf6Pn2vK_!!6000000004801-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.trekdash.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://trekdash.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.dashboard.trekdash.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i1/O1CN01r2swyC1IRfeCwxJOr_!!6000000000890-0-tps-1600-789.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i1/O1CN01r2swyC1IRfeCwxJOr_!!6000000000890-0-tps-1600-789.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i2/O1CN01Zk6quB1bdYcyGBGj9_!!6000000003488-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.zenithda.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://zenithda.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.dashboard.zenithda.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i1/O1CN01Qlom2d2AD0DLEcol4_!!6000000008168-0-tps-1600-1032.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i1/O1CN01Qlom2d2AD0DLEcol4_!!6000000008168-0-tps-1600-1032.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i3/O1CN01OteWIo2ADSbyKaDOd_!!6000000008169-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.smarthom.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://smarthom.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.dashboard.smarthom.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i3/O1CN01rzjb5t1G4eVlyOiLj_!!6000000000569-2-tps-1440-900.png",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i3/O1CN01rzjb5t1G4eVlyOiLj_!!6000000000569-2-tps-1440-900.png"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i2/O1CN0157iEYF1v0R70YRjCT_!!6000000006110-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.examplan.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://examplan.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.dashboard.examplan.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i2/O1CN01oEGUvo1By0Ib5xYES_!!6000000000013-2-tps-1440-945.png",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i2/O1CN01oEGUvo1By0Ib5xYES_!!6000000000013-2-tps-1440-945.png"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i3/O1CN01GzvUbu1r8RZcgbdGe_!!6000000005586-2-tps-240-128.png"
+          }
+        ],
+        "primaryCategory": "dashboard"
+      },
+      {
+        "icon": "https://img.alicdn.com/imgextra/i1/O1CN017Ub6Qs1CykYmHl0Dl_!!6000000000150-55-tps-24-24.svg",
+        "type": "image-text",
+        "title": "$$livesites.category.blog.title",
+        "prompts": [
+          {
+            "text": "$$ba.livesite.journalb.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://journalb.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.blog.journalb.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i1/O1CN01eF3sn71Ul9tBdt6A8_!!6000000002557-0-tps-1600-2493.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i1/O1CN01eF3sn71Ul9tBdt6A8_!!6000000002557-0-tps-1600-2493.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i4/O1CN012gGski29Hkhpm7Vr7_!!6000000008043-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.terminal.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://terminal.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.blog.terminal.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i2/O1CN01gWJTFX1GTNtf3acFa_!!6000000000623-0-tps-1600-2971.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i2/O1CN01gWJTFX1GTNtf3acFa_!!6000000000623-0-tps-1600-2971.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i4/O1CN01WqvvkL1DWBTNJUUBy_!!6000000000223-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.thefoldj.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://thefoldj.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.blog.thefoldj.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i4/O1CN011MQTaT1zHcQtyfoBs_!!6000000006689-0-tps-1600-4485.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i4/O1CN011MQTaT1zHcQtyfoBs_!!6000000006689-0-tps-1600-4485.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i2/O1CN01QZt5Gy1x1TEojYfJz_!!6000000006383-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.editoria.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://editoria.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.blog.editoria.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i2/O1CN01vWMkKe1fphakcJESO_!!6000000004056-0-tps-1600-909.jpg",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i2/O1CN01vWMkKe1fphakcJESO_!!6000000004056-0-tps-1600-909.jpg"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i1/O1CN01J8Y8QG1RaDa955K2k_!!6000000002127-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.todaysst.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://todaysst.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.blog.todaysst.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i3/O1CN01VG1cFA24Z5cZoEnSU_!!6000000007404-2-tps-1440-1255.png",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i3/O1CN01VG1cFA24Z5cZoEnSU_!!6000000007404-2-tps-1440-1255.png"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i2/O1CN01weBvpi1yOCVh0Ludu_!!6000000006568-2-tps-240-128.png"
+          },
+          {
+            "text": "$$ba.livesite.untitled.query",
+            "type": "image-text",
+            "plugin": {
+              "name": "accio-site-builder",
+              "displayName": "$$livesites.plugin.displayname",
+              "pluginCode": "livesites",
+              "iconUrl": "https://img.alicdn.com/imgextra/i2/O1CN01ShBchI1ptV280XJTu_!!6000000005418-55-tps-48-48.svg",
+              "summary": "$$livesites.plugin.description",
+              "category": "productivity-knowledge",
+              "mainVersion": "0.0.14"
+            },
+            "skillId": "",
+            "pluginCode": "livesites",
+            "attachments": [
+              "https://untitled.site.accio.ai"
+            ],
+            "displayText": "$$ba.livesites.blog.untitled.queryshow",
+            "previewInfo": {
+              "imageURL": "https://img.alicdn.com/imgextra/i1/O1CN01JW4ncL26Nl3Mfk7Bd_!!6000000007650-2-tps-1440-2832.png",
+              "dynamicImageURL": "https://img.alicdn.com/imgextra/i1/O1CN01JW4ncL26Nl3Mfk7Bd_!!6000000007650-2-tps-1440-2832.png"
+            },
+            "displayImage": "https://img.alicdn.com/imgextra/i3/O1CN01MRofPn28PFZjXtO4v_!!6000000007924-2-tps-240-128.png"
+          }
+        ],
+        "primaryCategory": "blog"
+      }
+    ]
+  }
+]

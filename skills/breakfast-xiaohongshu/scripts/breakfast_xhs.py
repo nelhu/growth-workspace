@@ -11,10 +11,10 @@ import urllib.request
 from urllib.parse import urlparse
 
 
+WORKSPACE_ROOT = pathlib.Path(__file__).resolve().parents[3]
 STATE_DIR = pathlib.Path.home() / ".breakfast-xiaohongshu"
 HISTORY_FILE = STATE_DIR / "history.json"
-OUTPUT_DIR = STATE_DIR / "out"
-WEEKLY_TREND_DIR = STATE_DIR / "weekly-hot-tags"
+OUTPUT_DIR = WORKSPACE_ROOT / "dist" / "breakfast-xiaohongshu"
 DEFAULT_MCP_URL = "http://127.0.0.1:18060/mcp"
 TARGET_IMAGE_WIDTH = 853
 TARGET_IMAGE_HEIGHT = 1280
@@ -101,7 +101,7 @@ def trend_window(target):
 
 
 def trend_registry_path(target):
-    return WEEKLY_TREND_DIR / f"{target.isoformat()}.json"
+    return OUTPUT_DIR / target.isoformat() / "weekly-hot-tags.json"
 
 
 def parse_observed_date(value):
@@ -248,7 +248,7 @@ def command_context(args):
             for x in recent_items
         ],
         "output_dir": str(out_dir),
-        "manifest_path": str(out_dir / "manifest.json"),
+        "manifest_path": str(out_dir / "content-package.json"),
         "history_file": str(HISTORY_FILE),
         "mcp_url": args.mcp_url,
         "weekly_hot_tag_registry_path": str(weekly_hot_tag_path),
@@ -622,7 +622,7 @@ def command_launchd_template(args):
   <key>StartCalendarInterval</key>
   <dict>
     <key>Hour</key>
-    <integer>20</integer>
+    <integer>18</integer>
     <key>Minute</key>
     <integer>0</integer>
   </dict>
@@ -663,7 +663,7 @@ def build_parser():
     publish.add_argument("--mcp-url", default=DEFAULT_MCP_URL)
     publish.set_defaults(func=command_publish)
 
-    launchd = sub.add_parser("launchd-template", help="输出每天 20:00 的 LaunchAgent 模板")
+    launchd = sub.add_parser("launchd-template", help="输出每天 18:00 的 LaunchAgent 模板")
     launchd.add_argument("--command", required=True)
     launchd.set_defaults(func=command_launchd_template)
 

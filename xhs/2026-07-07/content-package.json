@@ -6,14 +6,13 @@
   "images": [
     "/Users/xuezi/dir/growth-workspace/xhs/2026-07-07/01-real-breakfast-grid.png",
     "/Users/xuezi/dir/growth-workspace/xhs/2026-07-07/02-final-infographic.png",
-    "/Users/xuezi/dir/growth-workspace/xhs/2026-07-07/03-shopping-prep.png",
-    "/Users/xuezi/dir/growth-workspace/xhs/2026-07-07/04-tomorrow-preview.png"
+    "/Users/xuezi/dir/growth-workspace/xhs/2026-07-07/03-shrimp-noodle-process.png"
   ],
   "image_plan": [
     {
       "order": 1,
-      "type": "real_breakfast_grid",
-      "description": "取自本次早餐相关网上真实图片的宫格图"
+      "type": "real_family_table",
+      "description": "固定家庭餐桌和餐厅背景的真实早餐成品图"
     },
     {
       "order": 2,
@@ -22,20 +21,10 @@
     },
     {
       "order": 3,
-      "type": "shopping_and_prep",
-      "description": "购物清单、备菜/备餐步骤"
-    },
-    {
-      "order": 4,
-      "type": "tomorrow_preview",
-      "description": "明天预告"
+      "type": "dish_process",
+      "dish": "虾仁毛豆青菜汤面",
+      "description": "菜品制作过程图"
     }
-  ],
-  "real_image_sources": [
-    "https://commons.wikimedia.org/w/index.php?curid=113908930",
-    "https://commons.wikimedia.org/w/index.php?curid=32028967",
-    "https://www.flickr.com/photos/27410581@N07/6991990229",
-    "https://commons.wikimedia.org/w/index.php?curid=31728384"
   ],
   "tags": [
     "#早餐",
@@ -69,7 +58,7 @@
   "interaction_question": "明天我做 4 个版本：\nA. 小学生长高版\nB. 老人好消化版\nC. 上班族快手版\nD. 评论区留下你专属版\n\n你家更需要哪个？评论 A/B/C/D，我按票数发；选 D 的直接留下年龄、家庭人数、忌口和早上可用时间。\n关注我，明早直接抄作业。",
   "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，后面每天更新。",
   "tomorrow_preview": "明天预告：不喝牛奶也高钙版四口之家20分钟中式早餐。",
-  "publish_description": "仅供人工确认发布：图片按 images 顺序发布，workspace 路径见 content-package.json；标题《跟着 Tiny.C 吃30天早餐｜第08天｜四口之家20分钟中式早餐》；正文为 content 字段；话题使用 tags 字段（已带 #，可直接复制）；结尾可追加 interaction_question；置顶评论使用 pinned_comment；第4张和 tomorrow_preview 做明天追更。建议晚间 20:00 后人工检查图片文字后发布。",
+  "publish_description": "仅供人工确认发布：图片按 images 顺序发布；第1张为固定家庭餐桌风格首图，workspace 路径见 content-package.json；标题《跟着 Tiny.C 吃30天早餐｜第08天｜四口之家20分钟中式早餐》；正文为 content 字段；话题使用 tags 字段（已带 #，可直接复制）；结尾可追加 interaction_question；置顶评论使用 pinned_comment；图3开始为菜品制作过程图，不再使用购物清单图或明天预告图。建议晚间 20:00 后人工检查图片文字后发布。",
   "status": "ready_for_review",
   "should_publish": false,
   "is_original": true,
@@ -87,5 +76,13 @@
     "time_limit_minutes": 20,
     "emergency_plan": "即饮豆浆 + 冷冻虾仁面/速煮面 + 水煮蛋 + 馒头夹牛肉片",
     "image_standard": "4张图新版交付；第2张为高保真 GPT Image 2 风格最终信息图，全部图片 853x1280 px"
+  },
+  "first_image_references": [
+    "https://github.com/nelhu/growth-workspace/blob/main/assets/image1_example/image_5eb39cb3.jpg",
+    "https://github.com/nelhu/growth-workspace/blob/main/assets/image1_example/image_44641b65.jpg"
+  ],
+  "repository_artifacts": {
+    "content_package_path": "xhs/2026-07-07/content-package.json",
+    "content_package_url": "https://github.com/nelhu/growth-workspace/blob/main/xhs/2026-07-07/content-package.json"
   }
 }
