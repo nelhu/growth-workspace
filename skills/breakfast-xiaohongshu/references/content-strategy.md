@@ -4,7 +4,7 @@
 
 每晚 18:00（Asia/Shanghai），为四口之家生成“明天早餐小红书内容包”：至少 3 张配图、小红书标题、200 字以内精炼正文、10 个话题标签、互动问题 A/B/C/D、置顶评论、明天预告和发布描述。只生成内容，不直接发布到小红书。
 
-每日全部产物必须归档至当前工作区 `dist/breakfast-xiaohongshu/{YYYY-MM-DD}/`，其中包括成品图、`content-package.json`、`weekly-hot-tags.json` 和辅助预览图。内容包通过校验后，必须提交并成功推送至 `origin/main`；推送成功前不算完成。
+每日全部产物必须归档至当前工作区 `dist/breakfast-xiaohongshu/{YYYY-MM-DD}/`，其中包括成品图、`README.md`、`content-package.json`、`weekly-hot-tags.json` 和辅助预览图。`README.md` 是唯一人工交付入口，必须完整汇总标题、正文、标签、互动问题、置顶评论、明天预告、热词台账链接和全部配图。内容包通过校验后，必须提交并成功推送至 `origin/main`；推送成功前不算完成。
 
 家庭成员：
 

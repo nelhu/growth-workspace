@@ -3,6 +3,7 @@
   "weekday": "星期日",
   "title": "跟着 Tiny.C 吃30天早餐｜第13天｜四口之家20分钟牛肉面早餐",
   "content": "第13天做牛肉面类：番茄牛肉面配鸡蛋蔬菜卷，再加玉米小馒头、温牛奶和水果。番茄开胃，牛肉鸡蛋补优质蛋白，孩子长高有料，老人吃着软和，上班族也能顶饱。今晚切好番茄胡萝卜、分装牛肉，早上20分钟上桌。关注我，明早继续抄作业。",
+  "delivery_markdown_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-12/README.md",
   "images": [
     "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-12/01-real-family-table.png",
     "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-12/02-final-infographic.png",
@@ -140,6 +141,8 @@
     "directory_url": "https://github.com/nelhu/growth-workspace/tree/main/dist/breakfast-xiaohongshu/2026-07-12",
     "content_package_path": "dist/breakfast-xiaohongshu/2026-07-12/content-package.json",
     "content_package_url": "https://github.com/nelhu/growth-workspace/blob/main/dist/breakfast-xiaohongshu/2026-07-12/content-package.json",
+    "delivery_markdown_path": "dist/breakfast-xiaohongshu/2026-07-12/README.md",
+    "delivery_markdown_url": "https://github.com/nelhu/growth-workspace/blob/main/dist/breakfast-xiaohongshu/2026-07-12/README.md",
     "image_paths": [
       "dist/breakfast-xiaohongshu/2026-07-12/01-real-family-table.png",
       "dist/breakfast-xiaohongshu/2026-07-12/02-final-infographic.png",

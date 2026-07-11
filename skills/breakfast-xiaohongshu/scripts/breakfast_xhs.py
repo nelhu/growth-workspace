@@ -104,6 +104,10 @@ def trend_registry_path(target):
     return OUTPUT_DIR / target.isoformat() / "weekly-hot-tags.json"
 
 
+def delivery_markdown_path(target):
+    return OUTPUT_DIR / target.isoformat() / "README.md"
+
+
 def parse_observed_date(value):
     if not isinstance(value, str) or not value.strip():
         raise ValueError("时间不能为空")
@@ -249,6 +253,7 @@ def command_context(args):
         ],
         "output_dir": str(out_dir),
         "manifest_path": str(out_dir / "content-package.json"),
+        "delivery_markdown_path": str(delivery_markdown_path(target)),
         "history_file": str(HISTORY_FILE),
         "mcp_url": args.mcp_url,
         "weekly_hot_tag_registry_path": str(weekly_hot_tag_path),
@@ -305,6 +310,7 @@ def validate_manifest_data(manifest):
         "weekday",
         "title",
         "content",
+        "delivery_markdown_path",
         "images",
         "first_image_references",
         "tags",
@@ -333,6 +339,32 @@ def validate_manifest_data(manifest):
     if "#" in content:
         errors.append("content 不应包含 #话题；请使用 tags 字段")
 
+    try:
+        delivery_target = dt.date.fromisoformat(manifest.get("date", ""))
+    except ValueError:
+        delivery_target = None
+    delivery_path = manifest.get("delivery_markdown_path")
+    delivery_text = ""
+    if not delivery_target:
+        errors.append("无法校验交付 Markdown：date 必须是合法日期")
+    elif not isinstance(delivery_path, str) or not pathlib.Path(delivery_path).is_absolute():
+        errors.append("delivery_markdown_path 必须是绝对路径")
+    else:
+        expected_delivery_path = delivery_markdown_path(delivery_target)
+        actual_delivery_path = pathlib.Path(delivery_path)
+        if actual_delivery_path != expected_delivery_path:
+            errors.append(f"交付 Markdown 必须使用目标日期路径: {expected_delivery_path}")
+        elif not actual_delivery_path.exists():
+            errors.append(f"缺少每日交付 Markdown: {actual_delivery_path}")
+        else:
+            delivery_text = actual_delivery_path.read_text(encoding="utf-8")
+            for marker in ["## 小红书标题", "## 小红书正文", "## 流量标签", "## 互动问题", "## 置顶评论", "## 明天预告", "## 配图"]:
+                if marker not in delivery_text:
+                    errors.append(f"每日交付 Markdown 缺少章节: {marker}")
+            for value in [title, content, manifest.get("interaction_question", ""), manifest.get("pinned_comment", ""), manifest.get("tomorrow_preview", "")]:
+                if value and value not in delivery_text:
+                    errors.append("每日交付 Markdown 未完整同步内容包字段")
+
     images = manifest.get("images", [])
     if not isinstance(images, list) or len(images) < 3:
         errors.append("images 必须至少 3 张，顺序为真实家庭餐桌首图、最终信息图、菜品制作过程图...")
@@ -351,6 +383,8 @@ def validate_manifest_data(manifest):
                         errors.append(f"图片尺寸必须为 {expected[0]}x{expected[1]}，当前为 {size[0]}x{size[1]}: {image}")
                     elif not size:
                         errors.append(f"无法识别图片尺寸，请确认是 PNG/JPEG: {image}")
+                    if delivery_text and path.name not in delivery_text:
+                        errors.append(f"每日交付 Markdown 缺少图片链接: {path.name}")
 
     image_plan = manifest.get("image_plan", [])
     if image_plan:
@@ -385,6 +419,10 @@ def validate_manifest_data(manifest):
         weekly_hot_tags = tags[5:]
         if any(not str(tag).strip() for tag in weekly_hot_tags):
             errors.append("tags 后 5 个本周热词不能为空")
+        elif delivery_text:
+            for tag in tags:
+                if tag not in delivery_text:
+                    errors.append(f"每日交付 Markdown 缺少标签: {tag}")
 
     tag_strategy = manifest.get("tag_strategy", {})
     if not isinstance(tag_strategy, dict):

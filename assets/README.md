@@ -20,3 +20,4 @@
 ## 交付问题截图
 
 - [2026-07-11-tag-delivery-feedback.png](conversation_attachments/2026-07-11-tag-delivery-feedback.png)：7 月 11 日标签与交付格式问题的问答附件，用于回归检查。
+- [2026-07-12-delivery-markdown-request.png](conversation_attachments/2026-07-12-delivery-markdown-request.png)：要求每日产物提供单一 Markdown 交付页的问答附件。

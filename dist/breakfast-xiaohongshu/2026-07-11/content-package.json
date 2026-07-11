@@ -3,6 +3,7 @@
   "weekday": "星期六",
   "title": "跟着 Tiny.C 吃30天早餐｜第12天｜四口之家20分钟杂粮糊早餐",
   "content": "第12天换杂粮糊类：黑豆山药燕麦杂粮糊配牛肉末豆腐鸡蛋小饼，再加龙利鱼青菜和水果。黑豆、豆腐、牛肉末、鱼肉、鸡蛋把蛋白质拉满，牛奶补钙，孩子长高营养优先，老人也吃得软和。今晚泡黑豆、切山药，早上煎小饼和鱼片，20分钟上桌。关注我，明早继续抄作业。",
+  "delivery_markdown_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-11/README.md",
   "images": [
     "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-11/01-real-family-table.png",
     "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-11/02-final-infographic.png",
@@ -140,6 +141,8 @@
     "directory_url": "https://github.com/nelhu/growth-workspace/tree/main/dist/breakfast-xiaohongshu/2026-07-11",
     "content_package_path": "dist/breakfast-xiaohongshu/2026-07-11/content-package.json",
     "content_package_url": "https://github.com/nelhu/growth-workspace/blob/main/dist/breakfast-xiaohongshu/2026-07-11/content-package.json",
+    "delivery_markdown_path": "dist/breakfast-xiaohongshu/2026-07-11/README.md",
+    "delivery_markdown_url": "https://github.com/nelhu/growth-workspace/blob/main/dist/breakfast-xiaohongshu/2026-07-11/README.md",
     "image_paths": [
       "dist/breakfast-xiaohongshu/2026-07-11/01-real-family-table.png",
       "dist/breakfast-xiaohongshu/2026-07-11/02-final-infographic.png",

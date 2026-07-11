@@ -9,4 +9,4 @@
 - [每日早餐内容包](dist/breakfast-xiaohongshu/)
 - [历史早餐样例](xhs/)
 
-每日生成产物固定存放在 `dist/breakfast-xiaohongshu/{YYYY-MM-DD}/`。每个日期目录应包含最终图片、`content-package.json` 和 `weekly-hot-tags.json`；内容校验通过并成功推送到 `origin/main` 后才算交付完成。
+每日生成产物固定存放在 `dist/breakfast-xiaohongshu/{YYYY-MM-DD}/`。每个日期目录的 `README.md` 是唯一人工交付入口，包含可直接发布的全部文案和图片预览；`content-package.json` 和 `weekly-hot-tags.json` 仅用于校验与追溯。内容校验通过并成功推送到 `origin/main` 后才算交付完成。
