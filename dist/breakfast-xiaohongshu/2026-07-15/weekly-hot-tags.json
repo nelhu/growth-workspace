@@ -1,0 +1,58 @@
+{
+  "collected_at": "2026-07-14T18:05:00+08:00",
+  "candidates": [
+    {
+      "tag": "#美食",
+      "source_name": "新榜",
+      "source_url": "https://www.newrank.cn/ranktopic/xiaohongshu/6/1/2026-07-14",
+      "source_type": "topic_rank",
+      "rank_context": "小红书美食日榜，2026-07-14 采集",
+      "observed_at": "2026-07-14T18:05:00+08:00",
+      "rank": 1,
+      "relevance": "家庭早餐属于美食内容主类目"
+    },
+    {
+      "tag": "#美食教程",
+      "source_name": "新榜",
+      "source_url": "https://www.newrank.cn/ranktopic/xiaohongshu/6/1/2026-07-14",
+      "source_type": "topic_rank",
+      "rank_context": "小红书美食日榜，2026-07-14 采集",
+      "observed_at": "2026-07-14T18:05:00+08:00",
+      "rank": 4,
+      "relevance": "对应可复刻的20分钟早餐步骤"
+    },
+    {
+      "tag": "#夏日消暑风味集",
+      "source_name": "新榜",
+      "source_url": "https://www.newrank.cn/ranktopic/xiaohongshu/6/1/2026-07-14",
+      "source_type": "topic_rank",
+      "rank_context": "小红书美食日榜，2026-07-14 采集",
+      "observed_at": "2026-07-14T18:05:00+08:00",
+      "rank": 7,
+      "relevance": "夏季清爽蔬果搭配场景"
+    },
+    {
+      "tag": "#小红书爆款美食",
+      "source_name": "新榜",
+      "source_url": "https://www.newrank.cn/ranktopic/xiaohongshu/6/1/2026-07-14",
+      "source_type": "topic_rank",
+      "rank_context": "小红书美食日榜，2026-07-14 采集",
+      "observed_at": "2026-07-14T18:05:00+08:00",
+      "rank": 9,
+      "relevance": "覆盖家庭美食内容发现需求"
+    },
+    {
+      "tag": "#代餐",
+      "source_name": "新榜",
+      "source_url": "https://www.newrank.cn/ranktopic/xiaohongshu/6/1/2026-07-14",
+      "source_type": "topic_rank",
+      "rank_context": "小红书美食日榜，2026-07-14 采集",
+      "observed_at": "2026-07-14T18:05:00+08:00",
+      "rank": 16,
+      "relevance": "适合忙碌工作日的5分钟替代方案"
+    }
+  ],
+  "target_date": "2026-07-15",
+  "coverage_start": "2026-07-09",
+  "coverage_end": "2026-07-15"
+}

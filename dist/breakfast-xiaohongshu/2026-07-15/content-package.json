@@ -1,0 +1,40 @@
+{
+  "date": "2026-07-15",
+  "weekday": "星期三",
+  "title": "跟着 Tiny.C 吃30天早餐｜第16天｜四口之家20分钟包子早餐",
+  "content": "第16天换包子类：黑豆小米粥配牛肉洋葱包子，再加香煎牛肉饼和彩椒黄瓜核桃。今晚泡黑豆、把牛肉饼调好冷藏，早上煮粥、蒸包子、平底锅煎饼同步做，20分钟能上桌。牛肉和黑豆补蛋白、铁和纤维，孩子长高、哺乳期和老人软和好消化都兼顾。极忙时用冷冻包子加预约粥。关注我，明早继续抄作业。",
+  "delivery_markdown_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-15/README.md",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-15/01-real-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-15/02-final-infographic.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-15/03-beef-onion-buns-process.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-15/03-beef-patty-process.png"
+  ],
+  "image_plan": [
+    {"order": 1, "type": "real_family_table", "description": "固定家庭餐桌早餐成品图"},
+    {"order": 2, "type": "final_infographic", "description": "暖色高信息密度早餐总览信息图"},
+    {"order": 3, "type": "dish_process", "dish": "牛肉洋葱包子", "description": "菜品制作过程图"},
+    {"order": 4, "type": "dish_process", "dish": "香煎牛肉饼", "description": "菜品制作过程图"}
+  ],
+  "first_image_references": ["/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-12/01-real-family-table.png"],
+  "tags": ["#早餐", "#儿童早餐", "#家庭早餐", "#长高早餐", "#四口之家早餐", "#美食", "#美食教程", "#夏日消暑风味集", "#小红书爆款美食", "#代餐"],
+  "tag_strategy": {
+    "fixed_vertical_tags": ["#早餐", "#儿童早餐", "#家庭早餐", "#长高早餐", "#四口之家早餐"],
+    "weekly_hot_tags": ["#美食", "#美食教程", "#夏日消暑风味集", "#小红书爆款美食", "#代餐"],
+    "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-15/weekly-hot-tags.json",
+    "weekly_hot_tag_evidence": [
+      {"tag":"#美食","source_name":"新榜","source_url":"https://www.newrank.cn/ranktopic/xiaohongshu/6/1/2026-07-14","source_type":"topic_rank","rank_context":"小红书美食日榜，2026-07-14 采集","observed_at":"2026-07-14T18:05:00+08:00","rank":1},
+      {"tag":"#美食教程","source_name":"新榜","source_url":"https://www.newrank.cn/ranktopic/xiaohongshu/6/1/2026-07-14","source_type":"topic_rank","rank_context":"小红书美食日榜，2026-07-14 采集","observed_at":"2026-07-14T18:05:00+08:00","rank":4},
+      {"tag":"#夏日消暑风味集","source_name":"新榜","source_url":"https://www.newrank.cn/ranktopic/xiaohongshu/6/1/2026-07-14","source_type":"topic_rank","rank_context":"小红书美食日榜，2026-07-14 采集","observed_at":"2026-07-14T18:05:00+08:00","rank":7},
+      {"tag":"#小红书爆款美食","source_name":"新榜","source_url":"https://www.newrank.cn/ranktopic/xiaohongshu/6/1/2026-07-14","source_type":"topic_rank","rank_context":"小红书美食日榜，2026-07-14 采集","observed_at":"2026-07-14T18:05:00+08:00","rank":9},
+      {"tag":"#代餐","source_name":"新榜","source_url":"https://www.newrank.cn/ranktopic/xiaohongshu/6/1/2026-07-14","source_type":"topic_rank","rank_context":"小红书美食日榜，2026-07-14 采集","observed_at":"2026-07-14T18:05:00+08:00","rank":16}
+    ]
+  },
+  "interaction_question": "明天我做4个版本：A. 小学生长高版 B. 老人好消化版 C. 上班族快手版 D. 评论区留下你专属版。你家更需要哪个？评论 A/B/C/D，我按票数发；选 D 的直接留下年龄、家庭人数、忌口和早上可用时间。",
+  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，后面每天更新。",
+  "tomorrow_preview": "明天预告：虾仁毛豆杂粮饭团，孩子爱吃的高蛋白快手版。",
+  "status": "ready_for_review",
+  "should_publish": false,
+  "is_original": true,
+  "strategy": {"structure":"包子类","soup_type":"黑豆小米粥","dry_main":"牛肉洋葱包子","color_palette":"秋日暖棕","protein_focus":["牛肉","牛肉饼","黑豆"]}
+}
