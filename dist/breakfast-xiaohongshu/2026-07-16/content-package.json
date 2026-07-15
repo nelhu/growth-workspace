@@ -1,0 +1,38 @@
+{
+  "date": "2026-07-16",
+  "weekday": "星期四",
+  "title": "跟着 Tiny.C 吃30天早餐｜第17天｜四口之家20分钟玉米红薯早餐",
+  "content": "第17天换玉米红薯类：玉米红薯燕麦糊配蒸红薯玉米，再加牛腩毛豆小炒和猕猴桃核桃。牛腩提前卤好、毛豆冷冻分装，早上蒸锅蒸主食，料理机打糊，平底锅5分钟炒牛腩，20分钟就能吃。玉米红薯顶饱，牛腩补铁，毛豆补蛋白，孩子、哺乳期和老人都能吃得舒服。极忙时直接蒸熟红薯配常温奶。关注我，明早继续抄作业。",
+  "delivery_markdown_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-16/README.md",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-16/01-real-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-16/02-final-infographic.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-16/03-beef-brisket-edamame-process.png"
+  ],
+  "image_plan": [
+    {"order":1,"type":"real_family_table","description":"固定家庭餐桌早餐成品图"},
+    {"order":2,"type":"final_infographic","description":"暖色高信息密度早餐总览信息图"},
+    {"order":3,"type":"dish_process","dish":"牛腩毛豆小炒","description":"菜品制作过程图"}
+  ],
+  "first_image_references": ["/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-15/01-real-family-table.png"],
+  "tags": ["#早餐","#儿童早餐","#家庭早餐","#长高早餐","#四口之家早餐","#美食","#美食教程","#夏日消暑风味集","#小红书爆款美食","#代餐"],
+  "tag_strategy": {
+    "fixed_vertical_tags": ["#早餐","#儿童早餐","#家庭早餐","#长高早餐","#四口之家早餐"],
+    "weekly_hot_tags": ["#美食","#美食教程","#夏日消暑风味集","#小红书爆款美食","#代餐"],
+    "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-16/weekly-hot-tags.json",
+    "weekly_hot_tag_evidence": [
+      {"tag":"#美食","source_name":"新榜","source_url":"https://www.newrank.cn/ranktopic/xiaohongshu/6/1/2026-07-15","source_type":"topic_rank","rank_context":"小红书美食日榜，2026-07-15 采集","observed_at":"2026-07-15T18:05:00+08:00","rank":1},
+      {"tag":"#美食教程","source_name":"新榜","source_url":"https://www.newrank.cn/ranktopic/xiaohongshu/6/1/2026-07-15","source_type":"topic_rank","rank_context":"小红书美食日榜，2026-07-15 采集","observed_at":"2026-07-15T18:05:00+08:00","rank":4},
+      {"tag":"#夏日消暑风味集","source_name":"新榜","source_url":"https://www.newrank.cn/ranktopic/xiaohongshu/6/1/2026-07-15","source_type":"topic_rank","rank_context":"小红书美食日榜，2026-07-15 采集","observed_at":"2026-07-15T18:05:00+08:00","rank":7},
+      {"tag":"#小红书爆款美食","source_name":"新榜","source_url":"https://www.newrank.cn/ranktopic/xiaohongshu/6/1/2026-07-15","source_type":"topic_rank","rank_context":"小红书美食日榜，2026-07-15 采集","observed_at":"2026-07-15T18:05:00+08:00","rank":9},
+      {"tag":"#代餐","source_name":"新榜","source_url":"https://www.newrank.cn/ranktopic/xiaohongshu/6/1/2026-07-15","source_type":"topic_rank","rank_context":"小红书美食日榜，2026-07-15 采集","observed_at":"2026-07-15T18:05:00+08:00","rank":16}
+    ]
+  },
+  "interaction_question": "明天我做4个版本：A. 小学生长高版 B. 老人好消化版 C. 上班族快手版 D. 评论区留下你专属版。你家更需要哪个？评论 A/B/C/D，我按票数发；选 D 的直接留下年龄、家庭人数、忌口和早上可用时间。",
+  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，后面每天更新。",
+  "tomorrow_preview": "明天预告：鱼肉豆腐汤面，夏天也能吃得清爽的高蛋白版。",
+  "status": "ready_for_review",
+  "should_publish": false,
+  "is_original": true,
+  "strategy": {"structure":"玉米红薯类","soup_type":"玉米红薯燕麦糊","dry_main":"蒸红薯玉米","color_palette":"日式木色","protein_focus":["牛腩","豆浆","毛豆"]}
+}
