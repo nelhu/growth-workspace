@@ -1,0 +1,58 @@
+{
+  "collected_at": "2026-07-17T18:00:54+08:00",
+  "candidates": [
+    {
+      "tag": "#给阿嬷的情书",
+      "source_name": "千瓜数据",
+      "source_url": "https://www.qian-gua.com/blog/detail/3348.html",
+      "source_type": "trend_report",
+      "rank_context": "小红书热点内容解读（2026年第2季度）：近期小红书七大热点内容，按正文出现顺序第1位",
+      "observed_at": "2026-07-17T18:00:54+08:00",
+      "rank": 1,
+      "relevance": "多代同堂、祖辈口味与家庭陪伴叙事，适合老人软和好消化早餐的家庭感"
+    },
+    {
+      "tag": "#草台就是最好的班子",
+      "source_name": "千瓜数据",
+      "source_url": "https://www.qian-gua.com/blog/detail/3348.html",
+      "source_type": "trend_report",
+      "rank_context": "小红书热点内容解读（2026年第2季度）：近期小红书七大热点内容，按正文出现顺序第2位",
+      "observed_at": "2026-07-17T18:00:54+08:00",
+      "rank": 2,
+      "relevance": "对应20分钟真实家庭早餐的轻松、不求完美的出餐场景"
+    },
+    {
+      "tag": "#前额叶",
+      "source_name": "千瓜数据",
+      "source_url": "https://www.qian-gua.com/blog/detail/3348.html",
+      "source_type": "trend_report",
+      "rank_context": "小红书热点内容解读（2026年第2季度）：近期小红书七大热点内容，按正文出现顺序第3位",
+      "observed_at": "2026-07-17T18:00:54+08:00",
+      "rank": 3,
+      "relevance": "可关联孩子学习和上班族晨间稳定能量场景，不作任何功效承诺"
+    },
+    {
+      "tag": "#旅游兴趣班",
+      "source_name": "千瓜数据",
+      "source_url": "https://www.qian-gua.com/blog/detail/3348.html",
+      "source_type": "trend_report",
+      "rank_context": "小红书热点内容解读（2026年第2季度）：近期小红书七大热点内容，按正文出现顺序第4位",
+      "observed_at": "2026-07-17T18:00:54+08:00",
+      "rank": 4,
+      "relevance": "可衔接周末地方风味早餐和家庭食育表达"
+    },
+    {
+      "tag": "#小字成语",
+      "source_name": "千瓜数据",
+      "source_url": "https://www.qian-gua.com/blog/detail/3348.html",
+      "source_type": "trend_report",
+      "rank_context": "小红书热点内容解读（2026年第2季度）：近期小红书七大热点内容，按正文出现顺序第7位",
+      "observed_at": "2026-07-17T18:00:54+08:00",
+      "rank": 7,
+      "relevance": "适合早餐互动文案的轻松表达，菜品与营养信息保持严谨"
+    }
+  ],
+  "target_date": "2026-07-18",
+  "coverage_start": "2026-07-12",
+  "coverage_end": "2026-07-18"
+}
