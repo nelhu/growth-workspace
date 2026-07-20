@@ -1,0 +1,59 @@
+{
+  "collected_at": "2026-07-20T18:00:31+08:00",
+  "source_window": "2026-07-15 至 2026-07-21",
+  "candidates": [
+    {
+      "tag": "#复合风味",
+      "source_name": "千瓜数据",
+      "source_url": "https://www.qian-gua.com/Home/ArticleDetail?id=3350",
+      "source_type": "trend_report",
+      "observed_at": "2026-07-20T18:00:31+08:00",
+      "rank": 1,
+      "rank_context": "食品饮料趋势词，报告‘商业推广建议’食品饮料段按出现顺序第1位：围绕健康、体验，消费者热衷于复合风味",
+      "relevance": "可用于早餐里咸甜、谷物与果香的层次搭配表达"
+    },
+    {
+      "tag": "#古法美食",
+      "source_name": "千瓜数据",
+      "source_url": "https://www.qian-gua.com/Home/ArticleDetail?id=3350",
+      "source_type": "trend_report",
+      "observed_at": "2026-07-20T18:00:31+08:00",
+      "rank": 2,
+      "rank_context": "食品饮料趋势词，报告‘商业推广建议’食品饮料段按出现顺序第2位：古法美食同步升温",
+      "relevance": "适合中式家庭早餐的传统做法和地方食材"
+    },
+    {
+      "tag": "#身心脑三位一体育儿",
+      "source_name": "千瓜数据",
+      "source_url": "https://www.qian-gua.com/Home/ArticleDetail?id=3350",
+      "source_type": "trend_report",
+      "observed_at": "2026-07-20T18:00:31+08:00",
+      "rank": 3,
+      "rank_context": "母婴育儿趋势词，报告‘商业推广建议’母婴段按出现顺序第1位：围绕身、心、脑三位一体育儿观展开内容种草",
+      "relevance": "四口之家早餐可强调孩子与大人同桌、均衡而不作功效承诺"
+    },
+    {
+      "tag": "#儿童成长",
+      "source_name": "千瓜数据",
+      "source_url": "https://www.qian-gua.com/Home/ArticleDetail?id=3350",
+      "source_type": "trend_report",
+      "observed_at": "2026-07-20T18:00:31+08:00",
+      "rank": 4,
+      "rank_context": "家居家装趋势词，报告‘商业推广建议’家居段按出现顺序第1位：涌现儿童成长等细分需求",
+      "relevance": "可衔接上学日家庭早餐与儿童餐具、分量场景"
+    },
+    {
+      "tag": "#全员友好",
+      "source_name": "千瓜数据",
+      "source_url": "https://www.qian-gua.com/Home/ArticleDetail?id=3350",
+      "source_type": "trend_report",
+      "observed_at": "2026-07-20T18:00:31+08:00",
+      "rank": 5,
+      "rank_context": "家居家装趋势词，报告‘商业推广建议’家居段按出现顺序第2位：全员友好、居住平权成为家生活新共识",
+      "relevance": "契合四口人都能吃、长幼口味兼顾的早餐叙事"
+    }
+  ],
+  "target_date": "2026-07-21",
+  "coverage_start": "2026-07-15",
+  "coverage_end": "2026-07-21"
+}
