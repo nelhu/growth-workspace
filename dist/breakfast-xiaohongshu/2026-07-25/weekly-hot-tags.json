@@ -1,0 +1,59 @@
+{
+  "collected_at": "2026-07-24T18:02:17+08:00",
+  "source_window": "2026-07-19 至 2026-07-25",
+  "candidates": [
+    {
+      "tag": "#复合风味",
+      "source_name": "千瓜数据",
+      "source_url": "https://www.qian-gua.com/information/detail/3350",
+      "source_type": "trend_report",
+      "observed_at": "2026-07-24T18:02:17+08:00",
+      "rank": 1,
+      "rank_context": "千瓜《2026上半年热门行业数据洞察》食品饮料趋势词第1位：围绕健康、体验，消费者热衷于复合风味",
+      "relevance": "番茄、牛腩、鲜虾与面条的酸鲜层次适合早餐内容表达"
+    },
+    {
+      "tag": "#古法美食",
+      "source_name": "千瓜数据",
+      "source_url": "https://www.qian-gua.com/information/detail/3350",
+      "source_type": "trend_report",
+      "observed_at": "2026-07-24T18:02:17+08:00",
+      "rank": 2,
+      "rank_context": "千瓜《2026上半年热门行业数据洞察》食品饮料趋势词第2位：古法美食同步升温",
+      "relevance": "适合中式家庭牛腩汤底、手作蛋卷的家常早餐表达"
+    },
+    {
+      "tag": "#身心脑三位一体育儿",
+      "source_name": "千瓜数据",
+      "source_url": "https://www.qian-gua.com/information/detail/3350",
+      "source_type": "trend_report",
+      "observed_at": "2026-07-24T18:02:17+08:00",
+      "rank": 3,
+      "rank_context": "千瓜《2026上半年热门行业数据洞察》母婴育儿趋势词第1位：围绕身、心、脑三位一体育儿观展开内容种草",
+      "relevance": "适合四口同桌、均衡营养的儿童早餐叙事，不作功效承诺"
+    },
+    {
+      "tag": "#儿童成长",
+      "source_name": "千瓜数据",
+      "source_url": "https://www.qian-gua.com/information/detail/3350",
+      "source_type": "trend_report",
+      "observed_at": "2026-07-24T18:02:17+08:00",
+      "rank": 4,
+      "rank_context": "千瓜《2026上半年热门行业数据洞察》家居家装趋势词第1位：涌现儿童成长等细分需求",
+      "relevance": "契合周末孩子早餐的蛋白与稳定碳水搭配场景"
+    },
+    {
+      "tag": "#全员友好",
+      "source_name": "千瓜数据",
+      "source_url": "https://www.qian-gua.com/information/detail/3350",
+      "source_type": "trend_report",
+      "observed_at": "2026-07-24T18:02:17+08:00",
+      "rank": 5,
+      "rank_context": "千瓜《2026上半年热门行业数据洞察》家居家装趋势词第2位：全员友好、居住平权成为家生活新共识",
+      "relevance": "契合孩子、哺乳期妈妈、老人和上班族都能吃的软硬可调早餐"
+    }
+  ],
+  "target_date": "2026-07-25",
+  "coverage_start": "2026-07-19",
+  "coverage_end": "2026-07-25"
+}
