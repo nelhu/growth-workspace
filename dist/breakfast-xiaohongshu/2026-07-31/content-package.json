@@ -1,0 +1,45 @@
+{
+  "date": "2026-07-31",
+  "weekday": "星期五",
+  "title": "跟着 Tiny.C 吃30天早餐｜第31天｜四口之家20分钟手抓饼早餐",
+  "content": "第31天做日式木色手抓饼：毛豆虾仁豆腐汤配虾仁毛豆鸡蛋手抓饼，再加焯青菜和猕猴桃。今晚虾仁解冻、毛豆焯熟，手抓饼冷藏；早上煮汤、平底锅煎饼同步焯菜，20分钟热乎上桌。虾仁补优质蛋白，毛豆和豆腐添钙和植物蛋白，手抓饼顶饱；老人把饼和豆腐都切小块更好咬。极忙时用速冻手抓饼配即食豆腐汤，5分钟也能吃。关注我，明早继续抄作业。",
+  "tags": ["#早餐", "#儿童早餐", "#家庭早餐", "#长高早餐", "#四口之家早餐", "#就你吃不饱", "#佳减乘除", "#Nico爱肉包", "#悦鲜活鲜奶", "#林述巍林大厨"],
+  "interaction_question": "明天我做4个版本：A. 小学生长高版 B. 老人好消化版 C. 上班族快手版 D. 评论区留下你专属版。你家更需要哪个？评论 A/B/C/D，我按票数发；选 D 的直接留下年龄、家庭人数、忌口和早上可用时间。",
+  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，后面每天更新。",
+  "tomorrow_preview": "明天预告：南瓜小米牛肉饭团，周末全家出门顶饱版。",
+  "status": "ready_for_review",
+  "is_original": true,
+  "should_publish": false,
+  "delivery_markdown_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-31/README.md",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-31/01-real-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-31/02-final-infographic.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-31/03-shrimp-edamame-egg-hand-pie-process.png"
+  ],
+  "image_plan": [
+    {"order": 1, "type": "real_family_table", "description": "固定家庭餐桌上的毛豆虾仁豆腐汤、虾仁毛豆鸡蛋手抓饼、焯青菜和猕猴桃"},
+    {"order": 2, "type": "final_infographic", "description": "日式木色、高信息密度的四口早餐总览信息图"},
+    {"order": 3, "type": "dish_process", "dish": "虾仁毛豆鸡蛋手抓饼", "description": "虾仁毛豆鸡蛋手抓饼四步制作过程图"}
+  ],
+  "first_image_references": ["/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-30/01-real-family-table.png"],
+  "strategy": {
+    "structure": "手抓饼类",
+    "soup_type": "毛豆虾仁豆腐汤",
+    "dry_main": "虾仁毛豆鸡蛋手抓饼",
+    "color_palette": "日式木色",
+    "protein_focus": ["豆浆", "毛豆", "虾仁"]
+  },
+  "tag_strategy": {
+    "fixed_vertical_tags": ["#早餐", "#儿童早餐", "#家庭早餐", "#长高早餐", "#四口之家早餐"],
+    "fixed_tags": ["#早餐", "#儿童早餐", "#家庭早餐", "#长高早餐", "#四口之家早餐"],
+    "weekly_hot_tags": ["#就你吃不饱", "#佳减乘除", "#Nico爱肉包", "#悦鲜活鲜奶", "#林述巍林大厨"],
+    "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-07-31/weekly-hot-tags.json",
+    "weekly_hot_tag_evidence": [
+      {"tag": "#就你吃不饱", "source_name": "千瓜数据", "source_url": "https://www.qian-gua.com/Home/HotRankView?datecode=20260728&period=1&tagId=87&type=1", "source_type": "industry_rank", "observed_at": "2026-07-30T18:00:56+08:00", "rank": 1, "rank_context": "千瓜小红书美食饮品日榜，2026-07-28 实时榜，第1位", "relevance": "美食饮品日榜热词，直接贴合早餐饱腹和家庭吃饭场景。"},
+      {"tag": "#佳减乘除", "source_name": "千瓜数据", "source_url": "https://www.qian-gua.com/Home/HotRankView?datecode=20260728&period=1&tagId=87&type=1", "source_type": "industry_rank", "observed_at": "2026-07-30T18:00:56+08:00", "rank": 2, "rank_context": "千瓜小红书美食饮品日榜，2026-07-28 实时榜，第2位", "relevance": "美食饮品日榜热词，可补充当周美食内容的热度信号。"},
+      {"tag": "#Nico爱肉包", "source_name": "千瓜数据", "source_url": "https://www.qian-gua.com/Home/HotRankView?datecode=20260728&period=1&tagId=87&type=1", "source_type": "industry_rank", "observed_at": "2026-07-30T18:00:56+08:00", "rank": 3, "rank_context": "千瓜小红书美食饮品日榜，2026-07-28 实时榜，第3位", "relevance": "美食创作者热词，贴合可照做的家庭早餐内容。"},
+      {"tag": "#悦鲜活鲜奶", "source_name": "千瓜数据", "source_url": "https://www.qian-gua.com/Home/HotRankView?datecode=20260728&period=1&tagId=87&type=1", "source_type": "industry_rank", "observed_at": "2026-07-30T18:00:56+08:00", "rank": 4, "rank_context": "千瓜小红书美食饮品日榜，2026-07-28 实时榜，第4位", "relevance": "美食饮品日榜热词，可承接早餐饮品与营养搭配场景。"},
+      {"tag": "#林述巍林大厨", "source_name": "千瓜数据", "source_url": "https://www.qian-gua.com/Home/HotRankView?datecode=20260728&period=1&tagId=87&type=1", "source_type": "industry_rank", "observed_at": "2026-07-30T18:00:56+08:00", "rank": 5, "rank_context": "千瓜小红书美食饮品日榜，2026-07-28 实时榜，第5位；榜单展示名为“林述巍-林大厨”，按标签规范去除连字符。", "relevance": "家常烹饪创作者热词，适合连接四口之家早餐做法。"}
+    ]
+  }
+}
