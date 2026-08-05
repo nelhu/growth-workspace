@@ -1,0 +1,45 @@
+{
+  "date": "2026-08-06",
+  "weekday": "星期四",
+  "title": "跟着 Tiny.C 吃30天早餐｜第36天｜四口之家20分钟杂粮糊早餐",
+  "content": "第36天做清新绿色杂粮糊早餐：黑芝麻小米燕麦糊配牛腩虾仁菠菜杂粮煎饼，再加焯西兰花和火龙果。今晚小米燕麦分装、牛腩切碎，虾仁解冻；早上料理机煮杂粮糊、平底锅煎饼同步焯菜，20分钟热乎上桌。牛腩和虾仁补优质蛋白和铁，黑芝麻添钙，杂粮更顶饱；老人把煎饼切小块、杂粮糊打细更好入口。极忙时用即食杂粮糊配冷冻煎饼，5分钟也能吃。关注我，明早继续抄作业。",
+  "tags": ["#早餐", "#儿童早餐", "#家庭早餐", "#长高早餐", "#四口之家早餐", "#佳减乘除", "#小沈美眉", "#潘姥姥", "#吃货老外铁蛋儿", "#林述巍林大厨"],
+  "interaction_question": "明天我做4个版本：A. 小学生长高版 B. 老人好消化版 C. 上班族快手版 D. 评论区留下你专属版。你家更需要哪个？评论 A/B/C/D，我按票数发；选 D 的直接留下年龄、家庭人数、忌口和早上可用时间。",
+  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，后面每天更新。",
+  "tomorrow_preview": "明天预告：鲜虾紫菜小馄饨，开学前早起不慌版。",
+  "status": "ready_for_review",
+  "is_original": true,
+  "should_publish": false,
+  "delivery_markdown_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-08-06/README.md",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-08-06/01-real-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-08-06/02-final-infographic.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-08-06/03-beef-shrimp-spinach-pancake-process.png"
+  ],
+  "image_plan": [
+    {"order": 1, "type": "real_family_table", "description": "固定家庭餐桌早餐成品图"},
+    {"order": 2, "type": "final_infographic", "description": "清新绿色高信息密度早餐信息图"},
+    {"order": 3, "type": "dish_process", "dish": "牛腩虾仁菠菜杂粮煎饼", "description": "牛腩虾仁菠菜杂粮煎饼过程图"}
+  ],
+  "first_image_references": ["/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-08-05/01-real-family-table.png"],
+  "strategy": {
+    "structure": "杂粮糊类",
+    "soup_type": "黑芝麻小米燕麦糊",
+    "dry_main": "牛腩虾仁菠菜杂粮煎饼",
+    "color_palette": "清新绿色",
+    "protein_focus": ["虾仁", "牛腩", "鸡蛋"]
+  },
+  "tag_strategy": {
+    "fixed_vertical_tags": ["#早餐", "#儿童早餐", "#家庭早餐", "#长高早餐", "#四口之家早餐"],
+    "fixed_tags": ["#早餐", "#儿童早餐", "#家庭早餐", "#长高早餐", "#四口之家早餐"],
+    "weekly_hot_tags": ["#佳减乘除", "#小沈美眉", "#潘姥姥", "#吃货老外铁蛋儿", "#林述巍林大厨"],
+    "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-08-06/weekly-hot-tags.json",
+    "weekly_hot_tag_evidence": [
+      {"tag": "#佳减乘除", "source_name": "千瓜数据", "source_url": "https://www.qian-gua.com/Home/HotRankView?datecode=20260805&period=1&tagId=87&type=1", "source_type": "industry_rank", "observed_at": "2026-08-05T18:05:00+08:00", "rank": 1, "rank_context": "千瓜小红书美食饮品涨粉日榜，2026-08-05，第1位", "relevance": "美食内容热度"},
+      {"tag": "#小沈美眉", "source_name": "千瓜数据", "source_url": "https://www.qian-gua.com/Home/HotRankView?datecode=20260805&period=1&tagId=87&type=1", "source_type": "industry_rank", "observed_at": "2026-08-05T18:05:00+08:00", "rank": 2, "rank_context": "千瓜小红书美食饮品涨粉日榜，2026-08-05，第2位", "relevance": "家庭美食内容热度"},
+      {"tag": "#潘姥姥", "source_name": "千瓜数据", "source_url": "https://www.qian-gua.com/Home/HotRankView?datecode=20260805&period=1&tagId=87&type=1", "source_type": "industry_rank", "observed_at": "2026-08-05T18:05:00+08:00", "rank": 3, "rank_context": "千瓜小红书美食饮品涨粉日榜，2026-08-05，第3位", "relevance": "家常烹饪内容热度"},
+      {"tag": "#吃货老外铁蛋儿", "source_name": "千瓜数据", "source_url": "https://www.qian-gua.com/Home/HotRankView?datecode=20260805&period=1&tagId=87&type=1", "source_type": "industry_rank", "observed_at": "2026-08-05T18:05:00+08:00", "rank": 4, "rank_context": "千瓜小红书美食饮品涨粉日榜，2026-08-05，第4位", "relevance": "美食做法内容热度"},
+      {"tag": "#林述巍林大厨", "source_name": "千瓜数据", "source_url": "https://www.qian-gua.com/Home/HotRankView?datecode=20260805&period=1&tagId=87&type=1", "source_type": "industry_rank", "observed_at": "2026-08-05T18:05:00+08:00", "rank": 6, "rank_context": "千瓜小红书美食饮品涨粉日榜，2026-08-05，第6位；榜单展示名“林述巍-林大厨”已按标签规则去连字符", "relevance": "家常烹饪做法"}
+    ]
+  }
+}
