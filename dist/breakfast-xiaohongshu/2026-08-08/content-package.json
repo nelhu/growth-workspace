@@ -1,0 +1,45 @@
+{
+  "date": "2026-08-08",
+  "weekday": "星期六",
+  "title": "跟着 Tiny.C 吃30天早餐｜第38天｜四口之家20分钟蒸制早餐",
+  "content": "第38天做暖棕蒸制早餐：黑豆核桃豆浆配牛肉胡萝卜小包子，再加清蒸西葫芦和橙子。今晚黑豆泡好、牛肉馅调味，小包子包好冷藏；早上豆浆机开煮，蒸锅热包子同步蒸菜，20分钟上桌。牛肉补铁，黑豆与核桃添植物蛋白和好脂肪，孩子和哺乳期妈妈更顶饱；老人把包子掰小块、豆浆打细。极忙时无糖豆浆配冷冻包子，5分钟也温热。关注我，明早继续抄作业。",
+  "tags": ["#早餐", "#儿童早餐", "#家庭早餐", "#长高早餐", "#四口之家早餐", "#奎妮在中国", "#特猫头zZ", "#神奇米米", "#吃货老外铁蛋儿", "#潘姥姥"],
+  "interaction_question": "明天我做4个版本：A. 小学生长高版 B. 老人好消化版 C. 上班族快手版 D. 评论区留下你专属版。你家更需要哪个？评论 A/B/C/D，我按票数发；选 D 的直接留下年龄、家庭人数、忌口和早上可用时间。",
+  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，后面每天更新。",
+  "tomorrow_preview": "明天预告：鲜虾玉米发面饼，周日全家补蛋白版。",
+  "status": "ready_for_review",
+  "is_original": true,
+  "should_publish": false,
+  "delivery_markdown_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-08-08/README.md",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-08-08/01-real-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-08-08/02-final-infographic.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-08-08/03-beef-carrot-bun-process.png"
+  ],
+  "image_plan": [
+    {"order": 1, "type": "real_family_table", "description": "固定家庭餐桌早餐成品图"},
+    {"order": 2, "type": "final_infographic", "description": "秋日暖棕高信息密度早餐信息图"},
+    {"order": 3, "type": "dish_process", "dish": "牛肉胡萝卜小包子", "description": "牛肉胡萝卜小包子过程图"}
+  ],
+  "first_image_references": ["/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-08-07/01-real-family-table.png"],
+  "strategy": {
+    "structure": "蒸制类",
+    "soup_type": "黑豆核桃豆浆",
+    "dry_main": "牛肉胡萝卜小包子",
+    "color_palette": "秋日暖棕",
+    "protein_focus": ["牛肉", "黑豆", "核桃"]
+  },
+  "tag_strategy": {
+    "fixed_vertical_tags": ["#早餐", "#儿童早餐", "#家庭早餐", "#长高早餐", "#四口之家早餐"],
+    "fixed_tags": ["#早餐", "#儿童早餐", "#家庭早餐", "#长高早餐", "#四口之家早餐"],
+    "weekly_hot_tags": ["#奎妮在中国", "#特猫头zZ", "#神奇米米", "#吃货老外铁蛋儿", "#潘姥姥"],
+    "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-08-08/weekly-hot-tags.json",
+    "weekly_hot_tag_evidence": [
+      {"tag": "#奎妮在中国", "source_name": "千瓜数据", "source_url": "https://www.qian-gua.com/Home/HotRankView?datecode=20260807&period=1&tagId=87&type=1", "source_type": "industry_rank", "observed_at": "2026-08-07T18:09:00+08:00", "rank": 1, "rank_context": "千瓜小红书美食饮品涨粉日榜，2026-08-07，第1位", "relevance": "美食饮品垂类热度"},
+      {"tag": "#特猫头zZ", "source_name": "千瓜数据", "source_url": "https://www.qian-gua.com/Home/HotRankView?datecode=20260807&period=1&tagId=87&type=1", "source_type": "industry_rank", "observed_at": "2026-08-07T18:09:00+08:00", "rank": 2, "rank_context": "千瓜小红书美食饮品涨粉日榜，2026-08-07，第2位", "relevance": "美食饮品垂类热度"},
+      {"tag": "#神奇米米", "source_name": "千瓜数据", "source_url": "https://www.qian-gua.com/Home/HotRankView?datecode=20260807&period=1&tagId=87&type=1", "source_type": "industry_rank", "observed_at": "2026-08-07T18:09:00+08:00", "rank": 3, "rank_context": "千瓜小红书美食饮品涨粉日榜，2026-08-07，第3位", "relevance": "美食饮品垂类热度"},
+      {"tag": "#吃货老外铁蛋儿", "source_name": "千瓜数据", "source_url": "https://www.qian-gua.com/Home/HotRankView?datecode=20260807&period=1&tagId=87&type=1", "source_type": "industry_rank", "observed_at": "2026-08-07T18:09:00+08:00", "rank": 4, "rank_context": "千瓜小红书美食饮品涨粉日榜，2026-08-07，第4位", "relevance": "美食做法内容热度"},
+      {"tag": "#潘姥姥", "source_name": "千瓜数据", "source_url": "https://www.qian-gua.com/Home/HotRankView?datecode=20260807&period=1&tagId=87&type=1", "source_type": "industry_rank", "observed_at": "2026-08-07T18:09:00+08:00", "rank": 6, "rank_context": "千瓜小红书美食饮品涨粉日榜，2026-08-07，第6位", "relevance": "家常烹饪内容热度"}
+    ]
+  }
+}
