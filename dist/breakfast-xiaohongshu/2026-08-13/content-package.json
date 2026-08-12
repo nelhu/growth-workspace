@@ -1,0 +1,47 @@
+{
+  "date": "2026-08-13",
+  "weekday": "星期四",
+  "title": "跟着 Tiny.C 吃30天早餐｜第42天｜四口之家20分钟手抓饼早餐",
+  "content": "第42天做日式木色手抓饼早餐：黄豆豆腐鳕鱼羹配豆腐鳕鱼手抓饼，再加清蒸玉米和葡萄。晚上黄豆泡发、鳕鱼去刺分装、蔬菜洗净；早上羹煮8分钟，手抓饼卷馅同步蒸玉米，20分钟上桌。鳕鱼和豆腐补优质蛋白，黄豆添钙和铁；女儿和哺乳期都适合，老人馅料切细、饼煎软些。极忙时热手抓饼夹豆腐，配无糖豆浆，5分钟搞定。关注我，明早继续抄作业。",
+  "tags": ["#早餐", "#儿童早餐", "#家庭早餐", "#长高早餐", "#四口之家早餐", "#李维嘉", "#鲨鲨牙大王", "#吃李子", "#潘姥姥", "#颖妹🌸"],
+  "interaction_question": "明天我做4个版本：A. 小学生长高版 B. 老人好消化版 C. 上班族快手版 D. 评论区留下你专属版。你家更需要哪个？评论 A/B/C/D，我按票数发；选 D 的直接留下年龄、家庭人数、忌口和早上可用时间。",
+  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，后面每天更新。",
+  "tomorrow_preview": "明天预告：牛肉蔬菜杂粮饭团，开学早起顶饱版。",
+  "status": "ready_for_review",
+  "is_original": true,
+  "should_publish": false,
+  "delivery_markdown_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-08-13/README.md",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-08-13/01-real-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-08-13/02-final-infographic.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-08-13/03-tofu-cod-hand-grab-pancake-process.png"
+  ],
+  "image_plan": [
+    {"order": 1, "type": "real_family_table", "description": "固定家庭餐桌和餐厅背景的真实早餐成品图"},
+    {"order": 2, "type": "final_infographic", "description": "日式木色高信息密度早餐总览信息图"},
+    {"order": 3, "type": "dish_process", "dish": "豆腐鳕鱼手抓饼", "description": "豆腐鳕鱼手抓饼制作过程图"}
+  ],
+  "first_image_references": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-08-12/01-real-family-table.png"
+  ],
+  "strategy": {
+    "structure": "手抓饼类",
+    "soup_type": "黄豆豆腐鳕鱼羹",
+    "dry_main": "豆腐鳕鱼手抓饼",
+    "color_palette": "日式木色",
+    "protein_focus": ["黄豆", "豆腐", "鱼类"]
+  },
+  "tag_strategy": {
+    "fixed_vertical_tags": ["#早餐", "#儿童早餐", "#家庭早餐", "#长高早餐", "#四口之家早餐"],
+    "fixed_tags": ["#早餐", "#儿童早餐", "#家庭早餐", "#长高早餐", "#四口之家早餐"],
+    "weekly_hot_tags": ["#李维嘉", "#鲨鲨牙大王", "#吃李子", "#潘姥姥", "#颖妹🌸"],
+    "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-08-13/weekly-hot-tags.json",
+    "weekly_hot_tag_evidence": [
+      {"tag": "#李维嘉", "source_name": "千瓜数据", "source_url": "https://www.qian-gua.com/Home/HotRankView?datecode=20260812&period=1&tagId=87&type=1", "source_type": "industry_rank", "observed_at": "2026-08-12T18:06:00+08:00", "rank": 1, "rank_context": "千瓜小红书美食饮品涨粉日榜，2026-08-12（实时），第1位", "relevance": "美食饮品垂类当日涨粉热度，可用于早餐家庭内容的兴趣触达。"},
+      {"tag": "#鲨鲨牙大王", "source_name": "千瓜数据", "source_url": "https://www.qian-gua.com/Home/HotRankView?datecode=20260812&period=1&tagId=87&type=1", "source_type": "industry_rank", "observed_at": "2026-08-12T18:06:00+08:00", "rank": 2, "rank_context": "千瓜小红书美食饮品涨粉日榜，2026-08-12（实时），第2位", "relevance": "美食饮品垂类当日涨粉热度，可用于早餐家庭内容的兴趣触达。"},
+      {"tag": "#吃李子", "source_name": "千瓜数据", "source_url": "https://www.qian-gua.com/Home/HotRankView?datecode=20260812&period=1&tagId=87&type=1", "source_type": "industry_rank", "observed_at": "2026-08-12T18:06:00+08:00", "rank": 3, "rank_context": "千瓜小红书美食饮品涨粉日榜，2026-08-12（实时），第3位", "relevance": "美食饮品垂类当日涨粉热度，与真实家庭饮食内容相关。"},
+      {"tag": "#潘姥姥", "source_name": "千瓜数据", "source_url": "https://www.qian-gua.com/Home/HotRankView?datecode=20260812&period=1&tagId=87&type=1", "source_type": "industry_rank", "observed_at": "2026-08-12T18:06:00+08:00", "rank": 4, "rank_context": "千瓜小红书美食饮品涨粉日榜，2026-08-12（实时），第4位", "relevance": "美食饮品垂类当日涨粉热度，与家常烹饪内容相关。"},
+      {"tag": "#颖妹🌸", "source_name": "千瓜数据", "source_url": "https://www.qian-gua.com/Home/HotRankView?datecode=20260812&period=1&tagId=87&type=1", "source_type": "industry_rank", "observed_at": "2026-08-12T18:06:00+08:00", "rank": 5, "rank_context": "千瓜小红书美食饮品涨粉日榜，2026-08-12（实时），第5位", "relevance": "美食饮品垂类当日涨粉热度，可用于早餐家庭内容的兴趣触达。"}
+    ]
+  }
+}
