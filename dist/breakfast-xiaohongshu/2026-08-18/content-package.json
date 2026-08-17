@@ -1,0 +1,20 @@
+{
+  "date":"2026-08-18","weekday":"星期二","title":"跟着 Tiny.C 吃30天早餐｜第45天｜四口之家20分钟豆浆早餐",
+  "content":"第45天做清新绿豆浆早餐：黄豆小米豆浆配虾仁牛腩葱花花卷，再加蒸南瓜和葡萄。晚上黄豆小米泡好、熟牛腩切丁、虾仁解冻，花卷卷好冷藏；早上豆浆机开煮，花卷上锅蒸、同步蒸南瓜，20分钟上桌。虾仁和牛腩补蛋白与铁，黄豆小米更顶饱；老人花卷趁热更软，孩子虾仁切小块。极忙时冷冻花卷配热豆浆，5分钟完成。关注我，明早继续抄作业。",
+  "tags":["#早餐","#儿童早餐","#家庭早餐","#长高早餐","#四口之家早餐","#格力高扁桃仁效果","#蜜雪冰城","#🌀旺仔饿了🌀","#小林和小嗝的家常","#吃货老外铁蛋儿"],
+  "interaction_question":"明天我做4个版本：A. 小学生长高版 B. 老人好消化版 C. 上班族快手版 D. 评论区留下你专属版。你家更需要哪个？评论 A/B/C/D，我按票数发；选 D 的直接留下年龄、家庭人数、忌口和早上可用时间。",
+  "pinned_comment":"想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，后面每天更新。",
+  "tomorrow_preview":"明天预告：三文鱼小米粥配芝麻烧饼，孩子长高高钙版。","status":"ready_for_review","is_original":true,"should_publish":false,
+  "delivery_markdown_path":"/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-08-18/README.md",
+  "images":["/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-08-18/01-real-family-table.png","/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-08-18/02-final-infographic.png","/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-08-18/03-shrimp-beef-brisket-scallion-roll-process.png"],
+  "image_plan":[{"order":1,"type":"real_family_table","description":"固定家庭餐桌和餐厅背景的真实早餐成品图"},{"order":2,"type":"final_infographic","description":"清新绿色高信息密度早餐总览信息图"},{"order":3,"type":"dish_process","dish":"虾仁牛腩葱花花卷","description":"虾仁牛腩葱花花卷制作过程图"}],
+  "first_image_references":["/Users/xuezi/dir/growth-workspace/assets/image1_example/image_5eb39cb3.jpg"],
+  "strategy":{"structure":"豆浆类","soup_type":"黄豆小米豆浆","dry_main":"虾仁牛腩葱花花卷","color_palette":"春日绿色","protein_focus":["虾仁","牛腩","豆浆"]},
+  "tag_strategy":{"fixed_vertical_tags":["#早餐","#儿童早餐","#家庭早餐","#长高早餐","#四口之家早餐"],"fixed_tags":["#早餐","#儿童早餐","#家庭早餐","#长高早餐","#四口之家早餐"],"weekly_hot_tags":["#格力高扁桃仁效果","#蜜雪冰城","#🌀旺仔饿了🌀","#小林和小嗝的家常","#吃货老外铁蛋儿"],"weekly_hot_tag_registry_path":"/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-08-18/weekly-hot-tags.json","weekly_hot_tag_evidence":[
+    {"tag":"#格力高扁桃仁效果","source_name":"千瓜数据","source_url":"https://www.qian-gua.com/Home/HotRankView?datecode=20260817&period=1&tagId=87&type=1","source_type":"industry_rank","observed_at":"2026-08-17T18:06:00+08:00","rank":1,"rank_context":"千瓜小红书美食饮品涨粉日榜，2026-08-17（实时），第1位","relevance":"美食饮品垂类当日涨粉热度，可用于家庭早餐兴趣触达。"},
+    {"tag":"#蜜雪冰城","source_name":"千瓜数据","source_url":"https://www.qian-gua.com/Home/HotRankView?datecode=20260817&period=1&tagId=87&type=1","source_type":"industry_rank","observed_at":"2026-08-17T18:06:00+08:00","rank":2,"rank_context":"千瓜小红书美食饮品涨粉日榜，2026-08-17（实时），第2位","relevance":"美食饮品垂类当日涨粉热度，与饮食内容直接相关。"},
+    {"tag":"#🌀旺仔饿了🌀","source_name":"千瓜数据","source_url":"https://www.qian-gua.com/Home/HotRankView?datecode=20260817&period=1&tagId=87&type=1","source_type":"industry_rank","observed_at":"2026-08-17T18:06:00+08:00","rank":3,"rank_context":"千瓜小红书美食饮品涨粉日榜，2026-08-17（实时），第3位","relevance":"美食饮品垂类当日涨粉热度，可用于家庭早餐兴趣触达。"},
+    {"tag":"#小林和小嗝的家常","source_name":"千瓜数据","source_url":"https://www.qian-gua.com/Home/HotRankView?datecode=20260817&period=1&tagId=87&type=1","source_type":"industry_rank","observed_at":"2026-08-17T18:06:00+08:00","rank":4,"rank_context":"千瓜小红书美食饮品涨粉日榜，2026-08-17（实时），第4位","relevance":"美食饮品垂类当日涨粉热度，与家常早餐内容直接相关。"},
+    {"tag":"#吃货老外铁蛋儿","source_name":"千瓜数据","source_url":"https://www.qian-gua.com/Home/HotRankView?datecode=20260817&period=1&tagId=87&type=1","source_type":"industry_rank","observed_at":"2026-08-17T18:06:00+08:00","rank":5,"rank_context":"千瓜小红书美食饮品涨粉日榜，2026-08-17（实时），第5位","relevance":"美食饮品垂类当日涨粉热度，与家庭饮食内容相关。"}
+  ]}
+}
