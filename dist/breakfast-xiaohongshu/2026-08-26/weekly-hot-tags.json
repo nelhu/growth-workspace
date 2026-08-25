@@ -1,0 +1,59 @@
+{
+  "target_date": "2026-08-26",
+  "coverage_start": "2026-08-20",
+  "coverage_end": "2026-08-26",
+  "collected_at": "2026-08-25T18:05:00+08:00",
+  "source_window": "2026-08-20 至 2026-08-26；采用目标日前 7 天内的千瓜小红书美食饮品日榜。",
+  "candidates": [
+    {
+      "tag": "#阿蔡美食教学",
+      "source_name": "千瓜数据",
+      "source_url": "https://www.qian-gua.com/Home/HotRankView?datecode=20260821&period=1&tagId=87&type=1",
+      "source_type": "industry_rank",
+      "rank_context": "千瓜小红书美食饮品日榜，2026-08-21，第1位",
+      "observed_at": "2026-08-21T18:00:00+08:00",
+      "rank": 1,
+      "relevance": "美食饮品垂类当日热度，可用于家庭早餐兴趣触达。"
+    },
+    {
+      "tag": "#吃货老外铁蛋儿",
+      "source_name": "千瓜数据",
+      "source_url": "https://www.qian-gua.com/Home/HotRankView?datecode=20260821&period=1&tagId=87&type=1",
+      "source_type": "industry_rank",
+      "rank_context": "千瓜小红书美食饮品日榜，2026-08-21，第2位",
+      "observed_at": "2026-08-21T18:00:00+08:00",
+      "rank": 2,
+      "relevance": "美食饮品垂类当日热度，可用于家庭早餐兴趣触达。"
+    },
+    {
+      "tag": "#炸毛澈",
+      "source_name": "千瓜数据",
+      "source_url": "https://www.qian-gua.com/Home/HotRankView?datecode=20260821&period=1&tagId=87&type=1",
+      "source_type": "industry_rank",
+      "rank_context": "千瓜小红书美食饮品日榜，2026-08-21，第3位",
+      "observed_at": "2026-08-21T18:00:00+08:00",
+      "rank": 3,
+      "relevance": "美食饮品垂类当日热度，可用于家庭早餐兴趣触达。"
+    },
+    {
+      "tag": "#悦鲜活鲜奶",
+      "source_name": "千瓜数据",
+      "source_url": "https://www.qian-gua.com/Home/HotRankView?datecode=20260821&period=1&tagId=87&type=1",
+      "source_type": "industry_rank",
+      "rank_context": "千瓜小红书美食饮品日榜，2026-08-21，第4位",
+      "observed_at": "2026-08-21T18:00:00+08:00",
+      "rank": 4,
+      "relevance": "乳品相关美食饮品垂类热度，与家庭早餐饮品场景相关。"
+    },
+    {
+      "tag": "#佳减乘除",
+      "source_name": "千瓜数据",
+      "source_url": "https://www.qian-gua.com/Home/HotRankView?datecode=20260821&period=1&tagId=87&type=1",
+      "source_type": "industry_rank",
+      "rank_context": "千瓜小红书美食饮品日榜，2026-08-21，第5位",
+      "observed_at": "2026-08-21T18:00:00+08:00",
+      "rank": 5,
+      "relevance": "美食饮品垂类当日热度，可用于家庭早餐兴趣触达。"
+    }
+  ]
+}
