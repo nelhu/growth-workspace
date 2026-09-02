@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-03",
+  "weekday": "星期四",
+  "title": "跟着 Tiny.C 吃30天早餐｜第56天｜四口之家20分钟蒸制早餐",
+  "content": "第56天做清新绿色蒸制早餐：黄豆南瓜浓汤配牛肉豆腐蒸卷，加温豆浆和西兰花橙子。前晚黄豆泡好、南瓜切块，牛肉末和豆腐拌馅卷好冷冻；早上浓汤破壁8分钟，蒸卷上汽10分钟，西兰花焯水，20分钟上桌。牛肉补蛋白和铁，黄豆豆腐补钙，南瓜温和好消化；孩子蒸卷切小段，老人浓汤打细，哺乳期多喝温豆浆。极忙时冷冻蒸卷直接上锅，豆浆机打一杯浓汤，5分钟开吃。关注我，明早继续抄作业。",
+  "tags": ["#早餐", "#儿童早餐", "#家庭早餐", "#长高早餐", "#四口之家早餐", "#一爸的厨房", "#肚肚小盆友🐰", "#土呀土豆子", "#发芽糖豆lumi", "#吃货老外铁蛋儿"],
+  "interaction_question": "明天我做4个版本：A. 小学生长高版 B. 老人好消化版 C. 上班族快手版 D. 评论区留下你专属版。你家更需要哪个？评论 A/B/C/D，我按票数发；选 D 的直接留下年龄、家庭人数、忌口和早上可用时间。",
+  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，后面每天更新。",
+  "tomorrow_preview": "明天预告：黑米鸡蛋蔬菜煎饼配鲜虾豆腐羹，上班族也能带走吃的饱腹版。",
+  "status": "ready_for_review",
+  "is_original": true,
+  "should_publish": false,
+  "delivery_markdown_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-03/README.md",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-03/01-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-03/02-breakfast-overview.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-03/03-beef-tofu-steamed-roll-process.png"
+  ],
+  "image_plan": [
+    {"order": 1, "type": "real_family_table", "description": "固定家庭餐桌和餐厅背景的真实早餐成品图"},
+    {"order": 2, "type": "final_infographic", "description": "清新绿色高信息密度早餐总览信息图"},
+    {"order": 3, "type": "dish_process", "dish": "牛肉豆腐蒸卷", "description": "牛肉豆腐蒸卷制作过程图"}
+  ],
+  "first_image_references": ["/Users/xuezi/dir/growth-workspace/assets/image1_example/image_5eb39cb3.jpg"],
+  "strategy": {"structure": "蒸制类", "soup_type": "黄豆南瓜浓汤", "dry_main": "牛肉豆腐蒸卷", "color_palette": "清新绿色", "protein_focus": ["牛肉末", "黄豆", "豆腐"]},
+  "tag_strategy": {
+    "fixed_vertical_tags": ["#早餐", "#儿童早餐", "#家庭早餐", "#长高早餐", "#四口之家早餐"],
+    "fixed_tags": ["#早餐", "#儿童早餐", "#家庭早餐", "#长高早餐", "#四口之家早餐"],
+    "weekly_hot_tags": ["#一爸的厨房", "#肚肚小盆友🐰", "#土呀土豆子", "#发芽糖豆lumi", "#吃货老外铁蛋儿"],
+    "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-03/weekly-hot-tags.json",
+    "weekly_hot_tag_evidence": [
+      {"tag":"#一爸的厨房","source_name":"千瓜数据","source_url":"https://www.qian-gua.com/Home/HotRankView?datecode=20260826&period=1&tagId=87&type=1","source_type":"industry_rank","rank_context":"千瓜小红书美食饮品日榜，2026-09-02（实时），第1位","observed_at":"2026-09-02T18:00:00+08:00","rank":1,"relevance":"美食饮品垂类厨房创作账号热度，可用于家庭早餐兴趣触达。"},
+      {"tag":"#肚肚小盆友🐰","source_name":"千瓜数据","source_url":"https://www.qian-gua.com/Home/HotRankView?datecode=20260826&period=1&tagId=87&type=1","source_type":"industry_rank","rank_context":"千瓜小红书美食饮品日榜，2026-09-02（实时），第2位","observed_at":"2026-09-02T18:00:00+08:00","rank":2,"relevance":"美食饮品垂类创作者热度，可用于家庭早餐兴趣触达。"},
+      {"tag":"#土呀土豆子","source_name":"千瓜数据","source_url":"https://www.qian-gua.com/Home/HotRankView?datecode=20260829&period=1&tagId=87&type=1","source_type":"industry_rank","rank_context":"千瓜小红书美食饮品日榜，2026-08-29（实时），第3位","observed_at":"2026-08-29T18:00:00+08:00","rank":3,"relevance":"美食饮品垂类当日热度，可用于家庭早餐兴趣触达。"},
+      {"tag":"#发芽糖豆lumi","source_name":"千瓜数据","source_url":"https://www.qian-gua.com/Home/HotRankView?datecode=20260829&period=1&tagId=87&type=1","source_type":"industry_rank","rank_context":"千瓜小红书美食饮品日榜，2026-08-29（实时），第4位","observed_at":"2026-08-29T18:00:00+08:00","rank":4,"relevance":"美食饮品垂类当日热度，可用于家庭早餐兴趣触达。"},
+      {"tag":"#吃货老外铁蛋儿","source_name":"千瓜数据","source_url":"https://www.qian-gua.com/Home/HotRankView?datecode=20260829&period=1&tagId=87&type=1","source_type":"industry_rank","rank_context":"千瓜小红书美食饮品日榜，2026-08-29（实时），第5位","observed_at":"2026-08-29T18:00:00+08:00","rank":5,"relevance":"美食饮品垂类当日热度，可用于家庭早餐兴趣触达。"}
+    ]
+  }
+}
