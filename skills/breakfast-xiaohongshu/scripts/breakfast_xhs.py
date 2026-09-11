@@ -5,10 +5,13 @@ import json
 import os
 import pathlib
 import re
+import random
 import struct
 import sys
+import tempfile
+import urllib.error
 import urllib.request
-from urllib.parse import urlparse
+from urllib.parse import parse_qs, urlencode, urlparse
 
 
 WORKSPACE_ROOT = pathlib.Path(__file__).resolve().parents[3]
@@ -24,7 +27,7 @@ TREND_SOURCE_HOSTS = {
     "千瓜数据": ("qian-gua.com",),
     "新榜": ("newrank.cn",),
 }
-TREND_SOURCE_TYPES = {"topic_rank", "rising_rank", "industry_rank", "trend_report"}
+TREND_SOURCE_TYPES = {"hot_search", "topic_rank", "rising_rank", "industry_rank", "trend_report"}
 IMAGE_PLAN_TYPES = [
     "real_family_table",
     "final_infographic",
@@ -125,62 +128,78 @@ def source_url_matches(source_name, source_url):
     return any(hostname == domain or hostname.endswith(f".{domain}") for domain in TREND_SOURCE_HOSTS[source_name])
 
 
-def validate_weekly_hot_tag_registry(registry, target):
-    errors = []
-    if not isinstance(registry, dict):
-        return ["本周热词台账必须是 JSON 对象"]
+class TrendProviderError(RuntimeError):
+    pass
 
-    coverage_start, coverage_end = trend_window(target)
-    if registry.get("target_date") != target.isoformat():
-        errors.append(f"本周热词台账 target_date 必须是 {target.isoformat()}")
-    if registry.get("coverage_start") != coverage_start.isoformat():
-        errors.append(f"本周热词台账 coverage_start 必须是 {coverage_start.isoformat()}")
-    if registry.get("coverage_end") != coverage_end.isoformat():
-        errors.append(f"本周热词台账 coverage_end 必须是 {coverage_end.isoformat()}")
 
+def now_shanghai():
+    return dt.datetime.now(dt.timezone(dt.timedelta(hours=8))).replace(microsecond=0)
+
+
+def normalize_tag(value):
+    if not isinstance(value, str):
+        return None
+    value = value.strip().lstrip("#").strip()
+    return f"#{value}" if value else None
+
+
+def write_weekly_hot_tag_registry(registry, target):
+    path = trend_registry_path(target)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temp_path = None
     try:
-        collected_date = parse_observed_date(registry.get("collected_at"))
-        if not coverage_start <= collected_date <= coverage_end:
-            errors.append("本周热词台账 collected_at 必须落在目标日期最近 7 天内")
-    except ValueError:
-        errors.append("本周热词台账缺少合法的 collected_at")
+        with tempfile.NamedTemporaryFile(
+            "w",
+            encoding="utf-8",
+            dir=path.parent,
+            prefix=f".{path.name}.",
+            delete=False,
+        ) as f:
+            temp_path = pathlib.Path(f.name)
+            json.dump(registry, f, ensure_ascii=False, indent=2)
+            f.write("\n")
+        os.replace(temp_path, path)
+    finally:
+        if temp_path and temp_path.exists():
+            temp_path.unlink()
+    return path
 
+
+TOPIC_POOLS = {
+    "早餐": ["#早餐", "#家庭早餐", "#早餐不重样", "#快手早餐", "#中式早餐", "#早餐日常"],
+    "美食": ["#美食", "#家常菜", "#美食分享", "#今天吃什么", "#在家做饭", "#简单美食"],
+    "穿搭": ["#穿搭", "#日常穿搭", "#通勤穿搭", "#穿搭灵感", "#休闲穿搭"],
+    "显瘦": ["#显瘦穿搭", "#显瘦搭配", "#微胖穿搭", "#显高显瘦", "#梨形身材穿搭"],
+    "美妆": ["#美妆", "#日常妆容", "#新手化妆", "#自然妆容", "#美妆分享"],
+    "旅行": ["#旅行", "#周末去哪儿", "#旅行日记", "#亲子旅行", "#城市漫步"],
+}
+
+
+def validate_weekly_hot_tag_registry(registry, target):
+    if not isinstance(registry, dict):
+        return ["话题台账必须是对象"]
+    errors = []
+    if registry.get("target_date") != target.isoformat():
+        errors.append("话题台账目标日期不一致")
+    if registry.get("mode") != "random_topics" or registry.get("is_verified_trend") is not False:
+        errors.append("话题台账必须标记随机话题，非已验证热词")
     candidates = registry.get("candidates")
-    if not isinstance(candidates, list) or len(candidates) < 5:
-        errors.append("本周热词台账 candidates 至少包含 5 个候选标签")
-        return errors
-
-    seen_tags = set()
-    for index, candidate in enumerate(candidates, start=1):
-        if not isinstance(candidate, dict):
-            errors.append(f"本周热词台账第 {index} 项必须是对象")
+    if not isinstance(candidates, list) or len(candidates) != 10:
+        return errors + ["随机话题必须恰好 10 个"]
+    seen, categories = set(), set()
+    for item in candidates:
+        if not isinstance(item, dict):
+            errors.append("话题候选必须是对象")
             continue
-        tag = candidate.get("tag")
-        if not isinstance(tag, str) or not tag.startswith("#") or len(tag) <= 1:
-            errors.append(f"本周热词台账第 {index} 项 tag 必须以 # 开头")
-        elif tag in seen_tags:
-            errors.append(f"本周热词台账存在重复标签: {tag}")
-        else:
-            seen_tags.add(tag)
-        source_name = candidate.get("source_name")
-        if source_name not in TREND_SOURCE_HOSTS:
-            errors.append(f"本周热词台账第 {index} 项 source_name 必须是千瓜数据或新榜")
-        elif not source_url_matches(source_name, candidate.get("source_url")):
-            errors.append(f"本周热词台账第 {index} 项 source_url 必须属于 {source_name}")
-        if candidate.get("source_type") not in TREND_SOURCE_TYPES:
-            errors.append(f"本周热词台账第 {index} 项 source_type 必须是榜单或趋势报告类型")
-        if not isinstance(candidate.get("rank"), int) or candidate["rank"] < 1:
-            errors.append(f"本周热词台账第 {index} 项 rank 必须是正整数")
-        if not isinstance(candidate.get("rank_context"), str) or not candidate["rank_context"].strip():
-            errors.append(f"本周热词台账第 {index} 项缺少 rank_context")
-        if not isinstance(candidate.get("relevance"), str) or not candidate["relevance"].strip():
-            errors.append(f"本周热词台账第 {index} 项缺少 relevance")
-        try:
-            observed_date = parse_observed_date(candidate.get("observed_at"))
-            if not coverage_start <= observed_date <= coverage_end:
-                errors.append(f"本周热词台账第 {index} 项 observed_at 不在最近 7 天窗口内")
-        except ValueError:
-            errors.append(f"本周热词台账第 {index} 项缺少合法的 observed_at")
+        tag, category = item.get("tag"), item.get("category")
+        if category not in TOPIC_POOLS or tag not in TOPIC_POOLS.get(category, []):
+            errors.append("话题必须来自指定六类主题池")
+        if tag in seen:
+            errors.append("随机话题不能重复")
+        seen.add(tag)
+        categories.add(category)
+    if categories != set(TOPIC_POOLS):
+        errors.append("随机话题必须覆盖早餐、美食、穿搭、显瘦、美妆、旅行")
     return errors
 
 
@@ -414,12 +433,9 @@ def validate_manifest_data(manifest):
     else:
         if any(not str(tag).startswith("#") for tag in tags):
             errors.append("tags 中每个话题都必须以 # 开头，方便直接复制到小红书")
-        if tags[:5] != FIXED_VERTICAL_TAGS:
-            errors.append(f"tags 前 5 个必须固定为: {', '.join(FIXED_VERTICAL_TAGS)}")
-        weekly_hot_tags = tags[5:]
-        if any(not str(tag).strip() for tag in weekly_hot_tags):
-            errors.append("tags 后 5 个本周热词不能为空")
-        elif delivery_text:
+        if len(set(tags)) != 10:
+            errors.append("tags 不得重复")
+        if delivery_text:
             for tag in tags:
                 if tag not in delivery_text:
                     errors.append(f"每日交付 Markdown 缺少标签: {tag}")
@@ -428,64 +444,15 @@ def validate_manifest_data(manifest):
     if not isinstance(tag_strategy, dict):
         errors.append("tag_strategy 必须是对象")
     else:
-        fixed_tags = tag_strategy.get("fixed_vertical_tags")
-        weekly_hot_tags = tag_strategy.get("weekly_hot_tags")
-        if fixed_tags != FIXED_VERTICAL_TAGS:
-            errors.append("tag_strategy.fixed_vertical_tags 必须与 tags 前 5 个固定垂直标签一致")
-        if weekly_hot_tags != tags[5:]:
-            errors.append("tag_strategy.weekly_hot_tags 必须与 tags 后 5 个本周热词完全一致")
-
-        try:
-            target = dt.date.fromisoformat(manifest.get("date", ""))
-        except ValueError:
-            target = None
-        registry_path = tag_strategy.get("weekly_hot_tag_registry_path")
-        if not target:
-            errors.append("无法校验本周热词台账：date 必须是合法日期")
-        elif not isinstance(registry_path, str) or not pathlib.Path(registry_path).is_absolute():
-            errors.append("tag_strategy.weekly_hot_tag_registry_path 必须是绝对路径")
-        else:
-            expected_registry_path = trend_registry_path(target)
-            actual_registry_path = pathlib.Path(registry_path)
-            if actual_registry_path != expected_registry_path:
-                errors.append(f"本周热词台账必须使用目标日期路径: {expected_registry_path}")
-            _, registry, registry_errors = load_weekly_hot_tag_registry(target)
-            if registry_errors:
-                errors.extend(registry_errors)
-            else:
-                evidence = tag_strategy.get("weekly_hot_tag_evidence")
-                if not isinstance(evidence, list) or len(evidence) != 5:
-                    errors.append("tag_strategy.weekly_hot_tag_evidence 必须包含 5 条来源证据")
-                else:
-                    candidate_keys = {
-                        (
-                            item.get("tag"),
-                            item.get("source_name"),
-                            item.get("source_url"),
-                            item.get("source_type"),
-                            item.get("rank_context"),
-                            item.get("observed_at"),
-                            item.get("rank"),
-                        )
-                        for item in registry["candidates"]
-                    }
-                    for index, item in enumerate(evidence):
-                        if not isinstance(item, dict):
-                            errors.append(f"本周热词第 {index + 1} 条来源证据必须是对象")
-                            continue
-                        if item.get("tag") != tags[index + 5]:
-                            errors.append(f"本周热词第 {index + 1} 条来源证据必须与 tags 顺序一致")
-                        key = (
-                            item.get("tag"),
-                            item.get("source_name"),
-                            item.get("source_url"),
-                            item.get("source_type"),
-                            item.get("rank_context"),
-                            item.get("observed_at"),
-                            item.get("rank"),
-                        )
-                        if key not in candidate_keys:
-                            errors.append(f"本周热词第 {index + 1} 条来源证据不在台账候选中")
+        if tag_strategy.get("mode") != "random_topics" or tag_strategy.get("is_verified_trend") is not False:
+            errors.append("tag_strategy 必须声明 random_topics 和 is_verified_trend=false")
+        if delivery_target:
+            path, registry, registry_errors = load_weekly_hot_tag_registry(delivery_target)
+            errors.extend(registry_errors)
+            if tag_strategy.get("weekly_hot_tag_registry_path") != str(path):
+                errors.append("tag_strategy 台账路径必须对应目标日期")
+            if not registry_errors and tags != [item["tag"] for item in registry["candidates"]]:
+                errors.append("tags 必须与台账的 10 个随机话题及顺序一致")
 
     interaction_question = manifest.get("interaction_question", "")
     for option in ["A.", "B.", "C.", "D."]:
@@ -554,30 +521,56 @@ def command_record(args):
     return 0
 
 
-def command_save_weekly_hot_tags(args):
-    target = parse_date(args.date)
-    try:
-        registry = load_manifest(args.input)
-    except (OSError, json.JSONDecodeError) as error:
-        print(f"错误: 无法读取本周热词输入文件: {error}", file=sys.stderr)
-        return 1
-
+def prepare_registry_input(path, target):
+    registry = load_manifest(path)
     coverage_start, coverage_end = trend_window(target)
     registry = dict(registry)
     registry["target_date"] = target.isoformat()
     registry["coverage_start"] = coverage_start.isoformat()
     registry["coverage_end"] = coverage_end.isoformat()
+    registry["evidence_schema_version"] = 2
+    return registry
+
+
+def command_fetch_weekly_hot_tags(args):
+    target = parse_date(args.date)
+    rng = random.SystemRandom()
+    candidates = [{"tag": rng.choice(tags), "category": category} for category, tags in TOPIC_POOLS.items()]
+    selected = {item["tag"] for item in candidates}
+    remaining = [{"tag": tag, "category": category} for category, tags in TOPIC_POOLS.items() for tag in tags if tag not in selected]
+    candidates.extend(rng.sample(remaining, 4))
+    rng.shuffle(candidates)
+    registry = {
+        "target_date": target.isoformat(),
+        "collected_at": now_shanghai().isoformat(),
+        "mode": "random_topics",
+        "is_verified_trend": False,
+        "candidates": candidates,
+    }
+    errors = validate_weekly_hot_tag_registry(registry, target)
+    if errors:
+        print("错误: " + "; ".join(errors), file=sys.stderr)
+        return 1
+    path = write_weekly_hot_tag_registry(registry, target)
+    print(f"通过: 已保存 10 个随机话题到 {path}（非已验证热词）")
+    return 0
+
+
+def command_save_weekly_hot_tags(args):
+    target = parse_date(args.date)
+    try:
+        registry = prepare_registry_input(args.input, target)
+    except (OSError, json.JSONDecodeError, TypeError, ValueError) as error:
+        print(f"错误: 无法读取本周热词输入文件: {error}", file=sys.stderr)
+        return 1
+
     errors = validate_weekly_hot_tag_registry(registry, target)
     if errors:
         for error in errors:
             print(f"错误: {error}", file=sys.stderr)
         return 1
 
-    path = trend_registry_path(target)
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("w", encoding="utf-8") as f:
-        json.dump(registry, f, ensure_ascii=False, indent=2)
-        f.write("\n")
+    path = write_weekly_hot_tag_registry(registry, target)
     print(f"通过: 已保存 {target.isoformat()} 本周热词台账到 {path}")
     return 0
 
@@ -690,6 +683,10 @@ def build_parser():
     record.add_argument("manifest")
     record.add_argument("--published", action="store_true")
     record.set_defaults(func=command_record)
+
+    fetch_weekly_hot_tags = sub.add_parser("generate-random-tags", aliases=["fetch-weekly-hot-tags"], help="离线随机生成六类主题的 10 个话题")
+    fetch_weekly_hot_tags.add_argument("--date", required=True, help="内容包目标日期")
+    fetch_weekly_hot_tags.set_defaults(func=command_fetch_weekly_hot_tags)
 
     save_weekly_hot_tags = sub.add_parser("save-weekly-hot-tags", help="保存带来源证据的本周热词台账")
     save_weekly_hot_tags.add_argument("--date", required=True, help="内容包目标日期")

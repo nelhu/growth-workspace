@@ -1,0 +1,48 @@
+{
+  "target_date": "2026-09-11",
+  "collected_at": "2026-09-11T14:59:24+08:00",
+  "mode": "random_topics",
+  "is_verified_trend": false,
+  "candidates": [
+    {
+      "tag": "#周末去哪儿",
+      "category": "旅行"
+    },
+    {
+      "tag": "#亲子旅行",
+      "category": "旅行"
+    },
+    {
+      "tag": "#早餐不重样",
+      "category": "早餐"
+    },
+    {
+      "tag": "#显瘦穿搭",
+      "category": "显瘦"
+    },
+    {
+      "tag": "#美妆分享",
+      "category": "美妆"
+    },
+    {
+      "tag": "#家常菜",
+      "category": "美食"
+    },
+    {
+      "tag": "#在家做饭",
+      "category": "美食"
+    },
+    {
+      "tag": "#今天吃什么",
+      "category": "美食"
+    },
+    {
+      "tag": "#休闲穿搭",
+      "category": "穿搭"
+    },
+    {
+      "tag": "#快手早餐",
+      "category": "早餐"
+    }
+  ]
+}

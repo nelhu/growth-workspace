@@ -15,20 +15,14 @@ description: 为中国四口之家生成每日小红书早餐内容包。适用�
 - `README.md` 是每日唯一的人工交付入口，必须汇总标题、正文、10 个标签、互动问题、置顶评论、明天预告、发布状态、热词台账链接和所有图片预览/链接。用户只需阅读此文件，不应依赖 JSON。
 - 每次生成完成后必须运行 `validate-manifest`，然后执行 `git add dist/breakfast-xiaohongshu/{YYYY-MM-DD}`、`git commit`、`git push origin main`。仅当推送成功后才可标记任务完成；校验或推送失败必须如实返回失败原因，状态不得写为完成。
 - 如果用户后续单独要求发布，必须把“发布”视为新的显式任务；本 Skill 的每日自动化仍然只生成内容。
-- 生成前必须阅读 `references/content-strategy.md`，并运行：
+- 生成前必须阅读 `references/content-strategy.md`；完成下述热词采集后运行：
 
 ```bash
-python3 scripts/breakfast_xhs.py context
+python3 skills/breakfast-xiaohongshu/scripts/breakfast_xhs.py context
 ```
 
 使用脚本返回的 JSON 作为生成上下文，里面包含日期、星期、早餐轮换、最近 7 天避重、配色、蛋白质重点和输出路径。
-- 生成前必须从千瓜或新榜采集最近 7 天的候选热词，并写入台账。千瓜/新榜是“本周最热”的唯一来源；小红书关键词搜索页不得作为热词证据。仅当 `weekly_hot_tag_status` 为 `ready` 时，才能生成 `ready_for_review` 内容包；每个目标日期的最终内容包必须通过校验，且固定为 `status=ready_for_review`、`should_publish=false`、`is_original=true`。
-
-```bash
-python3 scripts/breakfast_xhs.py save-weekly-hot-tags --date YYYY-MM-DD --input /path/to/weekly-hot-tags.json
-```
-
-台账输入必须包含 `collected_at` 及至少 5 个 `candidates`；每个候选必须有 `tag`、`source_name`（千瓜数据或新榜）、`source_url`、`source_type`、`rank_context`、`observed_at`、`rank`、`relevance`。来源 URL 必须属于对应网站，无法取得可验证来源时不得用泛标签补位。
+- 每次运行 `python3 skills/breakfast-xiaohongshu/scripts/breakfast_xhs.py generate-random-tags --date YYYY-MM-DD`，离线随机生成恰好 10 个不重复话题，覆盖早餐、美食、穿搭、显瘦、美妆、旅行六类。全部 10 个 tags 按台账顺序使用，不再固定前 5 个标签。无需 Token、联网采集、榜单证据或最近 7 天热词；随机话题不得称为已验证热词。为兼容目录结构，台账仍叫 weekly-hot-tags.json。tag_strategy 必须包含 mode=random_topics、is_verified_trend=false 和 weekly_hot_tag_registry_path。
 
 ## 内容生成
 
@@ -46,7 +40,7 @@ python3 scripts/breakfast_xhs.py save-weekly-hot-tags --date YYYY-MM-DD --input 
    - 第 3 张及以后：菜品制作过程图，每张聚焦一个菜品，展示成品、食材准备、做法步骤和小贴士；不再展示购物清单或明天预告。
 2. 小红书标题，使用连续栏目格式，例如：`跟着 Tiny.C 吃30天早餐｜第08天｜四口之家20分钟中式早餐`。
 3. 200 字以内小红书精炼正文。
-4. 10 个话题标签：前 5 个为固定垂直标签，后 5 个为本周小红书热词筛选；每个标签必须带 `#`，方便直接复制到小红书。
+4. 每次运行 `python3 skills/breakfast-xiaohongshu/scripts/breakfast_xhs.py generate-random-tags --date YYYY-MM-DD`，离线随机生成恰好 10 个不重复话题，覆盖早餐、美食、穿搭、显瘦、美妆、旅行六类。全部 10 个 tags 按台账顺序使用，不再固定前 5 个标签。无需 Token、联网采集、榜单证据或最近 7 天热词；随机话题不得称为已验证热词。为兼容目录结构，台账仍叫 weekly-hot-tags.json。tag_strategy 必须包含 mode=random_topics、is_verified_trend=false 和 weekly_hot_tag_registry_path。
 5. 互动问题 A/B/C/D，其中 D 必须是“评论区留下你专属版”。
 6. 置顶评论。
 7. 明天预告。
@@ -54,63 +48,18 @@ python3 scripts/breakfast_xhs.py save-weekly-hot-tags --date YYYY-MM-DD --input 
 9. 结构化内容包 JSON，命名为 `content-package.json` 或沿用脚本返回目录下的 `manifest.json`，但它只用于存档/校验/人工复制，不用于自动发布。
 10. 每日交付 Markdown，固定命名为 `README.md`，作为 GitHub 目录的默认可读交付页。必须完整同步上述第 2-7 项和图片链接，并在内容包根字段 `delivery_markdown_path` 中登记其本地绝对路径。
 
-结构化内容包建议包含：
-
-```json
-{
-  "date": "YYYY-MM-DD",
-  "weekday": "星期X",
-  "title": "跟着 Tiny.C 吃30天早餐｜第08天｜四口之家20分钟中式早餐",
-  "content": "200字以内正文，不把#话题写进正文",
-  "delivery_markdown_path": "/absolute/path/to/workspace/dist/breakfast-xiaohongshu/YYYY-MM-DD/README.md",
-  "images": [
-    "/absolute/path/to/01-real-family-table.png",
-    "/absolute/path/to/02-final-infographic.png",
-    "/absolute/path/to/03-shrimp-noodle-process.png"
-  ],
-  "image_plan": [
-    {"order": 1, "type": "real_family_table", "description": "固定家庭餐桌和餐厅背景的真实早餐成品图"},
-    {"order": 2, "type": "final_infographic", "description": "暖色高信息密度总览信息图：顶部5个计划模块，中部2×2菜品卡，底部营养亮点和小贴士"},
-    {"order": 3, "type": "dish_process", "dish": "虾仁毛豆青菜汤面", "description": "菜品制作过程图"}
-  ],
-  "first_image_references": [
-    "/absolute/path/to/reference-family-table-photo.jpg"
-  ],
-  "tags": ["#早餐", "#儿童早餐", "#家庭早餐", "#长高早餐", "#四口之家早餐", "#本周热词1", "#本周热词2", "#本周热词3", "#本周热词4", "#本周热词5"],
-  "tag_strategy": {
-    "fixed_vertical_tags": ["#早餐", "#儿童早餐", "#家庭早餐", "#长高早餐", "#四口之家早餐"],
-    "weekly_hot_tags": ["#本周热词1", "#本周热词2", "#本周热词3", "#本周热词4", "#本周热词5"],
-    "weekly_hot_tag_registry_path": "/absolute/path/to/workspace/dist/breakfast-xiaohongshu/YYYY-MM-DD/weekly-hot-tags.json",
-    "weekly_hot_tag_evidence": [
-      {"tag": "#本周热词1", "source_name": "千瓜数据", "source_url": "https://www.qian-gua.com/...", "source_type": "topic_rank", "rank_context": "美食饮品周榜", "observed_at": "YYYY-MM-DDTHH:MM:SS+08:00", "rank": 1}
-    ]
-  },
-  "interaction_question": "明天我做 4 个版本：A. 小学生长高版 B. 老人好消化版 C. 上班族快手版 D. 评论区留下你专属版。你家更需要哪个？评论 A/B/C/D，我按票数发。",
-  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版。",
-  "tomorrow_preview": "明天预告：不喝牛奶也高钙版四口之家早餐。",
-  "status": "ready_for_review",
-  "should_publish": false,
-  "is_original": true,
-  "strategy": {
-    "structure": "粥类",
-    "soup_type": "小米粥",
-    "dry_main": "牛肉鸡蛋饼",
-    "color_palette": "春日绿色",
-    "protein_focus": ["牛肉", "鸡蛋", "豆浆"]
-  }
-}
-```
+话题字段格式：`tag_strategy={"mode":"random_topics","is_verified_trend":false,"weekly_hot_tag_registry_path":"目标日期目录的绝对路径/weekly-hot-tags.json"}`。`tags` 完整复制台账 10 个候选的 tag。
 
 生成后可以运行校验，确认至少 3 张图片、标题、正文、10 个标签、互动问题、置顶评论、明天预告和策略字段完整：
 
 ```bash
-python3 scripts/breakfast_xhs.py validate-manifest /path/to/content-package-or-manifest.json
+python3 skills/breakfast-xiaohongshu/scripts/breakfast_xhs.py validate-manifest /path/to/content-package-or-manifest.json
 ```
 
 生成成功后记录本次早餐方案，避免一周内重复。不要带 `--published`：
 
 ```bash
-python3 scripts/breakfast_xhs.py record /path/to/content-package-or-manifest.json
+python3 skills/breakfast-xiaohongshu/scripts/breakfast_xhs.py record /path/to/content-package-or-manifest.json
 ```
 
 ## 定时任务规则
@@ -133,7 +82,7 @@ python3 scripts/breakfast_xhs.py record /path/to/content-package-or-manifest.jso
 输出 macOS LaunchAgent 模板：
 
 ```bash
-python3 scripts/breakfast_xhs.py launchd-template --command "/path/to/daily-breakfast-command"
+python3 skills/breakfast-xiaohongshu/scripts/breakfast_xhs.py launchd-template --command "/path/to/daily-breakfast-command"
 ```
 
 除非用户明确要求，不要安装或覆盖系统定时任务。
@@ -150,7 +99,7 @@ python3 scripts/breakfast_xhs.py launchd-template --command "/path/to/daily-brea
 - 每日推送至少 3 张图：图 1 为真实家庭餐桌首图，图 2 为总览信息图，图 3 及以后为菜品制作过程图。图 3-N 不再展示购物清单和明天预告。
 - 第 1 张真实家庭餐桌早餐成品图必须记录 `first_image_references`，至少包含 1 个参考来源 URL 或本地绝对路径。画面必须有固定餐桌、餐厅背景、木椅/窗帘/绿植等可持续复用的空间识别元素，不再使用拼贴宫格。
 - 用户提供的参考附件必须保存在仓库 `assets/`，并在内容包或对应说明中保留仓库相对路径或 GitHub 链接；不得只引用聊天临时文件或本机路径。
-- 话题标签必须恰好 10 个，且每个都必须带 `#`：前 5 个固定为 `#早餐`、`#儿童早餐`、`#家庭早餐`、`#长高早餐`、`#四口之家早餐`；后 5 个必须从当次写入的最近 7 天热词台账中筛选。`tag_strategy.weekly_hot_tags` 必须和 `tags` 后 5 个完全一致，且每个标签都必须有千瓜/新榜的来源 URL、采集时间、榜单类型、榜单说明和位置。没有台账或来源过期时，校验必须失败。
+- 每次运行 `python3 skills/breakfast-xiaohongshu/scripts/breakfast_xhs.py generate-random-tags --date YYYY-MM-DD`，离线随机生成恰好 10 个不重复话题，覆盖早餐、美食、穿搭、显瘦、美妆、旅行六类。全部 10 个 tags 按台账顺序使用，不再固定前 5 个标签。无需 Token、联网采集、榜单证据或最近 7 天热词；随机话题不得称为已验证热词。为兼容目录结构，台账仍叫 weekly-hot-tags.json。tag_strategy 必须包含 mode=random_topics、is_verified_trend=false 和 weekly_hot_tag_registry_path。
 - 每篇必须包含互动问题 A/B/C/D，D 是“评论区留下你专属版”。
 - 每篇必须包含置顶评论和明天预告，用来把收藏用户转化为追更关注。
 - 每日 `README.md` 必须是内容包的完整、可直接阅读版本，包含全部图片预览/链接和可复制的文案字段；缺失或与内容包不一致时，校验必须失败。
