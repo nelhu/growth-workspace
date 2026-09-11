@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-10",
+  "weekday": "星期四",
+  "title": "有手就会！这锅牛肉粥全家都爱",
+  "content": "第63天，牛肉青菜燕麦粥配胡萝卜鸡蛋卷，再添热牛奶和苹果。前晚把牛肉末冷藏解冻、青菜洗好，早上煮粥和煎蛋卷并行，20分钟热乎上桌。孩子那份青菜切碎，老人那份多煮2分钟。极忙时换即食燕麦牛奶、熟鸡蛋和苹果，5分钟也能开饭。关注我，明早继续抄作业。",
+  "tags": [
+    "#2026秋日重启计划",
+    "#中式辣感",
+    "#民间remake智慧",
+    "#我的不完美料理",
+    "#适我主义",
+    "#教师节",
+    "#中秋节",
+    "#秋分",
+    "#活人感与反精致",
+    "#抽象梗文化与情绪共鸣"
+  ],
+  "interaction_question": "你家更需要哪个版本？A. 小学生长高版 B. 老人好消化版 C. 上班族快手版 D. 评论区留下你专属版。评论 A/B/C/D；选 D 的留下年龄、家庭人数、忌口和早上可用时间。",
+  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，关注后续更新。",
+  "tomorrow_preview": "明天预告：番茄虾仁青菜汤面配芝麻馒头片，20分钟汤面早餐。",
+  "status": "ready_for_review",
+  "is_original": true,
+  "should_publish": false,
+  "delivery_markdown_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-10/README.md",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-10/01-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-10/02-breakfast-overview.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-10/03-beef-oat-porridge-process.png"
+  ],
+  "image_plan": [
+    {"order": 1, "type": "real_family_table", "description": "深色家庭餐桌、米白竖纹餐具、四人份牛肉粥早餐"},
+    {"order": 2, "type": "final_infographic", "description": "暖木米白高信息密度早餐总览"},
+    {"order": 3, "type": "dish_process", "dish": "牛肉青菜燕麦粥", "description": "食材准备与4步制作过程"}
+  ],
+  "first_image_references": [
+    "/Users/xuezi/dir/growth-workspace/assets/image1_example/image_5eb39cb3.jpg"
+  ],
+  "strategy": {
+    "structure": "粥类",
+    "soup_type": "牛肉青菜燕麦粥",
+    "dry_main": "胡萝卜鸡蛋卷",
+    "color_palette": "日式木色",
+    "protein_focus": ["牛肉", "鸡蛋", "牛奶"]
+  },
+  "tag_strategy": {
+    "mode": "local_top10",
+    "is_verified_trend": false,
+    "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-10/weekly-hot-tags.json"
+  },
+  "publishing_notes": "使用本地 Chrome 进入创作服务平台上传图文。3张图按清单顺序上传，标题和正文逐项回读；10个话题逐个输入并确认表单识别。公开可见，不主动选择AI类型声明；仅发布帖子，不附带置顶评论。",
+  "menu": [
+    {"name": "牛肉青菜燕麦粥", "ingredients": "牛肉末200g、即食燕麦120g、青菜200g、姜2片、水约1.2L、盐少许"},
+    {"name": "胡萝卜鸡蛋卷", "ingredients": "鸡蛋4个、胡萝卜1根、葱花少许、油少许", "method": "蛋液拌胡萝卜丝和葱花，平底锅摊薄后卷起，确保蛋液全熟。"},
+    {"name": "热牛奶", "ingredients": "800ml"},
+    {"name": "苹果片", "ingredients": "苹果2个"}
+  ],
+  "prep": "前晚牛肉末冷藏解冻，青菜洗净沥干冷藏，胡萝卜擦丝密封冷藏。",
+  "timeline": [
+    "0–2分钟：准备食材，热锅烧水。",
+    "2–15分钟：煮牛肉青菜燕麦粥，同时煎胡萝卜鸡蛋卷。",
+    "15–18分钟：温牛奶、切苹果。",
+    "18–20分钟：分餐上桌。"
+  ],
+  "emergency_plan": "即食燕麦加热牛奶，配熟鸡蛋和苹果，约5分钟；不把生肉或生蛋的烹饪算作5分钟方案。",
+  "budget_rmb": 42
+}

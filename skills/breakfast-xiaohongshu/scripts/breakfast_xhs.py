@@ -5,7 +5,7 @@ import json
 import os
 import pathlib
 import re
-import random
+import hashlib
 import struct
 import sys
 import tempfile
@@ -18,11 +18,11 @@ WORKSPACE_ROOT = pathlib.Path(__file__).resolve().parents[3]
 STATE_DIR = pathlib.Path.home() / ".breakfast-xiaohongshu"
 HISTORY_FILE = STATE_DIR / "history.json"
 OUTPUT_DIR = WORKSPACE_ROOT / "dist" / "breakfast-xiaohongshu"
+HOT_TOPICS_DIR = WORKSPACE_ROOT / "dist" / "hot-topics"
 DEFAULT_MCP_URL = "http://127.0.0.1:18060/mcp"
 TARGET_IMAGE_WIDTH = 853
 TARGET_IMAGE_HEIGHT = 1280
 FIXED_VERTICAL_TAGS = ["#早餐", "#儿童早餐", "#家庭早餐", "#长高早餐", "#四口之家早餐"]
-TITLE_PATTERN = re.compile(r"跟着 Tiny\.C 吃30天早餐｜第\d{2}天｜四口之家20分钟.+早餐")
 TREND_SOURCE_HOSTS = {
     "千瓜数据": ("qian-gua.com",),
     "新榜": ("newrank.cn",),
@@ -165,14 +165,68 @@ def write_weekly_hot_tag_registry(registry, target):
     return path
 
 
-TOPIC_POOLS = {
-    "早餐": ["#早餐", "#家庭早餐", "#早餐不重样", "#快手早餐", "#中式早餐", "#早餐日常"],
-    "美食": ["#美食", "#家常菜", "#美食分享", "#今天吃什么", "#在家做饭", "#简单美食"],
-    "穿搭": ["#穿搭", "#日常穿搭", "#通勤穿搭", "#穿搭灵感", "#休闲穿搭"],
-    "显瘦": ["#显瘦穿搭", "#显瘦搭配", "#微胖穿搭", "#显高显瘦", "#梨形身材穿搭"],
-    "美妆": ["#美妆", "#日常妆容", "#新手化妆", "#自然妆容", "#美妆分享"],
-    "旅行": ["#旅行", "#周末去哪儿", "#旅行日记", "#亲子旅行", "#城市漫步"],
-}
+def parse_top10_markdown(text):
+    # Only consume the curated table, never the raw AI answer below it.
+    sections = re.split(r"^## Top10\s*$", text, flags=re.MULTILINE)
+    if len(sections) != 2:
+        raise ValueError("来源必须包含唯一的 ## Top10 章节")
+    section = re.split(r"^## ", sections[1], maxsplit=1, flags=re.MULTILINE)[0]
+    candidates = []
+    for line in section.splitlines():
+        if not line.strip().startswith("|"):
+            continue
+        cells = re.split(r"(?<!\\)\|", line.strip().strip("|"))
+        cells = [cell.strip().replace(r"\|", "|") for cell in cells]
+        if len(cells) != 4 or not cells[0].isdigit():
+            continue
+        rank = int(cells[0])
+        if rank != len(candidates) + 1:
+            raise ValueError("Top10 序号必须从 1 开始连续排列")
+        tag = normalize_tag(cells[1])
+        if not tag or any(char.isspace() for char in tag) or "#" in tag[1:]:
+            raise ValueError("Top10 话题必须是单个非空话题名称")
+        if not cells[2] or not cells[3]:
+            raise ValueError("Top10 缺少入选类型或原始依据")
+        candidates.append({"rank": rank, "tag": tag, "category": cells[2], "evidence": cells[3]})
+    if len(candidates) < 10:
+        raise ValueError("最新来源的 Top10 不足 10 条；禁止随机补足")
+    candidates = candidates[:10]
+    if len({item["tag"] for item in candidates}) != 10:
+        raise ValueError("Top10 前 10 条话题重复")
+    return candidates
+
+
+def latest_top10_source(root=None):
+    root = pathlib.Path(root) if root is not None else HOT_TOPICS_DIR
+    dated = []
+    for path in root.glob("*.md"):
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", path.stem):
+            continue
+        try:
+            date = dt.date.fromisoformat(path.stem)
+        except ValueError:
+            continue
+        if date <= now_shanghai().date():
+            dated.append((date, path))
+    if not dated:
+        raise ValueError(f"缺少日期命名的热门话题文件: {root}/YYYY-MM-DD.md")
+    return max(dated, key=lambda item: item[0])
+
+
+def build_latest_topic_registry(target):
+    source_date, source_path = latest_top10_source()
+    source_text = source_path.read_text(encoding="utf-8")
+    return {
+        "target_date": target.isoformat(),
+        "collected_at": now_shanghai().isoformat(),
+        "mode": "local_top10",
+        "is_verified_trend": False,
+        "source_date": source_date.isoformat(),
+        "source_path": str(source_path.resolve()),
+        "source_sha256": hashlib.sha256(source_text.encode("utf-8")).hexdigest(),
+        "source_markdown": source_text,
+        "candidates": parse_top10_markdown(source_text),
+    }
 
 
 def validate_weekly_hot_tag_registry(registry, target):
@@ -181,25 +235,25 @@ def validate_weekly_hot_tag_registry(registry, target):
     errors = []
     if registry.get("target_date") != target.isoformat():
         errors.append("话题台账目标日期不一致")
-    if registry.get("mode") != "random_topics" or registry.get("is_verified_trend") is not False:
-        errors.append("话题台账必须标记随机话题，非已验证热词")
+    if registry.get("mode") != "local_top10" or registry.get("is_verified_trend") is not False:
+        errors.append("话题台账必须标记 local_top10 和 is_verified_trend=false；本地精选不等于官方已验证趋势")
     candidates = registry.get("candidates")
     if not isinstance(candidates, list) or len(candidates) != 10:
-        return errors + ["随机话题必须恰好 10 个"]
-    seen, categories = set(), set()
-    for item in candidates:
-        if not isinstance(item, dict):
-            errors.append("话题候选必须是对象")
-            continue
-        tag, category = item.get("tag"), item.get("category")
-        if category not in TOPIC_POOLS or tag not in TOPIC_POOLS.get(category, []):
-            errors.append("话题必须来自指定六类主题池")
-        if tag in seen:
-            errors.append("随机话题不能重复")
-        seen.add(tag)
-        categories.add(category)
-    if categories != set(TOPIC_POOLS):
-        errors.append("随机话题必须覆盖早餐、美食、穿搭、显瘦、美妆、旅行")
+        return errors + ["本地 Top10 必须恰好 10 个"]
+    try:
+        source_date = dt.date.fromisoformat(registry.get("source_date", ""))
+        expected = (HOT_TOPICS_DIR / f"{source_date.isoformat()}.md").resolve()
+        if registry.get("source_path") != str(expected):
+            errors.append("Top10 来源路径必须对应 dist/hot-topics 的日期文件")
+        text = registry.get("source_markdown")
+        if not isinstance(text, str):
+            raise ValueError("缺少 Top10 来源快照")
+        if registry.get("source_sha256") != hashlib.sha256(text.encode("utf-8")).hexdigest():
+            errors.append("Top10 来源快照摘要不一致")
+        if candidates != parse_top10_markdown(text):
+            errors.append("台账必须与来源快照前 10 条及顺序一致")
+    except (TypeError, ValueError) as error:
+        errors.append(f"Top10 来源无效: {error}")
     return errors
 
 
@@ -347,10 +401,8 @@ def validate_manifest_data(manifest):
             errors.append(f"缺少必填字段: {key}")
 
     title = manifest.get("title", "")
-    if not title or chinese_len(title) > 60:
-        errors.append("title 必须非空，且压缩空白后不超过 60 个字符")
-    elif not TITLE_PATTERN.fullmatch(title):
-        errors.append("title 必须使用“跟着 Tiny.C 吃30天早餐｜第XX天｜四口之家20分钟…早餐”栏目格式")
+    if not title or chinese_len(title) > 20:
+        errors.append("title 必须非空，且压缩空白后不超过 20 个字符")
 
     content = manifest.get("content", "")
     if not content or chinese_len(content) > 200:
@@ -444,15 +496,15 @@ def validate_manifest_data(manifest):
     if not isinstance(tag_strategy, dict):
         errors.append("tag_strategy 必须是对象")
     else:
-        if tag_strategy.get("mode") != "random_topics" or tag_strategy.get("is_verified_trend") is not False:
-            errors.append("tag_strategy 必须声明 random_topics 和 is_verified_trend=false")
+        if tag_strategy.get("mode") != "local_top10" or tag_strategy.get("is_verified_trend") is not False:
+            errors.append("tag_strategy 必须声明 local_top10 和 is_verified_trend=false")
         if delivery_target:
             path, registry, registry_errors = load_weekly_hot_tag_registry(delivery_target)
             errors.extend(registry_errors)
             if tag_strategy.get("weekly_hot_tag_registry_path") != str(path):
                 errors.append("tag_strategy 台账路径必须对应目标日期")
             if not registry_errors and tags != [item["tag"] for item in registry["candidates"]]:
-                errors.append("tags 必须与台账的 10 个随机话题及顺序一致")
+                errors.append("tags 必须与台账的本地 Top10 及顺序一致")
 
     interaction_question = manifest.get("interaction_question", "")
     for option in ["A.", "B.", "C.", "D."]:
@@ -534,25 +586,17 @@ def prepare_registry_input(path, target):
 
 def command_fetch_weekly_hot_tags(args):
     target = parse_date(args.date)
-    rng = random.SystemRandom()
-    candidates = [{"tag": rng.choice(tags), "category": category} for category, tags in TOPIC_POOLS.items()]
-    selected = {item["tag"] for item in candidates}
-    remaining = [{"tag": tag, "category": category} for category, tags in TOPIC_POOLS.items() for tag in tags if tag not in selected]
-    candidates.extend(rng.sample(remaining, 4))
-    rng.shuffle(candidates)
-    registry = {
-        "target_date": target.isoformat(),
-        "collected_at": now_shanghai().isoformat(),
-        "mode": "random_topics",
-        "is_verified_trend": False,
-        "candidates": candidates,
-    }
+    try:
+        registry = build_latest_topic_registry(target)
+    except (OSError, ValueError) as error:
+        print(f"错误: 无法导入最新 Top10: {error}", file=sys.stderr)
+        return 1
     errors = validate_weekly_hot_tag_registry(registry, target)
     if errors:
         print("错误: " + "; ".join(errors), file=sys.stderr)
         return 1
     path = write_weekly_hot_tag_registry(registry, target)
-    print(f"通过: 已保存 10 个随机话题到 {path}（非已验证热词）")
+    print(f"通过: 已从 {registry['source_path']} 导入 Top10 到 {path}")
     return 0
 
 
@@ -575,65 +619,9 @@ def command_save_weekly_hot_tags(args):
     return 0
 
 
-def rpc(url, payload, session_id=None):
-    headers = {
-        "Content-Type": "application/json",
-        "Accept": "application/json, text/event-stream",
-    }
-    if session_id:
-        headers["Mcp-Session-Id"] = session_id
-    data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
-    req = urllib.request.Request(url, data=data, headers=headers, method="POST")
-    with urllib.request.urlopen(req, timeout=120) as resp:
-        body = resp.read().decode("utf-8")
-        return json.loads(body), resp.headers.get("Mcp-Session-Id")
-
-
 def command_publish(args):
-    manifest = load_manifest(args.manifest)
-    errors = validate_manifest_data(manifest)
-    if errors:
-        for error in errors:
-            print(f"错误: {error}", file=sys.stderr)
-        return 1
-
-    init_payload = {
-        "jsonrpc": "2.0",
-        "method": "initialize",
-        "params": {
-            "protocolVersion": "2024-11-05",
-            "capabilities": {},
-            "clientInfo": {"name": "breakfast-xiaohongshu", "version": "1.0.0"},
-        },
-        "id": 1,
-    }
-    init_result, session_id = rpc(args.mcp_url, init_payload)
-    if "error" in init_result:
-        print(json.dumps(init_result, ensure_ascii=False, indent=2), file=sys.stderr)
-        return 1
-
-    arguments = {
-        "title": manifest["title"],
-        "content": manifest["content"],
-        "images": manifest["images"],
-        "tags": manifest.get("tags", []),
-        "visibility": manifest.get("visibility", "仅自己可见"),
-        "is_original": bool(manifest.get("is_original", True)),
-    }
-    if manifest.get("schedule_at"):
-        arguments["schedule_at"] = manifest["schedule_at"]
-    if manifest.get("products"):
-        arguments["products"] = manifest["products"]
-
-    publish_payload = {
-        "jsonrpc": "2.0",
-        "method": "tools/call",
-        "params": {"name": "publish_content", "arguments": arguments},
-        "id": 2,
-    }
-    result, _ = rpc(args.mcp_url, publish_payload, session_id=session_id)
-    print(json.dumps(result, ensure_ascii=False, indent=2))
-    return 0 if "error" not in result else 1
+    print("错误: 脚本发布入口已停用。请按 references/browser-publish.md 使用本地 Chrome Computer Use 发布。", file=sys.stderr)
+    return 1
 
 
 def command_launchd_template(args):
@@ -684,7 +672,7 @@ def build_parser():
     record.add_argument("--published", action="store_true")
     record.set_defaults(func=command_record)
 
-    fetch_weekly_hot_tags = sub.add_parser("generate-random-tags", aliases=["fetch-weekly-hot-tags"], help="离线随机生成六类主题的 10 个话题")
+    fetch_weekly_hot_tags = sub.add_parser("import-latest-topics", aliases=["fetch-weekly-hot-tags"], help="从 dist/hot-topics 最新日期 Markdown 导入 Top10")
     fetch_weekly_hot_tags.add_argument("--date", required=True, help="内容包目标日期")
     fetch_weekly_hot_tags.set_defaults(func=command_fetch_weekly_hot_tags)
 
@@ -693,7 +681,7 @@ def build_parser():
     save_weekly_hot_tags.add_argument("--input", required=True, help="热词台账输入 JSON 路径")
     save_weekly_hot_tags.set_defaults(func=command_save_weekly_hot_tags)
 
-    publish = sub.add_parser("publish", help="通过 xiaohongshu-mcp 发布 manifest")
+    publish = sub.add_parser("publish", help="已停用；发布请使用本地 Chrome Computer Use")
     publish.add_argument("manifest")
     publish.add_argument("--mcp-url", default=DEFAULT_MCP_URL)
     publish.set_defaults(func=command_publish)
