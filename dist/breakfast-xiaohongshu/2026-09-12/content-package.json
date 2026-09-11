@@ -1,0 +1,93 @@
+{
+  "date": "2026-09-12",
+  "weekday": "星期六",
+  "title": "直接抄作业！周末这碗馄饨真省心",
+  "content": "第65天，香菇青菜小馄饨配蒸红薯，再添温牛奶和梨。前晚洗好青菜、红薯切小块冷藏，早上蒸红薯和煮馄饨并行，约20分钟上桌。用正规冷冻鲜肉小馄饨，按包装时间煮至肉馅全熟；孩子剪小放温，老人煮软。极忙时换即食全麦面包、温奶、熟鸡蛋和梨，5分钟开饭。关注我，明早继续抄作业。",
+  "tags": [
+    "#2026秋日重启计划",
+    "#中式辣感",
+    "#民间remake智慧",
+    "#我的不完美料理",
+    "#适我主义",
+    "#教师节",
+    "#中秋节",
+    "#秋分",
+    "#活人感与反精致",
+    "#抽象梗文化与情绪共鸣"
+  ],
+  "interaction_question": "你家更需要哪个版本？A. 小学生长高版 B. 老人好消化版 C. 上班族快手版 D. 评论区留下你专属版。评论 A/B/C/D；选 D 的留下年龄、家庭人数、忌口和早上可用时间。",
+  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，关注后续更新。",
+  "tomorrow_preview": "明天预告：山药燕麦糊配虾仁玉米饼，周日软和早餐版。",
+  "status": "ready_for_review",
+  "is_original": true,
+  "should_publish": false,
+  "delivery_markdown_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-12/README.md",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-12/01-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-12/02-breakfast-overview.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-12/03-wonton-process.png"
+  ],
+  "image_plan": [
+    {
+      "order": 1,
+      "type": "real_family_table",
+      "description": "固定深色餐桌四人份早餐"
+    },
+    {
+      "order": 2,
+      "type": "final_infographic",
+      "description": "奶油橙暖色高密度总览"
+    },
+    {
+      "order": 3,
+      "type": "dish_process",
+      "dish": "香菇青菜小馄饨",
+      "description": "食材与四步制作"
+    }
+  ],
+  "first_image_references": [
+    "/Users/xuezi/dir/growth-workspace/assets/image1_example/image_5eb39cb3.jpg"
+  ],
+  "strategy": {
+    "structure": "馄饨类",
+    "soup_type": "香菇青菜清汤",
+    "dry_main": "蒸红薯",
+    "color_palette": "奶油橙",
+    "protein_focus": [
+      "鲜肉",
+      "牛奶"
+    ]
+  },
+  "tag_strategy": {
+    "mode": "local_top10",
+    "is_verified_trend": false,
+    "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-12/weekly-hot-tags.json"
+  },
+  "publishing_notes": "仅生成未发布。图片依序为家庭餐桌、总览、制作过程；建议早餐时段人工审阅，发布须另行授权。",
+  "budget_rmb": 40,
+  "prep": "红薯切2厘米块密封冷藏，青菜洗好。",
+  "timeline": [
+    "0–5分钟洗切烧水",
+    "5–15分钟蒸红薯与煮馄饨并行",
+    "15–20分钟确认熟透，温奶切梨分餐"
+  ],
+  "emergency_plan": "即食全麦面包、温奶、熟鸡蛋和梨，5分钟。",
+  "menu": [
+    {
+      "name": "香菇青菜小馄饨",
+      "ingredients": "冷冻鲜肉小馄饨500g、香菇100g、青菜150g、水约1.5L"
+    },
+    {
+      "name": "蒸红薯",
+      "ingredients": "红薯500g"
+    },
+    {
+      "name": "温牛奶",
+      "ingredients": "牛奶800ml"
+    },
+    {
+      "name": "梨片",
+      "ingredients": "梨2个"
+    }
+  ]
+}
