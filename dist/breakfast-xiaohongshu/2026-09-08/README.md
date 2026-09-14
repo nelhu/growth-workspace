@@ -28,7 +28,7 @@
 
 ## 发布状态
 
-未发布，仅补生成待人工确认内容。status=ready_for_review；should_publish=false；is_original=true。
+已于 2026-09-14 18:09（Asia/Shanghai）通过独立 Chrome 发布成功。页面明确显示“发布成功”；内容包仍保留生成状态 status=ready_for_review、should_publish=false、is_original=true。
 
 ## 菜单与制作安排
 
@@ -52,7 +52,7 @@
 
 补生成内容数据。发布时按3张图顺序上传，逐项回读标题正文并逐个绑定可识别话题；本次不执行网页发布。
 
-[内容包](content-package.json) · [图片提示词](image-prompts.md) · [餐桌参考](../../../assets/image1_example/image_5eb39cb3.jpg)
+[内容包](content-package.json) · [发布记录](publication.json) · [发布结果截图](publication-result.png) · [图片提示词](image-prompts.md) · [餐桌参考](../../../assets/image1_example/image_5eb39cb3.jpg)
 
 ## 配图
 

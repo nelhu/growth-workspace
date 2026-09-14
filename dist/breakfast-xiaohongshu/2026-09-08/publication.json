@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-08",
+  "status": "published",
+  "channel": "chrome_cdp",
+  "account": "Tiny.C",
+  "published_title": "早八救星！牛肉手抓饼20分钟上桌",
+  "visibility": "公开可见",
+  "submitted_at": "2026-09-14T18:09:25+08:00",
+  "verified_at": "2026-09-14T18:09:25+08:00",
+  "result_url": "https://creator.xiaohongshu.com/publish/success?source&bind_status=not_bind&__debugger__=&proxy=",
+  "note_id": null,
+  "evidence": "点击发布后页面明确显示“发布成功”“5 秒后将返回发布页”；publication-result.png",
+  "topic_binding_status": "verified",
+  "topic_bindings": [
+    {"tag": "#2026秋日重启计划", "status": "verified", "evidence": "data-topic.name 与台账一致"},
+    {"tag": "#中式辣感", "status": "verified", "evidence": "data-topic.name 与台账一致"},
+    {"tag": "#民间remake智慧", "status": "verified", "evidence": "data-topic.name 与台账一致"},
+    {"tag": "#我的不完美料理", "status": "verified", "evidence": "data-topic.name 与台账一致"},
+    {"tag": "#适我主义", "status": "verified", "evidence": "data-topic.name 与台账一致"},
+    {"tag": "#教师节", "status": "verified", "evidence": "data-topic.name 与台账一致"},
+    {"tag": "#中秋节", "status": "verified", "evidence": "data-topic.name 与台账一致"},
+    {"tag": "#秋分", "status": "verified", "evidence": "data-topic.name 与台账一致"},
+    {"tag": "#活人感与反精致", "status": "verified", "evidence": "data-topic.name 与台账一致"},
+    {"tag": "#抽象梗文化与情绪共鸣", "status": "verified", "evidence": "data-topic.name 与台账一致"}
+  ],
+  "ai_label_state": "未主动选择",
+  "pinned_comment_status": "not_posted",
+  "failure_reason": null,
+  "browser_profile": "/Users/xuezi/Library/Application Support/Codex-Breakfast-Chrome",
+  "operation_notes": "publication-preflight.png",
+  "submission_attempted_at": "2026-09-14T18:09:25+08:00"
+}
