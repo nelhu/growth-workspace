@@ -1,11 +1,11 @@
 ---
 name: breakfast-xiaohongshu
-description: 为中国四口之家生成早餐图文内容包，并在用户明确要求发布时通过独立本地 Chrome 进程发布小红书笔记。适用于早餐计划、信息图、文案标题、本地 Top10 话题导入、生成并发布或发布已有早餐内容包；仅要求生成时不发布。
+description: 为中国四口之家生成早餐图文内容包，并按 Tiny.C 用户的持续授权在生成后通过独立本地 Chrome 发布。适用于每日早餐自动化、早餐图文生成与发布；用户明确要求仅生成或预览时不发布。
 ---
 
 # 小红书早餐 Skill
 
-这个 Skill 覆盖“生成 + 浏览器发布”完整流程。仅生成、发布已有内容包、生成并发布三种模式按用户请求选择；不得把生成请求视为发布授权。内容必须真实适合中国家庭早晨操作，不做摆拍型早餐。
+这个 Skill 覆盖“生成 + 浏览器发布”完整流程。用户于 2026-09-14 明确授权“每次生成后要执行发布”：此后 Tiny.C 的早餐内容生成（包括每日自动化）默认生成并发布，无须每次再次询问。用户当次明确要求“仅生成”“不发布”或“预览”时优先遵从。此授权不扩展到其他账号、其他内容、修改已发布笔记或自动发布评论；本次规则更新不批量补发历史内容。内容必须真实适合中国家庭早晨操作，不做摆拍型早餐。
 
 ## 核心规则
 
@@ -15,7 +15,7 @@ description: 为中国四口之家生成早餐图文内容包，并在用户明�
 - 每日全部产物必须写入当前工作区 `dist/breakfast-xiaohongshu/{YYYY-MM-DD}/`：包含图片、`README.md`、`content-package.json`、`weekly-hot-tags.json` 和辅助预览图。不得只写入 `~/.breakfast-xiaohongshu/out/` 或其他本机私有目录。
 - `README.md` 是每日唯一的人工交付入口，必须汇总标题、正文、10 个标签、互动问题、置顶评论、明天预告、发布状态、热词台账链接和所有图片预览/链接。用户只需阅读此文件，不应依赖 JSON。
 - 每次生成完成后必须运行 `validate-manifest`，然后执行 `git add dist/breakfast-xiaohongshu/{YYYY-MM-DD}`、`git commit`、`git push origin main`。仅当推送成功后才可标记任务完成；校验或推送失败必须如实返回失败原因，状态不得写为完成。
-- 用户明确要求“发布”或“生成并发布”时，阅读并执行 [浏览器发布流程](references/browser-publish.md)。本次升级 Skill 不更改已有定时任务的生成-only授权；持续自动发布需要用户另行明确授权并更新自动化。
+- 默认在生成校验和内容包 Git 推送成功后，阅读并执行 [浏览器发布流程](references/browser-publish.md)，确认账号 Tiny.C 后公开发布。仅生成模式例外。发布成功后同步 publication.json、README.md 和已发布历史，再提交推送发布记录；生成完成与发布完成分别报告。
 - 生成前必须阅读 `references/content-strategy.md` 和 [本地 Top10 规则](references/weekly-hot-tags.md)，先导入话题，再运行上下文命令：
 
 ```bash
@@ -32,7 +32,7 @@ python3 skills/breakfast-xiaohongshu/scripts/breakfast_xhs.py context
 - 正文不再添加“配图为 AI 辅助搭配示意”等 AI 配图声明文案；交付 Markdown 和内容包中的正文保持一致。
 - 浏览器发布时不主动选择“笔记含 AI 合成内容”或“含 AI 生成内容”类型声明。
 - 若平台自动添加该标识或明确强制要求声明，则保留并告知用户，不绕过平台要求；账号声明不视为平台豁免的证明。
-- 此偏好不授权修改已发布笔记，也不改变每日自动化仅生成、不发布的边界。
+- 此偏好不授权修改已发布笔记；每日自动化的发布授权以本 Skill 的持续授权和用户最新指令为准。
 
 ## 内容生成
 
@@ -82,12 +82,14 @@ python3 skills/breakfast-xiaohongshu/scripts/breakfast_xhs.py record /path/to/co
 - 所有当日产物输出到 `dist/breakfast-xiaohongshu/{YYYY-MM-DD}/`；交付页固定命名为 `README.md`，热词台账固定命名为 `weekly-hot-tags.json`，内容包固定命名为 `content-package.json`。
 - 校验标题长度、200 字以内文案、图片路径、图片尺寸、10 个标签、互动问题、置顶评论、明天预告、交付 Markdown 和必填策略字段。
 - 最终图必须是 `853×1280 px`。
-- 只记录生成历史，不记录为已发布。
-- 不检查小红书登录态。
+- 生成阶段只记录生成历史；浏览器核验发布成功后才 record --published。
+- 内容包校验并推送成功后，进入专用 Chrome，核验 Tiny.C 登录态后执行发布；需要登录、验证码或出现风险限制时暂停并通知用户。
 - 不启动 `xiaohongshu-mcp`。
-- 不自动公开发布。
+- 默认自动公开发布目标早餐帖子，不附带发布或置顶评论；用户当次明确仅生成时不发布。
 - 不使用 `AUTO_PUBLISH`。
 - 校验通过后，必须将当日 `dist/breakfast-xiaohongshu/{YYYY-MM-DD}` 产物与所需的 Skill/参考附件变更提交并推送至 `origin/main`；`git push origin main` 成功才是任务完成条件。
+- 已校验且已推送的同日期内容包只跳过生成，不因此跳过未完成的发布。publication.json 为 published 时不重复提交；unknown 时先核查笔记管理，仍不明确则停止，不能盲目再次发布。
+- 最终完成要求：生成校验通过、浏览器发布成功且有证据、发布记录已推送。任一阶段失败保留产物，分别报告发布与 Git 状态，不能因 Git 失败重复发帖。
 
 输出 macOS LaunchAgent 模板：
 
