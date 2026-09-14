@@ -1,0 +1,95 @@
+{
+  "date": "2026-09-15",
+  "weekday": "星期二",
+  "title": "答应我，早餐试试这份杂粮饭团",
+  "content": "第68天，金枪鱼黄瓜杂粮饭团配南瓜牛奶羹，再添全熟鸡蛋和橙子。前晚切好南瓜冷藏，早上蒸南瓜、煮蛋和热饭并行，约20分钟开饭。用即食杂粮饭和水浸金枪鱼罐头，省去现煮饭；饭团现做现吃，孩子切小口，老人米饭热软些。极忙时换即食面包、牛奶、预煮熟蛋和橙子，5分钟也能上桌。关注我，明早继续抄作业。",
+  "tags": [
+    "#2026秋日重启计划",
+    "#中式辣感",
+    "#民间remake智慧",
+    "#我的不完美料理",
+    "#适我主义",
+    "#教师节",
+    "#中秋节",
+    "#秋分",
+    "#活人感与反精致",
+    "#抽象梗文化与情绪共鸣"
+  ],
+  "interaction_question": "你家更需要哪个版本？A. 小学生长高版 B. 老人好消化版 C. 上班族快手版 D. 评论区留下你专属版。评论 A/B/C/D；选 D 的留下年龄、家庭人数、忌口和早上可用时间。",
+  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，关注后续更新。",
+  "tomorrow_preview": "明天预告：热豆浆配虾仁玉米饼，20分钟清淡早餐版。",
+  "status": "ready_for_review",
+  "is_original": true,
+  "should_publish": false,
+  "delivery_markdown_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-15/README.md",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-15/01-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-15/02-breakfast-overview.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-15/03-rice-ball-process.png"
+  ],
+  "image_plan": [
+    {
+      "order": 1,
+      "type": "real_family_table",
+      "description": "四人份饭团与南瓜奶羹家庭餐桌"
+    },
+    {
+      "order": 2,
+      "type": "final_infographic",
+      "description": "豆沙粉米白暖色高密度总览"
+    },
+    {
+      "order": 3,
+      "type": "dish_process",
+      "dish": "金枪鱼黄瓜杂粮饭团",
+      "description": "食材与四步制作"
+    }
+  ],
+  "first_image_references": [
+    "/Users/xuezi/dir/growth-workspace/assets/image1_example/image_5eb39cb3.jpg"
+  ],
+  "strategy": {
+    "structure": "杂粮饭团类",
+    "soup_type": "南瓜牛奶羹",
+    "dry_main": "金枪鱼黄瓜杂粮饭团",
+    "color_palette": "豆沙粉",
+    "protein_focus": [
+      "金枪鱼",
+      "牛奶",
+      "鸡蛋"
+    ]
+  },
+  "tag_strategy": {
+    "mode": "local_top10",
+    "is_verified_trend": false,
+    "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-15/weekly-hot-tags.json"
+  },
+  "publishing_notes": "仅生成，不发布。按图1家庭餐桌、图2总览、图3制作过程顺序；发布需要另行授权。",
+  "budget_rmb": 40,
+  "prep": "南瓜切薄片冷藏，黄瓜洗好。",
+  "timeline": [
+    "0–5分钟蒸南瓜、煮蛋、热即食饭",
+    "5–12分钟黄瓜切丁、罐头鱼沥干、拌饭",
+    "12–17分钟打南瓜羹加温奶、捏饭团",
+    "17–20分钟切橙子分餐"
+  ],
+  "emergency_plan": "即食面包、牛奶、预煮熟蛋和橙子，5分钟。",
+  "menu": [
+    {
+      "name": "金枪鱼黄瓜杂粮饭团",
+      "ingredients": "即食杂粮饭600g，水浸金枪鱼罐头140g，黄瓜150g，熟芝麻少许"
+    },
+    {
+      "name": "南瓜牛奶羹",
+      "ingredients": "南瓜400g，牛奶600ml"
+    },
+    {
+      "name": "全熟鸡蛋",
+      "ingredients": "鸡蛋4个"
+    },
+    {
+      "name": "橙子瓣",
+      "ingredients": "橙子2个"
+    }
+  ]
+}
