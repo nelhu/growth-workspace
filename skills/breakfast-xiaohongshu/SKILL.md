@@ -9,8 +9,8 @@ description: 为中国四口之家生成早餐图文内容包，并在用户明�
 
 ## 核心规则
 
-- 发布必须新起独立 Chrome 进程和专用 `user-data-dir`，不得连接、抢占或关闭用户当前 Chrome。优先用 Computer Use 做视觉定位和真实点击；没有专用 Computer Use 工具时，使用实时截图/AX 与 CDP 协同。CDP 用于文件上传、DOM 读取和状态校验，候选话题与最终发布按钮仍通过当前可见页面真实点击。不启动 `xiaohongshu-mcp`，不调用 `scripts/breakfast_xhs.py publish` 或 MCP `publish_content`。
-- 发布话题必须按台账逐个输入、等待、手动点击名称完全一致的现有候选，再确认被编辑器识别为原生话题；禁止整段粘贴 10 个 `#话题`，也禁止直接注入 `data-topic`。短暂“无结果”不是最终结论，应在有界等待内结合实时截图复查；确认只有“新建话题”或确实无已有候选时，删除该普通文本并记录为 `omitted`，允许最终少于 10 个话题。核验保留话题的名称、数量、顺序后才能提交。发布前还必须执行可交互检查、状态驱动等待、字段回读、有限退避和单次提交等可靠性规则；不得用伪装真人、随机乱点、指纹修改或验证码绕过来规避平台检测。操作细节见 `references/browser-publish.md`。
+- 发布必须新起独立 Chrome 进程和专用 `user-data-dir`，不得连接、抢占或关闭用户当前 Chrome。根据页面控件动态选择 CDP、Computer Use 或两者协同：稳定、可见且语义明确的 DOM 表单使用 CDP；Shadow DOM、画布、动态浮层或 DOM 与视觉状态不一致时使用 Computer Use/实时截图。每个动作仍须通过页面回读验证。不启动 `xiaohongshu-mcp`，不调用 `scripts/breakfast_xhs.py publish` 或 MCP `publish_content`。
+- 发布话题必须按台账逐个输入、等待，通过当前页面真实点击名称完全一致的现有候选，再确认被编辑器识别为原生话题；点击可由 CDP 或 Computer Use 执行，禁止直接构造或注入 `data-topic`。禁止整段粘贴 10 个 `#话题`。短暂“无结果”不是最终结论，应在有界等待内结合实时截图复查；确认只有“新建话题”或确实无已有候选时，删除该普通文本并记录为 `omitted`，允许最终少于 10 个话题。核验保留话题的名称、数量、顺序后才能提交。发布前还必须执行可交互检查、状态驱动等待、字段回读、有限退避和单次提交等可靠性规则；不得用伪装真人、随机乱点、指纹修改或验证码绕过来规避平台检测。操作细节见 `references/browser-publish.md`。
 - 生成阶段输出至少 3 张小红书配图、标题、200 字以内文案、10 个话题标签、互动问题、置顶评论、明天预告、发布描述和内容包路径；发布阶段另交付实际提交结果。
 - 每日全部产物必须写入当前工作区 `dist/breakfast-xiaohongshu/{YYYY-MM-DD}/`：包含图片、`README.md`、`content-package.json`、`weekly-hot-tags.json` 和辅助预览图。不得只写入 `~/.breakfast-xiaohongshu/out/` 或其他本机私有目录。
 - `README.md` 是每日唯一的人工交付入口，必须汇总标题、正文、10 个标签、互动问题、置顶评论、明天预告、发布状态、热词台账链接和所有图片预览/链接。用户只需阅读此文件，不应依赖 JSON。
