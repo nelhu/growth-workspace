@@ -1,0 +1,97 @@
+{
+  "date": "2026-09-16",
+  "weekday": "星期三",
+  "title": "有手就会！牛肉山药蒸饼早餐",
+  "content": "第69天，小米苹果糊配牛肉山药蒸饼，再添黑豆菠菜全熟蛋和猕猴桃。前晚煮好黑豆、拌馅塑形，早上蒸饼和煮糊同步，20分钟开饭。牛肉、鸡蛋和黑豆补蛋白，山药与小米软和顶饱；孩子切小块，老人少盐蒸软。极忙时换即食小米粥、冷藏熟牛肉饼、牛奶和水果，5分钟上桌。关注我，明早继续抄作业。",
+  "tags": [
+    "#轻亚入门",
+    "#我的神级复刻",
+    "#我的不完美料理",
+    "#野生向导体验howto",
+    "#万物非虚构",
+    "#镜头是爱意的具象化",
+    "#存肌肉就是存未来",
+    "#世界是我的兴趣班",
+    "#中秋节",
+    "#全国爱牙日"
+  ],
+  "interaction_question": "明天我做 4 个版本：A. 小学生长高版 B. 老人好消化版 C. 上班族快手版 D. 评论区留下你专属版。你家更需要哪个？评论 A/B/C/D，我按票数发；选 D 的直接留下年龄、家庭人数、忌口和早上可用时间。关注我，明早直接抄作业。",
+  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，后面每天更新。",
+  "tomorrow_preview": "明天预告：虾仁玉米饼配温热豆浆，20分钟清淡高蛋白版。",
+  "status": "ready_for_review",
+  "is_original": true,
+  "should_publish": false,
+  "delivery_markdown_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-16/README.md",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-16/01-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-16/02-breakfast-overview.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-16/03-beef-yam-steamed-patty-process.png"
+  ],
+  "image_plan": [
+    {
+      "order": 1,
+      "type": "real_family_table",
+      "description": "四人份小米苹果糊、牛肉山药蒸饼、黑豆菠菜全熟蛋和猕猴桃家庭餐桌"
+    },
+    {
+      "order": 2,
+      "type": "final_infographic",
+      "description": "奶油米白、浅木色与柔和雾霾蓝高密度早餐总览"
+    },
+    {
+      "order": 3,
+      "type": "dish_process",
+      "dish": "牛肉山药蒸饼",
+      "description": "食材准备与四步蒸制过程"
+    }
+  ],
+  "first_image_references": [
+    "/Users/xuezi/dir/growth-workspace/assets/image1_example/image_5eb39cb3.jpg"
+  ],
+  "strategy": {
+    "structure": "蒸制类",
+    "soup_type": "小米苹果糊",
+    "dry_main": "牛肉山药蒸饼",
+    "color_palette": "柔和雾霾蓝",
+    "protein_focus": [
+      "牛肉饼",
+      "黑豆",
+      "鸡蛋"
+    ]
+  },
+  "tag_strategy": {
+    "mode": "local_top10",
+    "is_verified_trend": false,
+    "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-16/weekly-hot-tags.json"
+  },
+  "publishing_notes": "只生成，不发布。按图1家庭餐桌、图2总览、图3制作过程顺序；当前及后续 Skill 默认不执行发布。",
+  "budget_rmb": 40,
+  "prep": "黑豆提前煮熟冷藏；牛肉末与蒸熟山药、胡萝卜碎拌匀，分成8份塑形冷藏；苹果洗净。",
+  "timeline": [
+    "0–5分钟牛肉山药饼上锅蒸，小米苹果糊开煮",
+    "5–12分钟焯菠菜，同时把鸡蛋煮至全熟",
+    "12–17分钟黑豆菠菜拌蛋，猕猴桃去皮切块",
+    "17–20分钟确认蒸饼中心全熟，分餐上桌"
+  ],
+  "emergency_plan": "即食小米粥、冷藏熟牛肉饼、牛奶和水果，5分钟。",
+  "menu": [
+    {
+      "name": "小米苹果糊",
+      "ingredients": "小米120g、苹果2个、水约1.2L"
+    },
+    {
+      "name": "牛肉山药蒸饼",
+      "ingredients": "牛肉末240g、山药200g、胡萝卜80g、淀粉10g、葱花和盐少许",
+      "method": "山药蒸熟压泥，与牛肉末、胡萝卜碎和淀粉拌匀，分成8个小饼，水开后蒸12分钟并确认中心全熟。"
+    },
+    {
+      "name": "黑豆菠菜全熟蛋",
+      "ingredients": "熟黑豆120g、菠菜200g、鸡蛋4个、芝麻少许",
+      "method": "菠菜焯熟挤干，与熟黑豆拌匀；鸡蛋煮至蛋黄完全凝固后切块。"
+    },
+    {
+      "name": "猕猴桃块",
+      "ingredients": "猕猴桃4个"
+    }
+  ]
+}
