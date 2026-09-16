@@ -1,0 +1,99 @@
+{
+  "date": "2026-09-17",
+  "weekday": "星期四",
+  "title": "有手就会！鲜虾毛豆早餐饼",
+  "content": "第70天，温热无糖豆浆配鲜虾毛豆杂粮煎饼，再添芝麻嫩菠菜和蒸梨核桃。前晚泡好黄豆、剥好毛豆；早上豆浆机启动后，同时煎饼、焯菜、蒸梨，20分钟上桌。虾仁、毛豆和鸡蛋补优质蛋白，豆浆补钙，杂粮更顶饱；孩子和老人吃薄饼少盐版。极忙时用即饮无糖豆浆、冷藏熟煎饼和香蕉，5分钟搞定。关注我，明早继续抄作业。",
+  "tags": [
+    "#轻亚入门",
+    "#我的神级复刻",
+    "#我的不完美料理",
+    "#野生向导体验howto",
+    "#万物非虚构",
+    "#镜头是爱意的具象化",
+    "#存肌肉就是存未来",
+    "#世界是我的兴趣班",
+    "#中秋节",
+    "#全国爱牙日"
+  ],
+  "interaction_question": "明天我做 4 个版本：A. 小学生长高版 B. 老人好消化版 C. 上班族快手版 D. 评论区留下你专属版。你家更需要哪个？评论 A/B/C/D，我按票数发；选 D 的直接留下年龄、家庭人数、忌口和早上可用时间。关注我，明早直接抄作业。",
+  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，后面每天更新。",
+  "tomorrow_preview": "明天预告：不喝牛奶也高钙版，豆腐鱼片粥配玉米。",
+  "status": "ready_for_review",
+  "is_original": true,
+  "should_publish": false,
+  "delivery_markdown_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-17/README.md",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-17/01-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-17/02-breakfast-overview.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-17/03-shrimp-edamame-pancake-process.png"
+  ],
+  "image_plan": [
+    {
+      "order": 1,
+      "type": "real_family_table",
+      "description": "四人份温热无糖豆浆、鲜虾毛豆杂粮煎饼、芝麻嫩菠菜和蒸梨核桃家庭餐桌"
+    },
+    {
+      "order": 2,
+      "type": "final_infographic",
+      "description": "奶油米白、浅木色与清新绿色高密度早餐总览"
+    },
+    {
+      "order": 3,
+      "type": "dish_process",
+      "dish": "鲜虾毛豆杂粮煎饼",
+      "description": "食材准备与四步煎制过程"
+    }
+  ],
+  "first_image_references": [
+    "/Users/xuezi/dir/growth-workspace/assets/image1_example/image_5eb39cb3.jpg"
+  ],
+  "strategy": {
+    "structure": "煎饼类",
+    "soup_type": "温热无糖豆浆",
+    "dry_main": "鲜虾毛豆杂粮煎饼",
+    "color_palette": "清新绿色",
+    "protein_focus": [
+      "豆浆",
+      "毛豆",
+      "虾仁"
+    ]
+  },
+  "tag_strategy": {
+    "mode": "local_top10",
+    "is_verified_trend": false,
+    "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-17/weekly-hot-tags.json"
+  },
+  "publishing_notes": "只生成，不发布。按图1家庭餐桌、图2总览、图3制作过程顺序；当前及后续 Skill 默认不执行发布。",
+  "budget_rmb": 40,
+  "prep": "黄豆提前浸泡6–8小时；虾仁去壳去虾线并切小粒；毛豆煮熟冷藏；菠菜洗净；梨洗净去核。",
+  "timeline": [
+    "0–3分钟豆浆机启动，蒸锅同时放入梨",
+    "3–8分钟虾仁、毛豆、胡萝卜与杂粮面糊拌匀",
+    "8–16分钟两口锅并行煎薄饼、焯菠菜",
+    "16–20分钟确认虾仁熟透，拌菠菜并分餐上桌"
+  ],
+  "emergency_plan": "即饮无糖豆浆、冷藏熟煎饼和香蕉，5分钟。",
+  "menu": [
+    {
+      "name": "温热无糖豆浆",
+      "ingredients": "黄豆300g、清水约1000ml",
+      "method": "黄豆提前浸泡，早上放入豆浆机选择豆浆模式，完成后温热饮用。"
+    },
+    {
+      "name": "鲜虾毛豆杂粮煎饼",
+      "ingredients": "虾仁200g、熟毛豆120g、杂粮面粉180g、鸡蛋2个、胡萝卜80g、葱花和盐少许",
+      "method": "虾仁切小粒，与毛豆、胡萝卜丝、鸡蛋和杂粮面糊拌匀，摊成薄饼，小火煎至两面金黄并确认虾仁熟透。"
+    },
+    {
+      "name": "芝麻嫩菠菜",
+      "ingredients": "菠菜300g、熟芝麻适量、蒜末和盐少许",
+      "method": "菠菜焯水约30秒，挤去多余水分，少盐拌入芝麻。"
+    },
+    {
+      "name": "蒸梨核桃",
+      "ingredients": "梨4个、核桃仁40g",
+      "method": "梨去核切块，放核桃仁后蒸约15分钟，温热食用。"
+    }
+  ]
+}
