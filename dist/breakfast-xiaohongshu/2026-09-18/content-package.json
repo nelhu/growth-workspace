@@ -1,0 +1,98 @@
+{
+  "date": "2026-09-18",
+  "weekday": "星期五",
+  "title": "直接抄作业！鱼肉豆腐包早餐",
+  "content": "第71天，紫薯燕麦糊配鱼肉豆腐小包，再添芝麻西兰花和橙子。前晚把去刺鱼肉、豆腐和胡萝卜调馅包好冷藏；早上蒸包子的同时煮糊，最后焯西兰花，20分钟上桌。鱼肉和豆腐补优质蛋白与钙，紫薯燕麦更顶饱；老人吃软和少盐版，孩子食用前再查鱼刺。极忙时复热冷藏熟小包、冲即食燕麦糊、切橙子，5分钟搞定。关注我，明早继续抄作业。",
+  "tags": [
+    "#轻亚入门",
+    "#我的神级复刻",
+    "#我的不完美料理",
+    "#野生向导体验howto",
+    "#万物非虚构",
+    "#镜头是爱意的具象化",
+    "#存肌肉就是存未来",
+    "#世界是我的兴趣班",
+    "#中秋节",
+    "#全国爱牙日"
+  ],
+  "interaction_question": "明天我做 4 个版本：A. 小学生长高版 B. 老人好消化版 C. 上班族快手版 D. 评论区留下你专属版。你家更需要哪个？评论 A/B/C/D，我按票数发；选 D 的直接留下年龄、家庭人数、忌口和早上可用时间。关注我，明早直接抄作业。",
+  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，后面每天更新。",
+  "tomorrow_preview": "明天预告：中秋团圆快手版，南瓜小米羹配牛肉月牙饺。",
+  "status": "ready_for_review",
+  "is_original": true,
+  "should_publish": false,
+  "delivery_markdown_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-18/README.md",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-18/01-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-18/02-breakfast-overview.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-18/03-fish-tofu-bun-process.png"
+  ],
+  "image_plan": [
+    {
+      "order": 1,
+      "type": "real_family_table",
+      "description": "四人份紫薯燕麦糊、鱼肉豆腐小包、芝麻西兰花和橙子家庭餐桌"
+    },
+    {
+      "order": 2,
+      "type": "final_infographic",
+      "description": "奶油米白、暖木色与莫兰迪暖绿灰粉高密度早餐总览"
+    },
+    {
+      "order": 3,
+      "type": "dish_process",
+      "dish": "鱼肉豆腐小包",
+      "description": "食材准备与五步蒸制过程"
+    }
+  ],
+  "first_image_references": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-17/01-family-table.png"
+  ],
+  "strategy": {
+    "structure": "包子类",
+    "soup_type": "紫薯燕麦糊",
+    "dry_main": "鱼肉豆腐小包",
+    "color_palette": "莫兰迪色系",
+    "protein_focus": [
+      "鱼肉",
+      "豆腐"
+    ]
+  },
+  "tag_strategy": {
+    "mode": "local_top10",
+    "is_verified_trend": false,
+    "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-18/weekly-hot-tags.json"
+  },
+  "publishing_notes": "只生成，不发布。按图1家庭餐桌、图2总览、图3制作过程顺序；当前及后续 Skill 默认不执行发布。",
+  "budget_rmb": 40,
+  "prep": "鱼肉反复检查并去净鱼刺，与压干豆腐、胡萝卜碎调成馅；前晚包好12个小包冷藏；紫薯去皮切丁；西兰花洗净分朵；橙子洗净。",
+  "timeline": [
+    "0–2分钟烧水，蒸锅上汽后放入鱼肉豆腐小包",
+    "2–14分钟蒸小包，同时煮紫薯燕麦糊",
+    "14–17分钟焯熟西兰花，少盐拌芝麻",
+    "17–20分钟切橙子，掰开小包确认中心全熟后分餐"
+  ],
+  "emergency_plan": "冷藏熟鱼肉豆腐小包复热、即食燕麦糊和橙子，5分钟。",
+  "menu": [
+    {
+      "name": "紫薯燕麦糊",
+      "ingredients": "紫薯300g、即食燕麦100g、清水约1200ml",
+      "method": "紫薯切小丁煮软，加入燕麦煮至浓稠；老人份可多加温水调稀。"
+    },
+    {
+      "name": "鱼肉豆腐小包",
+      "ingredients": "去刺鱼肉250g、北豆腐180g、胡萝卜60g、发面面团500g、葱姜水和盐少许",
+      "method": "鱼肉反复检查鱼刺后切碎，与压干豆腐、胡萝卜碎和少量葱姜水拌匀；包成12个小包，水开后蒸12分钟，掰开确认中心全熟。"
+    },
+    {
+      "name": "芝麻西兰花",
+      "ingredients": "西兰花350g、熟芝麻适量、盐少许",
+      "method": "西兰花小朵焯至全熟，沥水后少盐拌芝麻。"
+    },
+    {
+      "name": "橙子瓣",
+      "ingredients": "橙子4个",
+      "method": "洗净去皮分瓣，孩子和老人按需去膜切小块。"
+    }
+  ]
+}
