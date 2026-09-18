@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-19",
+  "weekday": "星期六",
+  "title": "有手就会！牛肉红薯蛋饼早餐",
+  "content": "第72天，黑豆玉米糊配牛肉红薯蛋饼，再添芝麻小白菜和苹果核桃丁。前晚泡黑豆并预约豆浆机，红薯擦丝、牛肉末调味冷藏；早上煎饼时同步加热米糊，最后焯菜切水果，20分钟上桌。黑豆、牛肉和鸡蛋补足蛋白，红薯和玉米更顶饱；老人吃软嫩少盐版，孩子的核桃切碎。极忙时热无糖黑豆浆、复热熟蛋饼、切苹果，5分钟搞定。关注我，明早继续抄作业。",
+  "tags": [
+    "#轻亚入门",
+    "#我的神级复刻",
+    "#我的不完美料理",
+    "#野生向导体验howto",
+    "#万物非虚构",
+    "#镜头是爱意的具象化",
+    "#存肌肉就是存未来",
+    "#世界是我的兴趣班",
+    "#中秋节",
+    "#全国爱牙日"
+  ],
+  "interaction_question": "明天我做 4 个版本：A. 小学生长高版 B. 老人好消化版 C. 上班族快手版 D. 评论区留下你专属版。你家更需要哪个？评论 A/B/C/D，我按票数发；选 D 的直接留下年龄、家庭人数、忌口和早上可用时间。关注我，明早直接抄作业。",
+  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，后面每天更新。",
+  "tomorrow_preview": "明天预告：不喝牛奶也高钙版，虾仁豆腐汤面配芝麻南瓜糕。",
+  "status": "ready_for_review",
+  "is_original": true,
+  "should_publish": false,
+  "delivery_markdown_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-19/README.md",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-19/01-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-19/02-breakfast-overview.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-19/03-beef-sweet-potato-egg-pancake-process.png"
+  ],
+  "image_plan": [
+    {
+      "order": 1,
+      "type": "real_family_table",
+      "description": "四人份黑豆玉米糊、牛肉红薯鸡蛋饼、芝麻小白菜和苹果核桃丁家庭餐桌"
+    },
+    {
+      "order": 2,
+      "type": "final_infographic",
+      "description": "奶油米白、浅木色与春日绿色高密度早餐总览"
+    },
+    {
+      "order": 3,
+      "type": "dish_process",
+      "dish": "牛肉红薯鸡蛋饼",
+      "description": "食材准备与五步煎制过程"
+    }
+  ],
+  "first_image_references": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-18/01-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/assets/image1_example/image_44641b65.jpg"
+  ],
+  "strategy": {
+    "structure": "玉米红薯类",
+    "soup_type": "黑豆玉米糊",
+    "dry_main": "牛肉红薯鸡蛋饼",
+    "color_palette": "春日绿色",
+    "protein_focus": [
+      "黑豆",
+      "鸡蛋",
+      "牛肉"
+    ]
+  },
+  "tag_strategy": {
+    "mode": "local_top10",
+    "is_verified_trend": false,
+    "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-19/weekly-hot-tags.json"
+  },
+  "publishing_notes": "只生成，不发布。按图1家庭餐桌、图2总览、图3制作过程顺序；当前及后续 Skill 默认不执行发布。",
+  "watermark_verification": "3 张最终图片均由 remove-ai-watermarks all 生成新文件；identify 未检测到可识别水印或 metadata 信号。不可见水印阶段因缺少 GPU 依赖跳过，按 Skill 规则不拦截。",
+  "budget_rmb": 40,
+  "prep": "黑豆提前浸泡并与甜玉米粒预约豆浆机；红薯擦细丝并切短；牛肉末用少量生抽和胡椒调味冷藏；小白菜洗净；核桃仁焙香密封。",
+  "timeline": [
+    "0–3分钟热锅，取出预约好的黑豆玉米糊保温，同时处理小白菜",
+    "3–12分钟煎牛肉红薯鸡蛋饼，两面煎熟",
+    "12–16分钟焯熟小白菜，少盐拌芝麻",
+    "16–20分钟切苹果拌核桃，确认牛肉全熟后分餐"
+  ],
+  "emergency_plan": "即食无糖黑豆浆、冷藏熟牛肉红薯蛋饼复热和苹果片，5分钟。",
+  "menu": [
+    {
+      "name": "黑豆玉米糊",
+      "ingredients": "黑豆100g、甜玉米粒80g、清水约1200ml",
+      "method": "黑豆提前浸泡，与玉米粒一起放入豆浆机预约；早晨煮熟后按家人口感加温水调稀。"
+    },
+    {
+      "name": "牛肉红薯鸡蛋饼",
+      "ingredients": "牛肉末200g、红薯300g、鸡蛋4个、面粉80g、葱花少许",
+      "method": "红薯擦细丝并切短，牛肉末炒至变色；鸡蛋与面粉调糊，加入红薯丝、熟牛肉和葱花，分成小饼少油煎至两面金黄、中心全熟。"
+    },
+    {
+      "name": "芝麻小白菜",
+      "ingredients": "小白菜300g、熟芝麻10g、盐少许",
+      "method": "小白菜焯至全熟，沥水后少盐拌熟芝麻；老人份切短。"
+    },
+    {
+      "name": "苹果核桃丁",
+      "ingredients": "苹果2个、核桃仁50g",
+      "method": "苹果去核切小丁，核桃仁掰碎后拌匀；孩子和老人份进一步切碎。"
+    }
+  ]
+}
