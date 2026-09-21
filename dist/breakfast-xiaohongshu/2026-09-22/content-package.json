@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-22",
+  "weekday": "星期二",
+  "title": "直接抄！牛肉小米粥早餐",
+  "content": "第73天，胡萝卜牛肉小米粥配葱香豆腐鸡蛋卷，再添毛豆拌西兰花和葡萄。前晚预约小米粥、牛肉末调味、豆腐压碎；早上热粥时焯菜，平底锅小火卷蛋，20分钟上桌。牛肉、鸡蛋和豆腐补蛋白与铁钙，小米温热顶饱；老人少盐软嫩，孩子牛肉切细。极忙时即食小米粥、熟鸡蛋、焯菜和葡萄，5分钟搞定。关注我，明早继续抄作业。",
+  "tags": [
+    "#轻亚入门",
+    "#我的神级复刻",
+    "#我的不完美料理",
+    "#野生向导体验howto",
+    "#万物非虚构",
+    "#镜头是爱意的具象化",
+    "#存肌肉就是存未来",
+    "#世界是我的兴趣班",
+    "#中秋节",
+    "#全国爱牙日"
+  ],
+  "interaction_question": "明天我做 4 个版本：A. 小学生长高版 B. 老人好消化版 C. 上班族快手版 D. 评论区留下你专属版。你家更需要哪个？评论 A/B/C/D，我按票数发；选 D 的直接留下年龄、家庭人数、忌口和早上可用时间。关注我，明早直接抄作业。",
+  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，后面每天更新。",
+  "tomorrow_preview": "明天预告：老人软和好消化版，鲜虾青菜馄饨配山药芝麻糕。",
+  "status": "ready_for_review",
+  "is_original": true,
+  "should_publish": false,
+  "delivery_markdown_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-22/README.md",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-22/01-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-22/02-tofu-egg-roll-process.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-22/03-breakfast-overview.png"
+  ],
+  "image_plan": [
+    {
+      "order": 1,
+      "type": "real_family_table",
+      "description": "四人份胡萝卜牛肉小米粥、葱香豆腐鸡蛋卷、毛豆拌西兰花和葡萄家庭餐桌"
+    },
+    {
+      "order": 2,
+      "type": "dish_process",
+      "dish": "葱香豆腐鸡蛋卷",
+      "description": "食材准备与五步卷制过程"
+    },
+    {
+      "order": 3,
+      "type": "final_infographic",
+      "description": "奶油米白、浅木色与奶油橙高密度早餐总览"
+    }
+  ],
+  "first_image_references": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-19/01-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/assets/image1_example/image_44641b65.jpg"
+  ],
+  "strategy": {
+    "structure": "粥类",
+    "soup_type": "胡萝卜牛肉小米粥",
+    "dry_main": "葱香豆腐鸡蛋卷",
+    "color_palette": "奶油橙",
+    "protein_focus": [
+      "牛肉",
+      "鸡蛋",
+      "豆腐"
+    ]
+  },
+  "tag_strategy": {
+    "mode": "local_top10",
+    "is_verified_trend": false,
+    "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-22/weekly-hot-tags.json"
+  },
+  "publishing_notes": "只生成，不发布。按图1家庭餐桌、图2制作过程、图3总览顺序；当前及后续 Skill 默认不执行发布。",
+  "watermark_verification": "3 张最终图片均由 remove-ai-watermarks all 从独立 853×1280 源文件生成；identify --json 未检测到可识别水印或 metadata 信号。不可见水印阶段因缺少 GPU 依赖跳过，按 Skill 规则不拦截。详见 watermark-verification.json。",
+  "budget_rmb": 40,
+  "prep": "小米洗净放入电饭煲预约；牛肉末用少量生抽、姜末调味冷藏；嫩豆腐沥水压碎；西兰花切小朵洗净；冷冻毛豆仁移至冷藏解冻；葡萄洗净沥干。",
+  "timeline": [
+    "0–5分钟加热预约好的胡萝卜牛肉小米粥，同时焯西兰花和毛豆",
+    "5–12分钟将鸡蛋、豆腐、葱花和胡萝卜碎拌匀，小火摊平卷起",
+    "12–16分钟西兰花和毛豆少盐拌匀，鸡蛋卷加盖焖至全熟",
+    "16–20分钟切卷、分粥、洗葡萄并分餐"
+  ],
+  "emergency_plan": "即食无糖小米粥、提前煮熟的鸡蛋、焯熟西兰花和洗净葡萄，5分钟。",
+  "menu": [
+    {
+      "name": "胡萝卜牛肉小米粥",
+      "ingredients": "小米100g、牛肉末200g、胡萝卜200g、清水约1300ml、姜末少许",
+      "method": "小米与胡萝卜丁提前预约煮粥；早晨加入调味牛肉末搅散，煮至牛肉全熟，孩子和老人份再压细。"
+    },
+    {
+      "name": "葱香豆腐鸡蛋卷",
+      "ingredients": "鸡蛋4个、嫩豆腐200g、葱花20g、胡萝卜碎30g",
+      "method": "豆腐沥水压碎，与蛋液、葱花和胡萝卜碎拌匀；平底锅少油小火摊平卷起，加盖焖至全熟后切段。"
+    },
+    {
+      "name": "毛豆拌西兰花",
+      "ingredients": "西兰花300g、毛豆仁150g、熟芝麻10g、盐少许",
+      "method": "西兰花和毛豆焯熟，沥水后少盐拌熟芝麻；老人份把西兰花切小。"
+    },
+    {
+      "name": "葡萄",
+      "ingredients": "无籽葡萄300g",
+      "method": "流水洗净后沥干；6岁孩子逐颗纵切，老人按吞咽情况去皮切半。"
+    }
+  ]
+}

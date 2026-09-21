@@ -1,0 +1,41 @@
+{
+  "tool": "/Users/xuezi/.local/bin/remove-ai-watermarks",
+  "version": "0.41.1",
+  "checked_at": "2026-09-21T18:07:00+08:00",
+  "result_summary": "未检测到可识别水印或 metadata 信号；不可见水印阶段因缺少 GPU 依赖跳过，不作为拦截条件。",
+  "images": [
+    {
+      "path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-22/01-family-table.png",
+      "source_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-22/sources/family-table-sized.png",
+      "dimensions": "853x1280",
+      "all_exit_code": 1,
+      "all_result": "visible watermark not detected; AI metadata stripped; invisible watermark removal skipped because GPU dependencies are not installed",
+      "identify_exit_code": 0,
+      "confidence": "none",
+      "watermarks": [],
+      "signals": []
+    },
+    {
+      "path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-22/02-tofu-egg-roll-process.png",
+      "source_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-22/sources/tofu-egg-roll-process-sized.png",
+      "dimensions": "853x1280",
+      "all_exit_code": 1,
+      "all_result": "visible watermark not detected; AI metadata stripped; invisible watermark removal skipped because GPU dependencies are not installed",
+      "identify_exit_code": 0,
+      "confidence": "none",
+      "watermarks": [],
+      "signals": []
+    },
+    {
+      "path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-22/03-breakfast-overview.png",
+      "source_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-22/sources/breakfast-overview-sized.png",
+      "dimensions": "853x1280",
+      "all_exit_code": 1,
+      "all_result": "visible watermark not detected; AI metadata stripped; invisible watermark removal skipped because GPU dependencies are not installed",
+      "identify_exit_code": 0,
+      "confidence": "none",
+      "watermarks": [],
+      "signals": []
+    }
+  ]
+}
