@@ -1,0 +1,37 @@
+{
+  "tool": "/Users/xuezi/.local/bin/remove-ai-watermarks",
+  "version": "0.41.1",
+  "summary": "未检测到可识别水印或 metadata 信号；不可见水印阶段因缺少 GPU 依赖跳过，按 Skill 规则不拦截。",
+  "images": [
+    {
+      "path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-23/01-breakfast-overview.png",
+      "source_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-23/processing/breakfast-overview-sized.png",
+      "width": 853,
+      "height": 1280,
+      "sha256": "6d9f756cbb5b60de4dd7f606c6c5667e27033fb6aeb930db6926e89bf6d51464",
+      "visible_watermarks": [],
+      "metadata_signal": false,
+      "invisible_watermark_removal": "skipped_missing_gpu_non_blocking"
+    },
+    {
+      "path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-23/02-yam-sesame-cake-process.png",
+      "source_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-23/processing/yam-sesame-cake-process-sized.png",
+      "width": 853,
+      "height": 1280,
+      "sha256": "b0594a1ebc33eedfc0890f72bd38688f3fc8335c7bc24af280bb2c70dd6cc1e8",
+      "visible_watermarks": [],
+      "metadata_signal": false,
+      "invisible_watermark_removal": "skipped_missing_gpu_non_blocking"
+    },
+    {
+      "path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-23/03-family-table.png",
+      "source_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-23/processing/family-table-sized.png",
+      "width": 853,
+      "height": 1280,
+      "sha256": "ccc27feda250613f4f2971f1b7f3baedb676a9e791bc735b4cafa70dd17922b3",
+      "visible_watermarks": [],
+      "metadata_signal": false,
+      "invisible_watermark_removal": "skipped_missing_gpu_non_blocking"
+    }
+  ]
+}

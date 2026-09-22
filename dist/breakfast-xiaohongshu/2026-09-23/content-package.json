@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-23",
+  "weekday": "星期三",
+  "title": "答应我，早餐试试这碗鲜虾面",
+  "content": "第74天，鲜虾青菜汤面配牛肉豆腐蒸盏，再添山药黑芝麻糕和香梨。前晚把牛肉豆腐拌好、山药糕蒸熟冷藏；早上烧面汤时同步蒸盏，12分钟下面、虾仁和青菜，20分钟分餐。虾仁、牛肉和豆腐补优质蛋白，山药芝麻软糯顶饱；老人少盐，孩子虾仁切小。极忙时无糖豆浆、冷冻馒头、熟鸡蛋和香梨，5分钟上桌。关注我，明早继续抄作业。",
+  "tags": [
+    "#轻亚入门",
+    "#我的神级复刻",
+    "#我的不完美料理",
+    "#野生向导体验howto",
+    "#万物非虚构",
+    "#镜头是爱意的具象化",
+    "#存肌肉就是存未来",
+    "#世界是我的兴趣班",
+    "#中秋节",
+    "#全国爱牙日"
+  ],
+  "interaction_question": "明天我做 4 个版本：A. 小学生长高版 B. 老人好消化版 C. 上班族快手版 D. 评论区留下你专属版。你家更需要哪个？评论 A/B/C/D，我按票数发；选 D 的直接留下年龄、家庭人数、忌口和早上可用时间。关注我，明早直接抄作业。",
+  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，后面每天更新。",
+  "tomorrow_preview": "明天预告：不喝牛奶也高钙版，芝麻燕麦糊配三文鱼蔬菜饭团。",
+  "status": "ready_for_review",
+  "is_original": true,
+  "should_publish": false,
+  "delivery_markdown_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-23/README.md",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-23/01-breakfast-overview.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-23/02-yam-sesame-cake-process.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-23/03-family-table.png"
+  ],
+  "image_plan": [
+    {
+      "order": 1,
+      "type": "final_infographic",
+      "description": "奶油米白、浅木色与柔和浅蓝高密度早餐总览"
+    },
+    {
+      "order": 2,
+      "type": "dish_process",
+      "dish": "山药黑芝麻糕",
+      "description": "食材准备与五步蒸制过程"
+    },
+    {
+      "order": 3,
+      "type": "real_family_table",
+      "description": "四人份鲜虾青菜汤面、牛肉豆腐蒸盏、山药黑芝麻糕和香梨家庭餐桌"
+    }
+  ],
+  "first_image_references": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-22/01-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/assets/image1_example/image_44641b65.jpg"
+  ],
+  "strategy": {
+    "structure": "汤面类",
+    "soup_type": "鲜虾青菜汤面",
+    "dry_main": "山药黑芝麻糕",
+    "color_palette": "浅蓝",
+    "protein_focus": [
+      "虾仁",
+      "牛肉",
+      "豆浆"
+    ]
+  },
+  "tag_strategy": {
+    "mode": "local_top10",
+    "is_verified_trend": false,
+    "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-23/weekly-hot-tags.json"
+  },
+  "publishing_notes": "只生成，不发布。随机顺序为图1早餐总览、图2制作过程、图3家庭餐桌；当前及后续 Skill 默认不执行发布。",
+  "watermark_verification": "3 张最终图片均由 remove-ai-watermarks all 从独立 853×1280 源文件生成；identify --json 未检测到可识别水印或 metadata 信号。不可见水印阶段因缺少 GPU 依赖跳过，按 Skill 规则不拦截。详见 watermark-verification.json。",
+  "budget_rmb": 40,
+  "prep": "鲜虾去壳去虾线、洗净沥干后冷藏；青菜洗净分装；牛肉末加少量生抽和姜末，与嫩豆腐拌好装入小碗冷藏；山药蒸熟压泥，拌熟黑芝麻和少量面粉，蒸熟放凉切块；香梨洗净。",
+  "timeline": [
+    "0–5分钟烧面汤，同时上锅蒸牛肉豆腐蒸盏",
+    "5–12分钟下面条，再依次加入虾仁和青菜煮熟",
+    "12–16分钟复热山药黑芝麻糕，香梨去核切小块",
+    "16–20分钟面条分碗、蒸盏出锅并完成分餐"
+  ],
+  "emergency_plan": "即食无糖豆浆、冷冻馒头、提前煮熟的鸡蛋和洗净香梨，5分钟。",
+  "menu": [
+    {
+      "name": "鲜虾青菜汤面",
+      "ingredients": "鲜虾300g、小青菜300g、面条300g、清汤约1200ml、葱花少许",
+      "method": "清汤烧开后下面条，依次加入虾仁和青菜煮熟；孩子和老人份将虾仁切小，少盐调味。"
+    },
+    {
+      "name": "牛肉豆腐蒸盏",
+      "ingredients": "牛肉末200g、嫩豆腐300g、鸡蛋1个、姜末和葱花少许",
+      "method": "牛肉末、豆腐和蛋液拌匀，分装四个小碗；早晨水开后蒸8分钟至牛肉全熟。"
+    },
+    {
+      "name": "山药黑芝麻糕",
+      "ingredients": "山药500g、熟黑芝麻50g、面粉30g",
+      "method": "山药蒸熟压泥，拌入黑芝麻和少量面粉，压入浅盘蒸熟；放凉切小块，早晨复热。"
+    },
+    {
+      "name": "香梨",
+      "ingredients": "香梨4个",
+      "method": "流水洗净后去核切小块；孩子和老人份按吞咽情况去皮。"
+    }
+  ]
+}

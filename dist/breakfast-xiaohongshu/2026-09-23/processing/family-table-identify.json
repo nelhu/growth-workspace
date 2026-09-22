@@ -1,0 +1,15 @@
+{
+  "path": "dist/breakfast-xiaohongshu/2026-09-23/processing/family-table-clean.png",
+  "is_ai_generated": null,
+  "platform": null,
+  "confidence": "none",
+  "ai_source_kind": null,
+  "ai_from_metadata": false,
+  "watermarks": [],
+  "signals": [],
+  "caveats": [
+    "Absence of metadata is not proof the image is clean: C2PA, EXIF, and PNG text chunks are stripped by re-encoding, screenshots, or social-media upload."
+  ],
+  "integrity_clashes": [],
+  "c2pa_validation": null
+}
