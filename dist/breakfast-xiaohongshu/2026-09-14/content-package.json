@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-14",
+  "weekday": "星期一",
+  "title": "周一早餐抄这套！南瓜糊配饭团",
+  "content": "周一给四口之家做南瓜燕麦小米糊、牛腩毛豆饭团，再备胡萝卜黄瓜条和苹果。牛腩、毛豆和米饭前晚煮熟冷藏；早上充分加热后拌成小饭团，同时热糊、焯胡萝卜，20分钟分餐。女儿份饭团捏小，老人份牛腩切细、米饭保持软糯。极忙就用热豆浆、熟蛋和前晚饭团。关注我，明早继续抄作业。",
+  "delivery_markdown_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-14/README.md",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-14/01-breakfast-overview-v2.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-14/02-beef-edamame-riceball-process.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-14/03-family-table.png"
+  ],
+  "image_plan": [
+    {
+      "order": 1,
+      "type": "final_infographic",
+      "description": "豆沙粉与奶油米白高密度周一早餐总览"
+    },
+    {
+      "order": 2,
+      "type": "dish_process",
+      "dish": "牛腩毛豆饭团",
+      "description": "牛腩毛豆饭团食材与四步捏制过程"
+    },
+    {
+      "order": 3,
+      "type": "real_family_table",
+      "description": "四人份南瓜燕麦小米糊、牛腩毛豆饭团、胡萝卜黄瓜条和苹果家庭餐桌"
+    }
+  ],
+  "first_image_references": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-13/02-family-table.png"
+  ],
+  "tags": [
+    "#秋分与丰收节",
+    "#中秋国庆双节",
+    "#中秋家宴",
+    "#月饼测评",
+    "#秋日时髦尖子生",
+    "#尸皮针争议",
+    "#松针大油边",
+    "#秋天的第一杯奶茶",
+    "#户外骑行解压",
+    "#这次旅行local一下"
+  ],
+  "tag_strategy": {
+    "mode": "local_top10",
+    "is_verified_trend": false,
+    "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-14/weekly-hot-tags.json"
+  },
+  "interaction_question": "明天我做 4 个版本：A. 小学生长高版 B. 老人好消化版 C. 上班族快手版 D. 评论区留下你专属版。你家更需要哪个？评论 A/B/C/D，我按票数发；选 D 的直接留下年龄、家庭人数、忌口和早上可用时间。关注我，明早直接抄作业。",
+  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，后面每天更新。",
+  "tomorrow_preview": "明天预告：金枪鱼黄瓜杂粮饭团配南瓜牛奶羹。",
+  "status": "ready_for_review",
+  "should_publish": false,
+  "is_original": true,
+  "budget_rmb": 40,
+  "menu": [
+    {
+      "name": "南瓜燕麦小米糊",
+      "ingredients": "南瓜300克、燕麦片80克、小米80克、清水约1升",
+      "method": "南瓜和小米前晚煮软冷藏，早上加燕麦充分加热并搅匀；按需加水调软。"
+    },
+    {
+      "name": "牛腩毛豆饭团",
+      "ingredients": "熟米饭300克、已炖软牛腩120克、熟毛豆80克、熟芝麻少许",
+      "method": "前晚炖软牛腩并煮熟毛豆；冷藏保存。早上米饭与牛腩充分加热后拌入毛豆，捏成小饭团。"
+    },
+    {
+      "name": "胡萝卜黄瓜条",
+      "ingredients": "胡萝卜200克、黄瓜200克",
+      "method": "胡萝卜切条焯软，黄瓜洗净切条；老人份胡萝卜再切小，黄瓜按吞咽情况处理。"
+    },
+    {
+      "name": "苹果切片",
+      "ingredients": "苹果2个",
+      "method": "洗净去核切薄片；孩子份切小口。"
+    }
+  ],
+  "prep": "南瓜小米煮软、牛腩炖软、毛豆煮熟；米饭煮好后及时冷却并分别冷藏。胡萝卜、黄瓜、苹果洗净。",
+  "timeline": [
+    "0–5分钟充分加热南瓜小米糊和冷藏米饭、牛腩",
+    "5–12分钟加入燕麦煮熟，拌入熟毛豆捏小饭团",
+    "12–16分钟焯软胡萝卜、切黄瓜和苹果",
+    "16–20分钟分糊、摆盘并检查温度"
+  ],
+  "emergency_plan": "热无糖豆浆、前晚煮熟的鸡蛋、已充分加热的冷藏小饭团，5分钟。",
+  "strategy": {
+    "structure": "杂粮糊类",
+    "soup_type": "南瓜燕麦小米糊",
+    "dry_main": "牛腩毛豆饭团",
+    "color_palette": "豆沙粉",
+    "protein_focus": [
+      "牛腩",
+      "毛豆",
+      "豆浆"
+    ]
+  },
+  "publishing_notes": "先生成并核验四个日期的内容包，再在 Tiny.C 创作中心仅暂存草稿；不公开发布，也不发布评论。",
+  "watermark_verification": "三张最终图片均经独立源图裁切/缩放到 853×1280 px，再经 remove-ai-watermarks all 生成新文件；identify --json 未检测到可识别可见水印或 metadata 信号。不可见水印阶段因缺少 GPU 依赖而跳过；详见 watermark-verification.json。"
+}

@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-13",
+  "tool": "remove-ai-watermarks 0.41.1",
+  "size_px": [
+    853,
+    1280
+  ],
+  "result": "未检测到可识别可见水印或 metadata 信号；非绝对无水印证明",
+  "invisible_stage": "skipped_missing_gpu_dependencies_not_blocking",
+  "images": [
+    {
+      "file": "01-beef-egg-pancake-process.png",
+      "generated_from": "sources/beef-egg-pancake-process-generated.png",
+      "visible_watermarks": [],
+      "ai_metadata_signal": false,
+      "identify_confidence": "none"
+    },
+    {
+      "file": "02-family-table.png",
+      "generated_from": "sources/family-table-generated.png",
+      "visible_watermarks": [],
+      "ai_metadata_signal": false,
+      "identify_confidence": "none"
+    },
+    {
+      "file": "03-breakfast-overview.png",
+      "generated_from": "sources/breakfast-overview-generated.png",
+      "visible_watermarks": [],
+      "ai_metadata_signal": false,
+      "identify_confidence": "none"
+    }
+  ]
+}

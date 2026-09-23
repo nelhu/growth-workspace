@@ -1,0 +1,99 @@
+{
+  "date": "2026-09-13",
+  "weekday": "星期日",
+  "title": "直接抄！黑豆浆配牛肉软饼",
+  "content": "四口之家这顿黑豆豆浆配牛肉鸡蛋软饼，再添西兰花和雪梨。前晚预约豆浆、牛肉末分装；早上煎软饼时焯西兰花、切梨，20分钟上桌。牛肉和鸡蛋补蛋白，老人份少油煎软，女儿份切小块。极忙时热豆浆配熟蛋和馒头，5分钟也能吃上热乎的。关注我，明早继续抄作业。",
+  "delivery_markdown_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-13/README.md",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-13/01-beef-egg-pancake-process.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-13/02-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-13/03-breakfast-overview.png"
+  ],
+  "image_plan": [
+    {
+      "order": 1,
+      "type": "dish_process",
+      "dish": "牛肉鸡蛋软饼",
+      "description": "牛肉鸡蛋软饼食材与四步煎制过程"
+    },
+    {
+      "order": 2,
+      "type": "real_family_table",
+      "description": "四人份黑豆豆浆、牛肉鸡蛋软饼、西兰花和雪梨家庭餐桌"
+    },
+    {
+      "order": 3,
+      "type": "final_infographic",
+      "description": "豆沙粉与奶油米白高密度早餐计划总览"
+    }
+  ],
+  "first_image_references": [
+    "/Users/xuezi/dir/growth-workspace/assets/image1_example/image_44641b65.jpg"
+  ],
+  "tags": [
+    "#秋分与丰收节",
+    "#中秋国庆双节",
+    "#中秋家宴",
+    "#月饼测评",
+    "#秋日时髦尖子生",
+    "#尸皮针争议",
+    "#松针大油边",
+    "#秋天的第一杯奶茶",
+    "#户外骑行解压",
+    "#这次旅行local一下"
+  ],
+  "tag_strategy": {
+    "mode": "local_top10",
+    "is_verified_trend": false,
+    "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-13/weekly-hot-tags.json"
+  },
+  "interaction_question": "明天我做 4 个版本：A. 小学生长高版 B. 老人好消化版 C. 上班族快手版 D. 评论区留下你专属版。你家更需要哪个？评论 A/B/C/D，我按票数发；选 D 的直接留下年龄、家庭人数、忌口和早上可用时间。关注我，明早直接抄作业。",
+  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，后面每天更新。",
+  "tomorrow_preview": "明天预告：南瓜燕麦小米糊配牛腩毛豆饭团。",
+  "status": "ready_for_review",
+  "should_publish": false,
+  "is_original": true,
+  "budget_rmb": 40,
+  "menu": [
+    {
+      "name": "黑豆豆浆",
+      "ingredients": "干黑豆80克、清水约1升",
+      "method": "前晚浸泡后放豆浆机预约，晨起煮熟并保持温热；四人分杯。"
+    },
+    {
+      "name": "牛肉鸡蛋软饼",
+      "ingredients": "牛肉末300克、鸡蛋4个、面粉160克、葱花适量、清水少量",
+      "method": "分两批按每批牛肉末150克、鸡蛋2个、面粉80克调成稠糊；小火两面煎透至金黄。孩子份切小，老人份少油煎软。"
+    },
+    {
+      "name": "清炒西兰花",
+      "ingredients": "西兰花300克、蒜片少许、食用油少量",
+      "method": "西兰花切小朵焯熟后少油快炒；老人份切细。"
+    },
+    {
+      "name": "雪梨切块",
+      "ingredients": "雪梨2个",
+      "method": "流水洗净去核切块；孩子和老人按吞咽需要切小。"
+    }
+  ],
+  "prep": "前晚浸泡黑豆并设置豆浆机预约；牛肉末分两份冷藏；西兰花洗净分朵；雪梨洗净。",
+  "timeline": [
+    "0–5分钟加热豆浆，调两份牛肉鸡蛋面糊并烧开焯菜水",
+    "5–15分钟平底锅小火分批煎软饼，同时焯熟西兰花",
+    "15–20分钟西兰花少油快炒、切雪梨、分杯摆盘"
+  ],
+  "emergency_plan": "温热无糖豆浆、前晚煮熟鸡蛋和现成馒头，5分钟。",
+  "strategy": {
+    "structure": "豆浆类",
+    "soup_type": "黑豆豆浆",
+    "dry_main": "牛肉鸡蛋软饼",
+    "color_palette": "豆沙粉",
+    "protein_focus": [
+      "黑豆",
+      "牛肉",
+      "鸡蛋"
+    ]
+  },
+  "publishing_notes": "先生成并核验四个日期的内容包，再在 Tiny.C 创作中心仅暂存草稿；不公开发布，也不发布评论。",
+  "watermark_verification": "三张最终图片均经独立源图裁切/缩放到 853×1280 px，再经 remove-ai-watermarks all 生成新文件；identify --json 未检测到可识别可见水印或 metadata 信号。不可见水印阶段因缺少 GPU 依赖而跳过；详见 watermark-verification.json。"
+}

@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-21",
+  "weekday": "星期一",
+  "title": "周一早餐抄这套！鱼肉豆腐手抓饼",
+  "content": "周一用玉米小米糊配鱼肉豆腐手抓饼，再添芝麻菠菜和橙子。前晚把鱼蒸熟仔细去刺、玉米小米糊煮好冷藏；早上充分加热糊，拌鱼肉豆腐馅并小火煎透饼，同时焯菠菜，20分钟分餐。女儿份逐口检查鱼刺，老人份切碎、少油煎软。极忙就用即食杂粮糊、熟蛋和馒头。关注我，明早继续抄作业。",
+  "delivery_markdown_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-21/README.md",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-21/01-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-21/02-fish-tofu-wrap-process.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-21/03-breakfast-overview.png"
+  ],
+  "image_plan": [
+    {
+      "order": 1,
+      "type": "real_family_table",
+      "description": "四人份玉米小米糊、鱼肉豆腐手抓饼、芝麻菠菜和橙子家庭餐桌"
+    },
+    {
+      "order": 2,
+      "type": "dish_process",
+      "dish": "鱼肉豆腐手抓饼",
+      "description": "鱼肉豆腐手抓饼食材与四步制作过程"
+    },
+    {
+      "order": 3,
+      "type": "final_infographic",
+      "description": "奶油米白与鼠尾草绿高信息密度周一早餐总览"
+    }
+  ],
+  "first_image_references": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-14/03-family-table.png"
+  ],
+  "tags": [
+    "#秋分与丰收节",
+    "#中秋国庆双节",
+    "#中秋家宴",
+    "#月饼测评",
+    "#秋日时髦尖子生",
+    "#尸皮针争议",
+    "#松针大油边",
+    "#秋天的第一杯奶茶",
+    "#户外骑行解压",
+    "#这次旅行local一下"
+  ],
+  "tag_strategy": {
+    "mode": "local_top10",
+    "is_verified_trend": false,
+    "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-21/weekly-hot-tags.json"
+  },
+  "interaction_question": "明天我做 4 个版本：A. 小学生长高版 B. 老人好消化版 C. 上班族快手版 D. 评论区留下你专属版。你家更需要哪个？评论 A/B/C/D，我按票数发；选 D 的直接留下年龄、家庭人数、忌口和早上可用时间。关注我，明早直接抄作业。",
+  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，后面每天更新。",
+  "tomorrow_preview": "明天预告：胡萝卜牛肉小米粥配葱香豆腐鸡蛋卷。",
+  "status": "ready_for_review",
+  "should_publish": false,
+  "is_original": true,
+  "budget_rmb": 40,
+  "menu": [
+    {
+      "name": "玉米小米糊",
+      "ingredients": "鲜玉米粒200克、小米100克、清水约1升",
+      "method": "玉米与小米前晚煮熟后及时冷藏；早上充分加热，可调成老人易入口的稠度。"
+    },
+    {
+      "name": "鱼肉豆腐手抓饼",
+      "ingredients": "手抓饼皮4张、无刺鱼肉300克、嫩豆腐160克、菠菜80克",
+      "method": "鱼肉提前蒸熟并仔细检查鱼刺，冷藏保存；豆腐压碎、菠菜焯熟切细，拌馅铺饼皮后小火两面煎透切块。"
+    },
+    {
+      "name": "芝麻菠菜",
+      "ingredients": "菠菜250克、熟芝麻10克",
+      "method": "菠菜洗净焯熟沥水，少盐拌芝麻；老人份切细。"
+    },
+    {
+      "name": "橙子切块",
+      "ingredients": "橙子4个",
+      "method": "洗净去皮分瓣，给孩子去籽并切小块。"
+    }
+  ],
+  "prep": "前晚蒸熟鱼肉并仔细去刺、及时冷藏；玉米小米糊煮熟冷藏；菠菜洗净；豆腐冷藏；橙子洗净。",
+  "timeline": [
+    "0–5分钟充分加热玉米小米糊并备好馅料",
+    "5–15分钟拌鱼肉豆腐菠菜馅、手抓饼小火两面煎透",
+    "15–18分钟焯熟并拌好芝麻菠菜",
+    "18–20分钟切橙子、切饼并分餐"
+  ],
+  "emergency_plan": "即食无糖杂粮糊、前晚煮熟鸡蛋和现成馒头，5分钟。",
+  "strategy": {
+    "structure": "手抓饼类",
+    "soup_type": "玉米小米糊",
+    "dry_main": "鱼肉豆腐手抓饼",
+    "color_palette": "莫兰迪绿",
+    "protein_focus": [
+      "鱼肉",
+      "豆腐",
+      "鸡蛋"
+    ]
+  },
+  "publishing_notes": "先完成全部四天内容包，再在 Tiny.C 创作中心仅暂存草稿；不公开发布，也不发布评论。",
+  "watermark_verification": "三张最终图片均经独立源图裁切/缩放到 853×1280 px，再经 remove-ai-watermarks all 生成新文件；identify --json 未检测到可识别可见水印或 metadata 信号。不可见水印阶段因缺少 GPU 依赖而跳过；详见 watermark-verification.json。"
+}
