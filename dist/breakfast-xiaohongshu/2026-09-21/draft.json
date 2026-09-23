@@ -1,0 +1,65 @@
+{
+  "date": "2026-09-21",
+  "status": "saved",
+  "account": "Tiny.C",
+  "title": "周一早餐抄这套！鱼肉豆腐手抓饼",
+  "browser_profile": "/Users/xuezi/Library/Application Support/Codex-Breakfast-Chrome",
+  "image_count": 3,
+  "topic_bindings": [
+    {
+      "tag": "#秋分与丰收节",
+      "status": "omitted",
+      "evidence": "未找到名称完全一致的现有候选；未新建话题，普通输入已撤回"
+    },
+    {
+      "tag": "#中秋国庆双节",
+      "status": "verified",
+      "evidence": "Tiny.C 编辑器原生话题实体 data-topic.name 与候选完全一致"
+    },
+    {
+      "tag": "#中秋家宴",
+      "status": "verified",
+      "evidence": "Tiny.C 编辑器原生话题实体 data-topic.name 与候选完全一致"
+    },
+    {
+      "tag": "#月饼测评",
+      "status": "verified",
+      "evidence": "Tiny.C 编辑器原生话题实体 data-topic.name 与候选完全一致"
+    },
+    {
+      "tag": "#秋日时髦尖子生",
+      "status": "verified",
+      "evidence": "Tiny.C 编辑器原生话题实体 data-topic.name 与候选完全一致"
+    },
+    {
+      "tag": "#尸皮针争议",
+      "status": "omitted",
+      "evidence": "未找到名称完全一致的现有候选；未新建话题，普通输入已撤回"
+    },
+    {
+      "tag": "#松针大油边",
+      "status": "verified",
+      "evidence": "Tiny.C 编辑器原生话题实体 data-topic.name 与候选完全一致"
+    },
+    {
+      "tag": "#秋天的第一杯奶茶",
+      "status": "verified",
+      "evidence": "Tiny.C 编辑器原生话题实体 data-topic.name 与候选完全一致"
+    },
+    {
+      "tag": "#户外骑行解压",
+      "status": "verified",
+      "evidence": "Tiny.C 编辑器原生话题实体 data-topic.name 与候选完全一致"
+    },
+    {
+      "tag": "#这次旅行local一下",
+      "status": "verified",
+      "evidence": "Tiny.C 编辑器原生话题实体 data-topic.name 与候选完全一致"
+    }
+  ],
+  "saved_at": "2026-09-23 06:44:30",
+  "verified_at": "2026-09-23T06:45:29-04:00",
+  "evidence": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-21/draft-preflight.png；/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-21/draft-verified.png",
+  "published": false,
+  "failure_reason": null
+}
