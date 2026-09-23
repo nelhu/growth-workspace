@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-24",
+  "status": "saved",
+  "account": "Tiny.C",
+  "title": "答应我，早餐试试鱼肉馄饨",
+  "browser_profile": "/Users/xuezi/Library/Application Support/Codex-Breakfast-Chrome",
+  "draft_id": "9930ba8d-816e-47e7-97ae-8d33c68b4fca",
+  "image_count": 3,
+  "topic_bindings": [
+    {
+      "tag": "#秋分与丰收节",
+      "status": "omitted",
+      "evidence": "候选列表无名称完全一致的话题；未点击“新建话题”，普通文本已删除"
+    },
+    {
+      "tag": "#中秋国庆双节",
+      "status": "verified",
+      "evidence": "精确候选已绑定为原生话题实体，topic id 5f5b41290000000001007382"
+    },
+    {
+      "tag": "#中秋家宴",
+      "status": "omitted",
+      "evidence": "候选列表无名称完全一致的话题；普通文本已删除"
+    },
+    {
+      "tag": "#月饼测评",
+      "status": "verified",
+      "evidence": "精确候选已绑定为原生话题实体，topic id 5c16688b0000000003013e59"
+    },
+    {
+      "tag": "#秋日时髦尖子生",
+      "status": "omitted",
+      "evidence": "候选列表无名称完全一致的话题；普通文本已删除"
+    },
+    {
+      "tag": "#尸皮针争议",
+      "status": "omitted",
+      "evidence": "候选列表无名称完全一致的话题；普通文本已删除"
+    },
+    {
+      "tag": "#松针大油边",
+      "status": "verified",
+      "evidence": "精确候选已绑定为原生话题实体，topic id 6940fc7c000000002303f066"
+    },
+    {
+      "tag": "#秋天的第一杯奶茶",
+      "status": "verified",
+      "evidence": "精确候选已绑定为原生话题实体，topic id 5f694e69000000000101d2a8"
+    },
+    {
+      "tag": "#户外骑行解压",
+      "status": "omitted",
+      "evidence": "候选列表无名称完全一致的话题；普通文本已删除"
+    },
+    {
+      "tag": "#这次旅行local一下",
+      "status": "verified",
+      "evidence": "精确候选已绑定为原生话题实体，topic id 68cb90ab0000000013020a83"
+    }
+  ],
+  "saved_at": "2026-09-23 06:39:50 America/New_York",
+  "verified_at": "2026-09-23T06:41:19-04:00",
+  "evidence": "页面出现“保存成功”；草稿箱回读到目标标题和保存时间；重新打开目标 draft 后回读 3/18、标题、正文及 5 个原生话题实体。截图：/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-24/draft-preflight.png；/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-24/draft-verified.png",
+  "published": false,
+  "failure_reason": null
+}
