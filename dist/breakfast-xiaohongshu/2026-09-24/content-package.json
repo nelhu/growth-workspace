@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-24",
+  "weekday": "星期四",
+  "title": "答应我，早餐试试鱼肉馄饨",
+  "content": "第75天，鲈鱼豆腐小馄饨配牛肉黄豆蔬菜饼，再添芝麻菠菜和猕猴桃。前晚包好馄饨冷冻、饼糊拌好冷藏；早上煮馄饨时同步煎饼，20分钟分餐。鱼肉、牛肉和黄豆补优质蛋白，菠菜和猕猴桃添纤维；孩子和老人份做小、少盐。极忙时冷冻馄饨、温豆浆和猕猴桃，5分钟上桌。关注我，明早继续抄作业。",
+  "tags": [
+    "#秋分与丰收节",
+    "#中秋国庆双节",
+    "#中秋家宴",
+    "#月饼测评",
+    "#秋日时髦尖子生",
+    "#尸皮针争议",
+    "#松针大油边",
+    "#秋天的第一杯奶茶",
+    "#户外骑行解压",
+    "#这次旅行local一下"
+  ],
+  "interaction_question": "明天我做 4 个版本：A. 小学生长高版 B. 老人好消化版 C. 上班族快手版 D. 评论区留下你专属版。你家更需要哪个？评论 A/B/C/D，我按票数发；选 D 的直接留下年龄、家庭人数、忌口和早上可用时间。关注我，明早直接抄作业。",
+  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，后面每天更新。",
+  "tomorrow_preview": "明天预告：老人软和好消化版，南瓜小米糊配鳕鱼豆腐饼。",
+  "status": "ready_for_review",
+  "is_original": true,
+  "should_publish": false,
+  "delivery_markdown_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-24/README.md",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-24/01-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-24/02-beef-soy-patty-process.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-24/03-breakfast-overview.png"
+  ],
+  "image_plan": [
+    {
+      "order": 1,
+      "type": "real_family_table",
+      "description": "四人份鲈鱼豆腐小馄饨、牛肉黄豆蔬菜饼、芝麻菠菜和猕猴桃家庭餐桌"
+    },
+    {
+      "order": 2,
+      "type": "dish_process",
+      "dish": "牛肉黄豆蔬菜饼",
+      "description": "食材准备与五步煎制过程"
+    },
+    {
+      "order": 3,
+      "type": "final_infographic",
+      "description": "奶油米白、日式木色与清新绿高密度早餐总览"
+    }
+  ],
+  "first_image_references": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-23/03-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/assets/image1_example/image_44641b65.jpg"
+  ],
+  "strategy": {
+    "structure": "馄饨类",
+    "soup_type": "鲈鱼豆腐小馄饨",
+    "dry_main": "牛肉黄豆蔬菜饼",
+    "color_palette": "日式木色",
+    "protein_focus": [
+      "鱼类",
+      "牛肉末",
+      "黄豆"
+    ]
+  },
+  "tag_strategy": {
+    "mode": "local_top10",
+    "is_verified_trend": false,
+    "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-24/weekly-hot-tags.json"
+  },
+  "publishing_notes": "内容包已生成，待保存到 Tiny.C 草稿箱；未发布。随机顺序为图1家庭餐桌、图2制作过程、图3早餐总览。",
+  "watermark_verification": "3 张最终图片均由 remove-ai-watermarks all 从独立 853×1280 源文件生成；identify --json 未检测到可识别水印或 metadata 信号。不可见水印阶段因缺少 GPU 依赖跳过，按 Skill 规则不拦截。详见 watermark-verification.json。",
+  "budget_rmb": 40,
+  "prep": "鲈鱼肉去刺剁泥，与嫩豆腐和葱姜水拌馅，包成小馄饨后冷冻；牛肉末、熟黄豆粉、胡萝卜碎、葱花和鸡蛋拌好冷藏；菠菜洗净沥干；猕猴桃洗净。",
+  "timeline": [
+    "0–5分钟烧水煮馄饨，同时平底锅预热并下牛肉黄豆蔬菜饼",
+    "5–10分钟馄饨煮至浮起再煮2分钟，饼翻面煎至两面金黄",
+    "10–15分钟菠菜焯水过凉，拌熟芝麻和少量香油",
+    "15–20分钟猕猴桃切块，馄饨分碗、饼装盘并完成分餐"
+  ],
+  "emergency_plan": "冷冻小馄饨、即食无糖温豆浆和猕猴桃，5分钟。",
+  "menu": [
+    {
+      "name": "鲈鱼豆腐小馄饨",
+      "ingredients": "鲈鱼肉300g、嫩豆腐300g、小馄饨皮300g、小青菜250g、葱姜水少许",
+      "method": "鲈鱼确认去净鱼刺后剁泥，与豆腐和葱姜水拌馅包小馄饨；早晨水开下锅，浮起后再煮2分钟，少盐调味。"
+    },
+    {
+      "name": "牛肉黄豆蔬菜饼",
+      "ingredients": "牛肉末200g、熟黄豆粉60g、胡萝卜80g、葱花20g、鸡蛋1个",
+      "method": "全部材料拌匀后做成小薄饼，平底锅少油两面煎至全熟；孩子和老人份做得更小更薄。"
+    },
+    {
+      "name": "芝麻拌菠菜",
+      "ingredients": "菠菜300g、熟白芝麻15g、香油和盐少许",
+      "method": "菠菜焯水后过凉挤干，切短段，拌熟芝麻和少量香油；老人份切得更细。"
+    },
+    {
+      "name": "猕猴桃",
+      "ingredients": "猕猴桃4个",
+      "method": "洗净去皮切小块，现切现吃。"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "tool": "/Users/xuezi/.local/bin/remove-ai-watermarks",
+  "version": "0.41.1",
+  "summary": "未检测到可识别水印或 metadata 信号；不可见水印阶段因缺少 GPU 依赖跳过，按 Skill 规则不拦截。",
+  "images": [
+    {
+      "path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-24/01-family-table.png",
+      "source_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-24/processing/family-table-sized.png",
+      "width": 853,
+      "height": 1280,
+      "sha256": "9a4aff86f769a3813558ea3cc2b84e00f269baaae45376a3195df5df9263cdaf",
+      "visible_watermarks": [],
+      "metadata_signal": false,
+      "invisible_watermark_removal": "skipped_missing_gpu_non_blocking"
+    },
+    {
+      "path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-24/02-beef-soy-patty-process.png",
+      "source_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-24/processing/beef-soy-patty-process-sized.png",
+      "width": 853,
+      "height": 1280,
+      "sha256": "eadf35e71d23ba8de40ec08943e609e18d8712c32369b04ff43f519d34265185",
+      "visible_watermarks": [],
+      "metadata_signal": false,
+      "invisible_watermark_removal": "skipped_missing_gpu_non_blocking"
+    },
+    {
+      "path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-24/03-breakfast-overview.png",
+      "source_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-24/processing/breakfast-overview-sized.png",
+      "width": 853,
+      "height": 1280,
+      "sha256": "6a2e81bb3f22bf1d58a570705d0b8abef82dc758ffae2f953801645a31a90962",
+      "visible_watermarks": [],
+      "metadata_signal": false,
+      "invisible_watermark_removal": "skipped_missing_gpu_non_blocking"
+    }
+  ]
+}
