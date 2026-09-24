@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-25",
+  "status": "saved",
+  "draft_id": "5d7774dd-2ad1-419c-9230-3d4229205449",
+  "account": "Tiny.C",
+  "title": "直接抄作业！牛肉饭团早餐",
+  "browser_profile": "/Users/xuezi/Library/Application Support/Codex-Breakfast-Chrome",
+  "image_count": 3,
+  "topic_bindings": [
+    {
+      "tag": "#秋分与丰收节",
+      "status": "omitted",
+      "evidence": "平台候选列表无名称完全一致的话题，未新建"
+    },
+    {
+      "tag": "#中秋国庆双节",
+      "status": "verified",
+      "evidence": "编辑器原生话题实体 data-topic.name=中秋国庆双节"
+    },
+    {
+      "tag": "#中秋家宴",
+      "status": "verified",
+      "evidence": "编辑器原生话题实体 data-topic.name=中秋家宴"
+    },
+    {
+      "tag": "#月饼测评",
+      "status": "verified",
+      "evidence": "编辑器原生话题实体 data-topic.name=月饼测评"
+    },
+    {
+      "tag": "#秋日时髦尖子生",
+      "status": "omitted",
+      "evidence": "平台候选列表无名称完全一致的话题，未新建"
+    },
+    {
+      "tag": "#尸皮针争议",
+      "status": "omitted",
+      "evidence": "平台候选列表无名称完全一致的话题，未新建"
+    },
+    {
+      "tag": "#松针大油边",
+      "status": "verified",
+      "evidence": "编辑器原生话题实体 data-topic.name=松针大油边"
+    },
+    {
+      "tag": "#秋天的第一杯奶茶",
+      "status": "verified",
+      "evidence": "编辑器原生话题实体 data-topic.name=秋天的第一杯奶茶"
+    },
+    {
+      "tag": "#户外骑行解压",
+      "status": "verified",
+      "evidence": "编辑器原生话题实体 data-topic.name=户外骑行解压"
+    },
+    {
+      "tag": "#这次旅行local一下",
+      "status": "omitted",
+      "evidence": "平台候选列表无名称完全一致的话题，未新建"
+    }
+  ],
+  "saved_at": "2026-09-24 06:34:16 America/New_York",
+  "verified_at": "2026-09-24T06:35:09-04:00",
+  "evidence": "草稿箱回读标题与保存时间，并重新打开核对标题、3 张图片和原生话题；截图：/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-25/draft-verified.png",
+  "published": false,
+  "failure_reason": null
+}
