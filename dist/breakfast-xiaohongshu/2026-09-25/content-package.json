@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-25",
+  "weekday": "星期五",
+  "title": "直接抄作业！牛肉饭团早餐",
+  "content": "第76天，黑豆核桃豆浆配牛肉胡萝卜杂粮饭团，再添芝麻秋葵和蒸苹果。前晚泡豆、煮好杂粮饭，牛肉末和胡萝卜切好冷藏；早上豆浆机启动后同步炒馅、捏饭团，20分钟分餐。牛肉、黑豆补优质蛋白和铁，秋葵与苹果添纤维；老人份饭团做小做软。极忙时用即饮无糖豆浆、冷藏饭团和香蕉，5分钟上桌。关注我，明早继续抄作业。",
+  "tags": [
+    "#秋分与丰收节",
+    "#中秋国庆双节",
+    "#中秋家宴",
+    "#月饼测评",
+    "#秋日时髦尖子生",
+    "#尸皮针争议",
+    "#松针大油边",
+    "#秋天的第一杯奶茶",
+    "#户外骑行解压",
+    "#这次旅行local一下"
+  ],
+  "interaction_question": "明天我做 4 个版本：A. 小学生长高版 B. 老人好消化版 C. 上班族快手版 D. 评论区留下你专属版。你家更需要哪个？评论 A/B/C/D，我按票数发；选 D 的直接留下年龄、家庭人数、忌口和早上可用时间。关注我，明早直接抄作业。",
+  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，后面每天更新。",
+  "tomorrow_preview": "明天预告：不喝牛奶也高钙版，芝麻山药糊配虾仁豆腐蒸饺。",
+  "status": "ready_for_review",
+  "is_original": true,
+  "should_publish": false,
+  "delivery_markdown_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-25/README.md",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-25/01-beef-carrot-riceball-process.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-25/02-breakfast-overview.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-25/03-family-table.png"
+  ],
+  "image_plan": [
+    {
+      "order": 1,
+      "type": "dish_process",
+      "dish": "牛肉胡萝卜杂粮饭团",
+      "description": "食材准备与四步饭团制作过程"
+    },
+    {
+      "order": 2,
+      "type": "final_infographic",
+      "description": "奶油米白与豆沙粉高密度早餐总览"
+    },
+    {
+      "order": 3,
+      "type": "real_family_table",
+      "description": "四人份黑豆核桃豆浆、牛肉胡萝卜杂粮饭团、芝麻秋葵和蒸苹果家庭餐桌"
+    }
+  ],
+  "first_image_references": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-24/01-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/assets/image1_example/image_44641b65.jpg"
+  ],
+  "strategy": {
+    "structure": "豆浆类",
+    "soup_type": "黑豆核桃豆浆",
+    "dry_main": "牛肉胡萝卜杂粮饭团",
+    "color_palette": "豆沙粉",
+    "protein_focus": [
+      "牛肉末",
+      "黑豆",
+      "核桃"
+    ]
+  },
+  "tag_strategy": {
+    "mode": "local_top10",
+    "is_verified_trend": false,
+    "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-25/weekly-hot-tags.json"
+  },
+  "publishing_notes": "内容包已生成，待保存到 Tiny.C 草稿箱；未发布。随机顺序为图1制作过程、图2早餐总览、图3家庭餐桌。",
+  "watermark_verification": "3 张最终图片均由 remove-ai-watermarks all 从独立 853×1280 源文件生成；identify --json 未检测到可识别水印或 metadata 信号。不可见水印阶段因缺少 GPU 依赖跳过，按 Skill 规则不拦截。详见 watermark-verification.json。",
+  "budget_rmb": 40,
+  "prep": "黑豆提前浸泡并与核桃分装；杂粮饭提前煮熟冷藏；牛肉末、胡萝卜碎分装冷藏；秋葵洗净；苹果洗净。",
+  "timeline": [
+    "0–5分钟豆浆机启动，同时牛肉末与胡萝卜碎下锅少油炒熟",
+    "5–10分钟牛肉胡萝卜拌入杂粮饭和熟芝麻，戴手套捏成小饭团",
+    "10–15分钟秋葵焯熟切段拌芝麻，同时苹果切块上锅蒸",
+    "15–20分钟豆浆分杯、饭团装盘，蒸苹果出锅并完成分餐"
+  ],
+  "emergency_plan": "即饮无糖豆浆、前晚冷藏杂粮饭团和香蕉，5分钟。",
+  "menu": [
+    {
+      "name": "黑豆核桃豆浆",
+      "ingredients": "黑豆100g、核桃仁50g、清水1000ml",
+      "method": "黑豆提前浸泡，与核桃仁和清水放入豆浆机；选择全熟豆浆程序，完成后按家庭口味少量兑温水。"
+    },
+    {
+      "name": "牛肉胡萝卜杂粮饭团",
+      "ingredients": "熟杂粮饭500g、牛肉末200g、胡萝卜100g、熟芝麻15g",
+      "method": "牛肉末与胡萝卜碎少油炒至全熟，拌入温热杂粮饭和熟芝麻，捏成小饭团；孩子和老人份做小做软。"
+    },
+    {
+      "name": "芝麻拌秋葵",
+      "ingredients": "秋葵300g、熟白芝麻15g、生抽和香油少许",
+      "method": "秋葵沸水焯1至2分钟，过凉切段，拌熟芝麻及少量生抽香油；老人份切薄片。"
+    },
+    {
+      "name": "蒸苹果",
+      "ingredients": "苹果4个、肉桂粉可选",
+      "method": "苹果去核切块，蒸8至10分钟至温软；孩子和老人份不加肉桂粉。"
+    }
+  ]
+}
