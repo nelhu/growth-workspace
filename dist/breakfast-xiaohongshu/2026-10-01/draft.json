@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-01",
+  "status": "saved",
+  "account": "Tiny.C",
+  "title": "有手就会！牛肉香菇小包早餐",
+  "draft_id": "9e75b84f-4825-4975-b721-814c0e702176",
+  "browser_profile": "/Users/xuezi/Library/Application Support/Codex-Breakfast-Chrome",
+  "image_count": 3,
+  "image_order": [
+    "01-family-table.png",
+    "02-beef-mushroom-bun-process.png",
+    "03-breakfast-overview.png"
+  ],
+  "topic_bindings": [
+    {
+      "tag": "#oots",
+      "status": "verified",
+      "evidence": "编辑器同名候选已点击，重开草稿后 data-topic.name 回读一致"
+    },
+    {
+      "tag": "#我的微缩世界",
+      "status": "verified",
+      "evidence": "编辑器同名候选已点击，重开草稿后 data-topic.name 回读一致"
+    },
+    {
+      "tag": "#一公里摄影大赛",
+      "status": "verified",
+      "evidence": "编辑器同名候选已点击，重开草稿后 data-topic.name 回读一致"
+    },
+    {
+      "tag": "#九月就听九月底",
+      "status": "verified",
+      "evidence": "编辑器同名候选已点击，重开草稿后 data-topic.name 回读一致"
+    },
+    {
+      "tag": "#我在山西穿越了",
+      "status": "verified",
+      "evidence": "编辑器同名候选已点击，重开草稿后 data-topic.name 回读一致"
+    },
+    {
+      "tag": "#我的市集宝藏单品",
+      "status": "verified",
+      "evidence": "编辑器同名候选已点击，重开草稿后 data-topic.name 回读一致"
+    },
+    {
+      "tag": "#葡萄酒品酒笔记",
+      "status": "verified",
+      "evidence": "编辑器同名候选已点击，重开草稿后 data-topic.name 回读一致"
+    },
+    {
+      "tag": "#早餐吃什么",
+      "status": "verified",
+      "evidence": "编辑器同名候选已点击，重开草稿后 data-topic.name 回读一致"
+    },
+    {
+      "tag": "#高个子穿搭",
+      "status": "verified",
+      "evidence": "编辑器同名候选已点击，重开草稿后 data-topic.name 回读一致"
+    },
+    {
+      "tag": "#商业思维",
+      "status": "verified",
+      "evidence": "编辑器同名候选已点击，重开草稿后 data-topic.name 回读一致"
+    }
+  ],
+  "saved_at": "2026-10-01 00:44:41 America/New_York（草稿箱显示）",
+  "verified_at": "2026-10-01T00:57:18-04:00",
+  "evidence": "草稿箱图文笔记 5→6；目标标题及保存时间回读；重开 draft_id 后标题、3/18 图片、封面预览及 10 个原生话题一致。截图：draft-preflight.png、draft-after-save.png",
+  "published": false,
+  "failure_reason": null
+}

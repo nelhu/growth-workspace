@@ -65,7 +65,7 @@
     "is_verified_trend": false,
     "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-01/weekly-hot-tags.json"
   },
-  "publishing_notes": "待保存 Tiny.C 草稿，未发布。图片顺序：图1四人份山药玉米牛奶羹、牛肉香菇小包、芝麻菠菜和梨的家庭餐桌、图2牛肉香菇小包食材与四步制作过程、图3秋日暖棕高密度四口之家早餐总览。",
+  "publishing_notes": "Tiny.C 草稿已保存并回读，未发布。图片顺序：图1四人份山药玉米牛奶羹、牛肉香菇小包、芝麻菠菜和梨的家庭餐桌、图2牛肉香菇小包食材与四步制作过程、图3秋日暖棕高密度四口之家早餐总览。",
   "watermark_verification": "3 张最终图片均由 remove-ai-watermarks all 从独立 853×1280 源文件生成；identify --json 未检测到可识别水印或 metadata 信号。不可见水印阶段因缺少 GPU 依赖跳过，按 Skill 规则不拦截。详见 watermark-verification.json。",
   "budget_rmb": 40,
   "prep": "前晚将牛肉末与香菇碎拌馅，包约20个小包后冷冻；山药去皮切块冷藏；菠菜洗净沥干。",

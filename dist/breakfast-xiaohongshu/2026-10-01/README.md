@@ -26,7 +26,7 @@
 
 ## 发布状态
 
-待保存 Tiny.C 草稿，未发布；ready_for_review；should_publish=false。
+Tiny.C 草稿已保存并经草稿箱回读，未发布；ready_for_review；should_publish=false。[草稿记录](draft.json)。
 
 ## 菜单与20分钟流程
 
@@ -56,8 +56,12 @@
 
 ## 内容包与发布描述
 
-[content-package.json](content-package.json)。图片按上述随机顺序排列；标题、正文、标签、互动问题、置顶评论和明天预告已同步。建议上海时间早间手动审阅；草稿保存仅执行暂存，绝不发布。
+[content-package.json](content-package.json)。图片按上述随机顺序排列；标题、正文、标签、互动问题、置顶评论和明天预告已同步。建议上海时间早间手动审阅；Tiny.C 草稿已暂存，未发布。后续手动操作请使用 Tiny.C 登录态。
 
 ## 图片核验
 
 3 张最终图片均由 remove-ai-watermarks all 从独立 853×1280 源文件生成；identify --json 未检测到可识别水印或 metadata 信号。不可见水印阶段因缺少 GPU 依赖跳过，按 Skill 规则不拦截。详见 watermark-verification.json。 不据此宣称图片绝对无水印。
+
+## 草稿箱核验
+
+草稿 ID：`9e75b84f-4825-4975-b721-814c0e702176`；草稿箱显示保存于 2026-10-01 00:44:41（America/New_York）。重开后标题、3 张图片及 10 个按台账顺序绑定的原生话题一致。未点击发布或发表评论。[草稿记录](draft.json)；[保存前截图](draft-preflight.png)；[重开核验截图](draft-after-save.png)。
