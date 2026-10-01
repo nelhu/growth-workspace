@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-01",
+  "weekday": "星期四",
+  "title": "有手就会！牛肉香菇小包早餐",
+  "content": "今晚把牛肉香菇小包包好冷冻，山药切块、菠菜洗净。明早小包直接蒸约18分钟，同时煮山药玉米牛奶羹，最后拌芝麻菠菜、切梨，四口之家20分钟吃上热乎早餐。牛肉、牛奶补蛋白，老人份少盐切小，孩子份切开确认小包熟透。极忙时用预蒸熟的小包复热，配即饮牛奶和梨，5分钟上桌。关注我，明早继续抄作业。",
+  "tags": [
+    "#oots",
+    "#我的微缩世界",
+    "#一公里摄影大赛",
+    "#九月就听九月底",
+    "#我在山西穿越了",
+    "#我的市集宝藏单品",
+    "#葡萄酒品酒笔记",
+    "#早餐吃什么",
+    "#高个子穿搭",
+    "#商业思维"
+  ],
+  "interaction_question": "明天我做 4 个版本：A. 小学生长高版 B. 老人好消化版 C. 上班族快手版 D. 评论区留下你专属版。你家更需要哪个？评论 A/B/C/D，我按票数发；选 D 的直接留下年龄、家庭人数、忌口和早上可用时间。关注我，明早直接抄作业。",
+  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，后面每天更新。",
+  "tomorrow_preview": "明天预告：不喝牛奶也高钙版，芝麻豆腐玉米卷配温热梨羹。",
+  "status": "ready_for_review",
+  "is_original": true,
+  "should_publish": false,
+  "delivery_markdown_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-01/README.md",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-01/01-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-01/02-beef-mushroom-bun-process.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-01/03-breakfast-overview.png"
+  ],
+  "image_plan": [
+    {
+      "order": 1,
+      "type": "real_family_table",
+      "description": "四人份山药玉米牛奶羹、牛肉香菇小包、芝麻菠菜和梨的家庭餐桌"
+    },
+    {
+      "order": 2,
+      "type": "dish_process",
+      "description": "牛肉香菇小包食材与四步制作过程",
+      "dish": "牛肉香菇小包"
+    },
+    {
+      "order": 3,
+      "type": "final_infographic",
+      "description": "秋日暖棕高密度四口之家早餐总览"
+    }
+  ],
+  "first_image_references": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-09-29/01-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/assets/image1_example/image_44641b65.jpg"
+  ],
+  "strategy": {
+    "structure": "包子类",
+    "soup_type": "山药玉米牛奶羹",
+    "dry_main": "牛肉香菇小包",
+    "color_palette": "秋日暖棕",
+    "protein_focus": [
+      "牛肉",
+      "牛奶",
+      "鸡蛋"
+    ]
+  },
+  "tag_strategy": {
+    "mode": "local_top10",
+    "is_verified_trend": false,
+    "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-01/weekly-hot-tags.json"
+  },
+  "publishing_notes": "待保存 Tiny.C 草稿，未发布。图片顺序：图1四人份山药玉米牛奶羹、牛肉香菇小包、芝麻菠菜和梨的家庭餐桌、图2牛肉香菇小包食材与四步制作过程、图3秋日暖棕高密度四口之家早餐总览。",
+  "watermark_verification": "3 张最终图片均由 remove-ai-watermarks all 从独立 853×1280 源文件生成；identify --json 未检测到可识别水印或 metadata 信号。不可见水印阶段因缺少 GPU 依赖跳过，按 Skill 规则不拦截。详见 watermark-verification.json。",
+  "budget_rmb": 40,
+  "prep": "前晚将牛肉末与香菇碎拌馅，包约20个小包后冷冻；山药去皮切块冷藏；菠菜洗净沥干。",
+  "timeline": [
+    "0–5分钟冷冻小包上蒸锅，山药与甜玉米加水入锅",
+    "5–10分钟把羹煮软后加入牛奶，小包继续蒸",
+    "10–15分钟菠菜焯熟沥干，拌少量熟芝麻",
+    "15–20分钟确认小包彻底熟透，梨去核切片，分装上桌"
+  ],
+  "emergency_plan": "前晚已蒸熟冷藏的小包微波彻底复热，配即饮牛奶和梨，5分钟。",
+  "menu": [
+    {
+      "name": "山药玉米牛奶羹",
+      "ingredients": "山药约300g、甜玉米粒150g、牛奶约500ml、水约400ml",
+      "method": "山药前晚切块冷藏；早晨与玉米加水煮软约10分钟，再加入牛奶煮热，勿久煮。"
+    },
+    {
+      "name": "牛肉香菇小包",
+      "ingredients": "牛肉末250g、香菇100g、饺子皮约20张、葱姜少许",
+      "method": "前晚拌馅包入饺子皮并冷冻；早晨冷冻直接蒸约18分钟，确认中心彻底熟透。"
+    },
+    {
+      "name": "芝麻菠菜",
+      "ingredients": "菠菜300g、熟白芝麻适量、少量芝麻油",
+      "method": "菠菜焯熟沥干、切段，拌少量熟芝麻；老人份切细少盐。"
+    },
+    {
+      "name": "梨",
+      "ingredients": "梨2个",
+      "method": "洗净去核切片，孩子份切小块。"
+    }
+  ]
+}

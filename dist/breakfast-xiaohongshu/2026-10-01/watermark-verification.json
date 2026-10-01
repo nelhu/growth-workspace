@@ -1,0 +1,38 @@
+{
+  "checks": [
+    {
+      "image": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-01/01-family-table.png",
+      "source": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-01/sources/family-table-clean.png",
+      "size": [
+        853,
+        1280
+      ],
+      "visible_watermarks": [],
+      "metadata_signals": [],
+      "invisible_stage": "skipped_missing_gpu_dependencies"
+    },
+    {
+      "image": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-01/02-beef-mushroom-bun-process.png",
+      "source": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-01/sources/beef-mushroom-bun-process-clean.png",
+      "size": [
+        853,
+        1280
+      ],
+      "visible_watermarks": [],
+      "metadata_signals": [],
+      "invisible_stage": "skipped_missing_gpu_dependencies"
+    },
+    {
+      "image": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-01/03-breakfast-overview.png",
+      "source": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-01/sources/breakfast-overview-clean.png",
+      "size": [
+        853,
+        1280
+      ],
+      "visible_watermarks": [],
+      "metadata_signals": [],
+      "invisible_stage": "skipped_missing_gpu_dependencies"
+    }
+  ],
+  "summary": "visible and metadata signals not detected; invisible stage skipped"
+}
