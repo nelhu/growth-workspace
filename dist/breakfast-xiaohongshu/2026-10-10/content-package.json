@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-10",
+  "weekday": "星期六",
+  "title": "直接抄作业！虾仁玉米软饼早餐",
+  "content": "今晚煮好黑豆并冷藏，虾仁切粒、玉米沥干，菠菜洗净。明早黑豆与燕麦加热成糊；鸡蛋、面粉、虾仁和玉米拌成厚糊，小火煎成软饼，翻面煎到虾仁完全变色；同时焯菠菜拌芝麻，梨切块。四口之家20分钟吃上稀+干。孩子份切小，老人份少盐；极忙时复热前夜熟饼和黑豆糊，配梨，5分钟上桌。关注我，明早继续抄作业。",
+  "tags": [
+    "#创意手工开造计划",
+    "#oots街拍一下",
+    "#高敏感人看世界",
+    "#重述神话",
+    "#秋日时髦尖子生",
+    "#野生食评人howto",
+    "#我的不完美料理",
+    "#一公里摄影大赛",
+    "#小红书校园身份卡",
+    "#勃艮第红"
+  ],
+  "interaction_question": "明天我做 4 个版本：A. 小学生长高版 B. 老人好消化版 C. 上班族快手版 D. 评论区留下你专属版。你家更需要哪个？评论 A/B/C/D，我按票数发；选 D 的直接留下年龄、家庭人数、忌口和早上可用时间。关注我，明早直接抄作业。",
+  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，后面每天更新。",
+  "tomorrow_preview": "明天预告：不喝牛奶也高钙版，鱼肉豆腐馄饨配清爽时蔬。",
+  "status": "ready_for_review",
+  "is_original": true,
+  "should_publish": false,
+  "delivery_markdown_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-10/README.md",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-10/01-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-10/02-shrimp-corn-pancake-process.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-10/03-breakfast-overview.png"
+  ],
+  "image_plan": [
+    {
+      "order": 1,
+      "type": "real_family_table",
+      "description": "黑豆燕麦糊、虾仁玉米软饼、芝麻菠菜和梨的家庭餐桌"
+    },
+    {
+      "order": 2,
+      "type": "dish_process",
+      "description": "虾仁玉米鸡蛋软饼食材与四步制作过程",
+      "dish": "虾仁玉米鸡蛋软饼"
+    },
+    {
+      "order": 3,
+      "type": "final_infographic",
+      "description": "暖色高密度四口之家早餐总览"
+    }
+  ],
+  "first_image_references": [
+    "/Users/xuezi/dir/growth-workspace/assets/image1_example/image_44641b65.jpg",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-09/02-family-table.png"
+  ],
+  "strategy": {
+    "structure": "杂粮糊类",
+    "soup_type": "黑豆燕麦糊",
+    "dry_main": "虾仁玉米鸡蛋软饼",
+    "color_palette": "莫兰迪绿",
+    "protein_focus": [
+      "黑豆",
+      "虾仁",
+      "鸡蛋"
+    ]
+  },
+  "tag_strategy": {
+    "mode": "local_top10",
+    "is_verified_trend": false,
+    "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-10/weekly-hot-tags.json"
+  },
+  "publishing_notes": "草稿保存按用户后续指令暂停，未发布。图片依照 images 随机顺序排列。",
+  "watermark_verification": "3 张最终图片均由 remove-ai-watermarks all 从独立 853×1280 源文件生成；identify --json 未检测到可识别水印或 metadata 信号。不可见水印阶段因缺少 GPU 依赖跳过，按 Skill 规则不拦截。详见 watermark-verification.json。",
+  "budget_rmb": 40,
+  "prep": "前晚将干黑豆约120g充分煮熟，放凉后及时冷藏；虾仁200g切小粒冷藏，玉米粒120g沥干冷藏；菠菜300g洗净。",
+  "timeline": [
+    "0–5分钟黑豆加燕麦约80g和水加热成糊；同时拌鸡蛋2个、面粉80g、虾仁和玉米成厚糊",
+    "5–10分钟平底锅少油小火下软饼，菠菜入沸水焯熟",
+    "10–15分钟软饼翻面煎至中心熟透、虾仁完全变色；菠菜沥水拌熟芝麻",
+    "15–20分钟梨切小块，按四人份分装黑豆糊、软饼、菠菜和梨"
+  ],
+  "emergency_plan": "前夜已煮熟的黑豆燕麦糊和已煎熟的软饼冷藏，早晨分别充分复热，配现切梨，约5分钟。",
+  "menu": [
+    {
+      "name": "黑豆燕麦糊",
+      "ingredients": "熟黑豆约300g、燕麦80g、水适量",
+      "method": "前晚煮熟黑豆并及时冷藏，早晨与燕麦加水煮热成糊。"
+    },
+    {
+      "name": "虾仁玉米鸡蛋软饼",
+      "ingredients": "虾仁200g、玉米粒120g、鸡蛋2个、面粉80g、葱少许",
+      "method": "晨起拌成厚糊，小火煎至两面金黄、中心熟透且虾仁完全变色。"
+    },
+    {
+      "name": "芝麻菠菜",
+      "ingredients": "菠菜300g、熟芝麻10g",
+      "method": "菠菜焯熟沥水，拌芝麻；老人份切细少盐。"
+    },
+    {
+      "name": "软梨块",
+      "ingredients": "熟梨约2个",
+      "method": "去核切小块，孩子份按吞咽能力切小。"
+    }
+  ]
+}

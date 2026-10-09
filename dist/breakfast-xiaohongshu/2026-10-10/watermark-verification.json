@@ -1,0 +1,77 @@
+[
+  {
+    "file": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-10/01-family-table.png",
+    "source": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-10/sources/family-table-resized.png",
+    "cleaned_file": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-10/sources/family-table-clean.png",
+    "identify": {
+      "path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-10/sources/family-table-clean.png",
+      "is_ai_generated": null,
+      "platform": null,
+      "confidence": "none",
+      "ai_source_kind": null,
+      "ai_from_metadata": false,
+      "watermarks": [],
+      "signals": [],
+      "caveats": [
+        "Absence of metadata is not proof the image is clean: C2PA, EXIF, and PNG text chunks are stripped by re-encoding, screenshots, or social-media upload."
+      ],
+      "integrity_clashes": [],
+      "c2pa_validation": null
+    },
+    "image_size": [
+      853,
+      1280
+    ],
+    "invisible_stage": "skipped_missing_gpu_dependencies_nonblocking"
+  },
+  {
+    "file": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-10/02-shrimp-corn-pancake-process.png",
+    "source": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-10/sources/shrimp-corn-pancake-process-resized.png",
+    "cleaned_file": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-10/sources/shrimp-corn-pancake-process-clean.png",
+    "identify": {
+      "path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-10/sources/shrimp-corn-pancake-process-clean.png",
+      "is_ai_generated": null,
+      "platform": null,
+      "confidence": "none",
+      "ai_source_kind": null,
+      "ai_from_metadata": false,
+      "watermarks": [],
+      "signals": [],
+      "caveats": [
+        "Absence of metadata is not proof the image is clean: C2PA, EXIF, and PNG text chunks are stripped by re-encoding, screenshots, or social-media upload."
+      ],
+      "integrity_clashes": [],
+      "c2pa_validation": null
+    },
+    "image_size": [
+      853,
+      1280
+    ],
+    "invisible_stage": "skipped_missing_gpu_dependencies_nonblocking"
+  },
+  {
+    "file": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-10/03-breakfast-overview.png",
+    "source": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-10/sources/breakfast-overview-resized.png",
+    "cleaned_file": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-10/sources/breakfast-overview-clean.png",
+    "identify": {
+      "path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-10/sources/breakfast-overview-clean.png",
+      "is_ai_generated": null,
+      "platform": null,
+      "confidence": "none",
+      "ai_source_kind": null,
+      "ai_from_metadata": false,
+      "watermarks": [],
+      "signals": [],
+      "caveats": [
+        "Absence of metadata is not proof the image is clean: C2PA, EXIF, and PNG text chunks are stripped by re-encoding, screenshots, or social-media upload."
+      ],
+      "integrity_clashes": [],
+      "c2pa_validation": null
+    },
+    "image_size": [
+      853,
+      1280
+    ],
+    "invisible_stage": "skipped_missing_gpu_dependencies_nonblocking"
+  }
+]
