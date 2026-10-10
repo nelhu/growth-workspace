@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-11",
+  "weekday": "星期日",
+  "title": "答应我，试试这碗番茄牛肉面",
+  "content": "今晚把牛肉炖熟冷藏，小窝头提前蒸好，西兰花洗净。明早番茄煮开后加牛肉和面条；同时复热毛豆玉米小窝头，焯西兰花拌熟芝麻，再切橙子。四口之家20分钟吃上热乎的稀+干。孩子份面和牛肉剪小，老人份少盐、面煮软；极忙时复热前夜备好的汤面和小窝头，配橙子，5分钟上桌。关注我，明早继续抄作业。",
+  "tags": [
+    "#创意手工开造计划",
+    "#oots街拍一下",
+    "#高敏感人看世界",
+    "#重述神话",
+    "#秋日时髦尖子生",
+    "#野生食评人howto",
+    "#我的不完美料理",
+    "#一公里摄影大赛",
+    "#小红书校园身份卡",
+    "#勃艮第红"
+  ],
+  "interaction_question": "明天我做 4 个版本：A. 小学生长高版 B. 老人好消化版 C. 上班族快手版 D. 评论区留下你专属版。你家更需要哪个？评论 A/B/C/D，我按票数发；选 D 的直接留下年龄、家庭人数、忌口和早上可用时间。关注我，明早直接抄作业。",
+  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，后面每天更新。",
+  "tomorrow_preview": "明天预告：不喝牛奶也高钙版，鱼肉豆腐馄饨配清爽时蔬。",
+  "status": "ready_for_review",
+  "is_original": true,
+  "should_publish": false,
+  "delivery_markdown_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-11/README.md",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-11/01-edamame-corn-bun-process.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-11/02-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-11/03-breakfast-overview.png"
+  ],
+  "image_plan": [
+    {
+      "order": 1,
+      "type": "dish_process",
+      "description": "毛豆玉米小窝头食材与四步制作过程",
+      "dish": "毛豆玉米小窝头"
+    },
+    {
+      "order": 2,
+      "type": "real_family_table",
+      "description": "番茄牛肉汤面、毛豆玉米小窝头、芝麻西兰花和橙子的家庭餐桌"
+    },
+    {
+      "order": 3,
+      "type": "final_infographic",
+      "description": "秋日暖棕色高密度四口之家早餐总览"
+    }
+  ],
+  "first_image_references": [
+    "/Users/xuezi/dir/growth-workspace/assets/image1_example/image_44641b65.jpg",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-10/01-family-table.png"
+  ],
+  "strategy": {
+    "structure": "牛肉面类",
+    "soup_type": "番茄牛肉汤面",
+    "dry_main": "毛豆玉米小窝头",
+    "color_palette": "秋日暖棕",
+    "protein_focus": [
+      "牛肉",
+      "毛豆"
+    ]
+  },
+  "tag_strategy": {
+    "mode": "local_top10",
+    "is_verified_trend": false,
+    "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-11/weekly-hot-tags.json"
+  },
+  "publishing_notes": "草稿保存按用户后续指令暂停，未发布。图片依照 images 随机顺序排列。",
+  "watermark_verification": "3 张最终图片均由 remove-ai-watermarks all 从独立 853×1280 源文件生成；identify --json 未检测到可识别水印或 metadata 信号。不可见水印阶段因缺少 GPU 依赖跳过，按 Skill 规则不拦截。详见 watermark-verification.json。",
+  "budget_rmb": 40,
+  "prep": "前晚将牛肉约200g充分炖熟、汤与肉及时冷藏；毛豆100g煮熟，与玉米面150g、面粉80g拌匀捏成小窝头蒸熟冷藏；西兰花约300g洗净。",
+  "timeline": [
+    "0–5分钟番茄2个切块入锅煮汤，另一锅蒸热前晚的小窝头",
+    "5–10分钟汤中加入前晚熟牛肉和挂面约250g，西兰花焯熟",
+    "10–15分钟面条煮透、牛肉复热至滚烫；西兰花拌熟芝麻",
+    "15–20分钟按四人份分装汤面、小窝头、西兰花和橙子"
+  ],
+  "emergency_plan": "前夜把番茄牛肉面和小窝头全部做熟并及时冷藏，晨起分别充分复热，配剥好的橙子，约5分钟。",
+  "menu": [
+    {
+      "name": "番茄牛肉汤面",
+      "ingredients": "前晚炖熟牛肉约200g、番茄2个、挂面约250g、清水适量",
+      "method": "前晚把牛肉炖熟冷藏；晨起番茄煮汤，加入牛肉和面条煮透、复热至滚烫。"
+    },
+    {
+      "name": "毛豆玉米小窝头",
+      "ingredients": "熟毛豆100g、玉米面150g、面粉80g、温水适量",
+      "method": "前晚揉团捏成小窝头蒸熟冷藏，晨起蒸热；孩子份做小个，老人份蒸软。"
+    },
+    {
+      "name": "芝麻西兰花",
+      "ingredients": "西兰花300g、熟芝麻10g",
+      "method": "焯熟沥水，拌熟芝麻，老人份切小少盐。"
+    },
+    {
+      "name": "橙子",
+      "ingredients": "橙子2个",
+      "method": "去皮去籽分瓣，孩子份切小。"
+    }
+  ]
+}

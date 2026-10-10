@@ -1,0 +1,44 @@
+{
+  "verified_at": "2026-10-10T18:09:17.036745+08:00",
+  "results": [
+    {
+      "name": "family-table",
+      "all_exit": 1,
+      "all_stdout": "Remove-AI-Watermarks v0.41.1\nVisible & invisible watermark removal\n\n  1) Visible watermark removal\n    Skipped (no visible watermark detected)\n\n  2) Invisible watermark removal\n    Warning: Skipped - GPU dependencies not installed.\n    Install them with: pip install 'remove-ai-watermarks[qwen-zimage]'\n\n  3) AI metadata stripping\n    AI metadata stripped\n\n  Done: /Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-11/sources/family-table-clean.png  (1881 KB, 3.0s total)\n\n  =====================================================================\n  WARNING: the invisible (SynthID) watermark was NOT removed.\n  Step 2 was skipped because the GPU dependencies are not installed,\n  so this output still carries the invisible watermark -- only the\n  visible mark and metadata were stripped.\n\n  Install the extra and rerun to remove it:\n    pip install 'remove-ai-watermarks[qwen-zimage]'\n  =====================================================================\n",
+      "all_stderr": "",
+      "identify_exit": 0,
+      "identify_stdout": "{\n  \"path\": \"/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-11/sources/family-table-clean.png\",\n  \"is_ai_generated\": null,\n  \"platform\": null,\n  \"confidence\": \"none\",\n  \"ai_source_kind\": null,\n  \"ai_from_metadata\": false,\n  \"watermarks\": [],\n  \"signals\": [],\n  \"caveats\": [\n    \"Absence of metadata is not proof the image is clean: C2PA, EXIF, and PNG text chunks are stripped by re-encoding, screenshots, or social-media upload.\"\n  ],\n  \"integrity_clashes\": [],\n  \"c2pa_validation\": null\n}\n",
+      "identify_stderr": "",
+      "size": [
+        853,
+        1280
+      ]
+    },
+    {
+      "name": "edamame-corn-bun-process",
+      "all_exit": 1,
+      "all_stdout": "Remove-AI-Watermarks v0.41.1\nVisible & invisible watermark removal\n\n  1) Visible watermark removal\n    Skipped (no visible watermark detected)\n\n  2) Invisible watermark removal\n    Warning: Skipped - GPU dependencies not installed.\n    Install them with: pip install 'remove-ai-watermarks[qwen-zimage]'\n\n  3) AI metadata stripping\n    AI metadata stripped\n\n  Done: /Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-11/sources/edamame-corn-bun-process-clean.png  (1869 KB, 3.0s total)\n\n  =====================================================================\n  WARNING: the invisible (SynthID) watermark was NOT removed.\n  Step 2 was skipped because the GPU dependencies are not installed,\n  so this output still carries the invisible watermark -- only the\n  visible mark and metadata were stripped.\n\n  Install the extra and rerun to remove it:\n    pip install 'remove-ai-watermarks[qwen-zimage]'\n  =====================================================================\n",
+      "all_stderr": "",
+      "identify_exit": 0,
+      "identify_stdout": "{\n  \"path\": \"/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-11/sources/edamame-corn-bun-process-clean.png\",\n  \"is_ai_generated\": null,\n  \"platform\": null,\n  \"confidence\": \"none\",\n  \"ai_source_kind\": null,\n  \"ai_from_metadata\": false,\n  \"watermarks\": [],\n  \"signals\": [],\n  \"caveats\": [\n    \"Absence of metadata is not proof the image is clean: C2PA, EXIF, and PNG text chunks are stripped by re-encoding, screenshots, or social-media upload.\"\n  ],\n  \"integrity_clashes\": [],\n  \"c2pa_validation\": null\n}\n",
+      "identify_stderr": "",
+      "size": [
+        853,
+        1280
+      ]
+    },
+    {
+      "name": "breakfast-overview-v2",
+      "all_exit": 1,
+      "all_stdout": "Remove-AI-Watermarks v0.41.1\nVisible & invisible watermark removal\n\n  1) Visible watermark removal\n    Skipped (no visible watermark detected)\n\n  2) Invisible watermark removal\n    Warning: Skipped - GPU dependencies not installed.\n    Install them with: pip install 'remove-ai-watermarks[qwen-zimage]'\n\n  3) AI metadata stripping\n    AI metadata stripped\n\n  Done: /Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-11/sources/breakfast-overview-clean-v2.png  (2011 KB, 2.4s total)\n\n  =====================================================================\n  WARNING: the invisible (SynthID) watermark was NOT removed.\n  Step 2 was skipped because the GPU dependencies are not installed,\n  so this output still carries the invisible watermark -- only the\n  visible mark and metadata were stripped.\n\n  Install the extra and rerun to remove it:\n    pip install 'remove-ai-watermarks[qwen-zimage]'\n  =====================================================================\n",
+      "all_stderr": "",
+      "identify_exit": 0,
+      "identify_stdout": "{\n  \"path\": \"/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-11/sources/breakfast-overview-clean-v2.png\",\n  \"is_ai_generated\": null,\n  \"platform\": null,\n  \"confidence\": \"none\",\n  \"ai_source_kind\": null,\n  \"ai_from_metadata\": false,\n  \"watermarks\": [],\n  \"signals\": [],\n  \"caveats\": [\n    \"Absence of metadata is not proof the image is clean: C2PA, EXIF, and PNG text chunks are stripped by re-encoding, screenshots, or social-media upload.\"\n  ],\n  \"integrity_clashes\": [],\n  \"c2pa_validation\": null\n}\n",
+      "identify_stderr": "",
+      "size": [
+        853,
+        1280
+      ]
+    }
+  ]
+}
