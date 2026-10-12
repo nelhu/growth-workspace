@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-13",
+  "weekday": "星期二",
+  "title": "有手就会！牛肉鸡蛋薄饼早餐",
+  "content": "今晚把黑豆小米粥煮好冷藏，牛肉末炒熟分装，小白菜洗净。明早热粥时拌鸡蛋面糊，加牛肉末和香葱薄摊煎透；焯小白菜拌熟芝麻，剥橘子。四口之家20分钟吃上热乎的稀+干。孩子份薄饼切小块，老人份煎软少油；赶时间就把前夜做熟的粥和薄饼充分复热，配橘子，5分钟上桌。关注我，明早继续抄作业。",
+  "tags": [
+    "#创意手工开造计划",
+    "#oots街拍一下",
+    "#高敏感人看世界",
+    "#重述神话",
+    "#秋日时髦尖子生",
+    "#野生食评人howto",
+    "#我的不完美料理",
+    "#一公里摄影大赛",
+    "#小红书校园身份卡",
+    "#勃艮第红"
+  ],
+  "interaction_question": "明天我做 4 个版本：A. 小学生长高版 B. 老人好消化版 C. 上班族快手版 D. 评论区留下你专属版。你家更需要哪个？评论 A/B/C/D，我按票数发；选 D 的直接留下年龄、家庭人数、忌口和早上可用时间。关注我，明早直接抄作业。",
+  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，后面每天更新。",
+  "tomorrow_preview": "明天预告：鱼肉豆腐小馄饨配秋日时蔬，软和又暖胃。",
+  "status": "ready_for_review",
+  "is_original": true,
+  "should_publish": false,
+  "delivery_markdown_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-13/README.md",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-13/01-beef-egg-pancake-process.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-13/02-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-13/03-breakfast-overview.png"
+  ],
+  "image_plan": [
+    {
+      "order": 1,
+      "type": "dish_process",
+      "description": "牛肉鸡蛋香葱薄饼食材与四步制作过程"
+    },
+    {
+      "order": 2,
+      "type": "real_family_table",
+      "description": "黑豆小米粥、牛肉鸡蛋香葱薄饼、芝麻小白菜和橘子的真实家庭餐桌"
+    },
+    {
+      "order": 3,
+      "type": "final_infographic",
+      "description": "清新绿色高密度四口之家早餐总览"
+    }
+  ],
+  "first_image_references": [
+    "/Users/xuezi/dir/growth-workspace/assets/image1_example/image_44641b65.jpg",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-11/02-family-table.png"
+  ],
+  "strategy": {
+    "structure": "煎饼类",
+    "soup_type": "黑豆小米粥",
+    "dry_main": "牛肉鸡蛋香葱薄饼",
+    "color_palette": "清新绿色",
+    "protein_focus": [
+      "黑豆",
+      "鸡蛋",
+      "牛肉"
+    ]
+  },
+  "tag_strategy": {
+    "mode": "local_top10",
+    "is_verified_trend": false,
+    "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-13/weekly-hot-tags.json"
+  },
+  "publishing_notes": "草稿保存按用户后续指令暂停，未发布。图片依照 images 随机顺序排列。",
+  "watermark_verification": "3 张最终图片均由 remove-ai-watermarks all 从独立 853×1280 源文件生成；identify --json 未检测到可识别水印或 metadata 信号。不可见水印阶段因缺少 GPU 依赖跳过，按 Skill 规则不拦截。详见 watermark-verification.json。",
+  "budget_rmb": 40,
+  "prep": "前晚将黑豆80g泡发并与小米120g充分煮软，及时冷藏；牛肉末180g彻底炒熟并及时冷藏；小白菜300g洗净沥水。",
+  "timeline": [
+    "0–5分钟充分加热前夜黑豆小米粥；鸡蛋2个、面粉120g和温水调成稀面糊",
+    "5–10分钟加入熟牛肉末与香葱，平底锅薄摊第一面",
+    "10–15分钟翻面煎至鸡蛋和面糊全熟；另锅焯熟小白菜",
+    "15–20分钟小白菜拌熟白芝麻，剥2个橘子并分装四人份"
+  ],
+  "emergency_plan": "前晚把薄饼和粥都充分做熟并及时冷藏；晨起把粥与薄饼分别彻底复热，配前晚洗好的橘子，约5分钟上桌。",
+  "menu": [
+    {
+      "name": "黑豆小米粥",
+      "ingredients": "干黑豆80g、小米120g、清水适量",
+      "method": "前晚充分煮软并及时冷藏，晨起充分加热。"
+    },
+    {
+      "name": "牛肉鸡蛋香葱薄饼",
+      "ingredients": "熟牛肉末180g、鸡蛋2个、面粉120g、香葱2根、温水适量",
+      "method": "熟牛肉末与蛋面糊、葱花拌匀，薄摊两面煎至全熟。"
+    },
+    {
+      "name": "芝麻小白菜",
+      "ingredients": "小白菜300g、熟白芝麻适量",
+      "method": "焯熟后拌熟白芝麻，少盐少油。"
+    },
+    {
+      "name": "橘子",
+      "ingredients": "橘子2个",
+      "method": "去皮去籽分瓣，孩子份切小。"
+    }
+  ]
+}

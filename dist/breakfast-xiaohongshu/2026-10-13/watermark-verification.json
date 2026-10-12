@@ -1,0 +1,83 @@
+[
+  {
+    "order": 1,
+    "role": "dish_process",
+    "final_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-13/01-beef-egg-pancake-process.png",
+    "sized_source": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-13/sources/beef-egg-pancake-process-resized.png",
+    "clean_source": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-13/sources/beef-egg-pancake-process-clean.png",
+    "image_size": [
+      853,
+      1280
+    ],
+    "identify": {
+      "path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-13/sources/beef-egg-pancake-process-clean.png",
+      "is_ai_generated": null,
+      "platform": null,
+      "confidence": "none",
+      "ai_source_kind": null,
+      "ai_from_metadata": false,
+      "watermarks": [],
+      "signals": [],
+      "caveats": [
+        "Absence of metadata is not proof the image is clean: C2PA, EXIF, and PNG text chunks are stripped by re-encoding, screenshots, or social-media upload."
+      ],
+      "integrity_clashes": [],
+      "c2pa_validation": null
+    },
+    "invisible_stage": "skipped_missing_gpu_dependency"
+  },
+  {
+    "order": 2,
+    "role": "real_family_table",
+    "final_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-13/02-family-table.png",
+    "sized_source": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-13/sources/family-table-resized.png",
+    "clean_source": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-13/sources/family-table-clean.png",
+    "image_size": [
+      853,
+      1280
+    ],
+    "identify": {
+      "path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-13/sources/family-table-clean.png",
+      "is_ai_generated": null,
+      "platform": null,
+      "confidence": "none",
+      "ai_source_kind": null,
+      "ai_from_metadata": false,
+      "watermarks": [],
+      "signals": [],
+      "caveats": [
+        "Absence of metadata is not proof the image is clean: C2PA, EXIF, and PNG text chunks are stripped by re-encoding, screenshots, or social-media upload."
+      ],
+      "integrity_clashes": [],
+      "c2pa_validation": null
+    },
+    "invisible_stage": "skipped_missing_gpu_dependency"
+  },
+  {
+    "order": 3,
+    "role": "final_infographic",
+    "final_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-13/03-breakfast-overview.png",
+    "sized_source": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-13/sources/breakfast-overview-resized.png",
+    "clean_source": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-13/sources/breakfast-overview-clean.png",
+    "image_size": [
+      853,
+      1280
+    ],
+    "identify": {
+      "path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-13/sources/breakfast-overview-clean.png",
+      "is_ai_generated": null,
+      "platform": null,
+      "confidence": "none",
+      "ai_source_kind": null,
+      "ai_from_metadata": false,
+      "watermarks": [],
+      "signals": [],
+      "caveats": [
+        "Absence of metadata is not proof the image is clean: C2PA, EXIF, and PNG text chunks are stripped by re-encoding, screenshots, or social-media upload."
+      ],
+      "integrity_clashes": [],
+      "c2pa_validation": null
+    },
+    "invisible_stage": "skipped_missing_gpu_dependency"
+  }
+]
