@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-16",
+  "weekday": "星期五",
+  "title": "答应我，明早试试牛肉鸡蛋贝果",
+  "content": "今晚把牛肉末加葱花做成小饼，煎至全熟后及时冷藏。明早彻底复热肉饼，鸡蛋煎全熟，贝果烤热后夹好；同时温热无糖豆浆、焯小白菜，香蕉切段。四口之家约20分钟吃上稀+干，孩子份切小块，老人份贝果蒸软。极忙时用前夜熟肉饼充分复热，配贝果、豆浆和香蕉，5分钟开饭。关注我，明早继续抄作业。",
+  "tags": [
+    "#创意手工开造计划",
+    "#oots街拍一下",
+    "#高敏感人看世界",
+    "#重述神话",
+    "#秋日时髦尖子生",
+    "#野生食评人howto",
+    "#我的不完美料理",
+    "#一公里摄影大赛",
+    "#小红书校园身份卡",
+    "#勃艮第红"
+  ],
+  "interaction_question": "明天我做 4 个版本：A. 小学生长高版 B. 老人好消化版 C. 上班族快手版 D. 评论区留下你专属版。你家更需要哪个？评论 A/B/C/D，我按票数发；选 D 的直接留下年龄、家庭人数、忌口和早上可用时间。关注我，明早直接抄作业。",
+  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，后面每天更新。",
+  "tomorrow_preview": "明天预告：周末不赶时间的虾仁豆腐汤面早餐。",
+  "status": "ready_for_review",
+  "is_original": true,
+  "should_publish": false,
+  "delivery_markdown_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-16/README.md",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-16/01-beef-bagel-process.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-16/02-breakfast-overview.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-16/03-family-table.png"
+  ],
+  "image_plan": [
+    {
+      "order": 1,
+      "type": "dish_process",
+      "description": "葱香牛肉鸡蛋全麦贝果食材与四步制作过程"
+    },
+    {
+      "order": 2,
+      "type": "final_infographic",
+      "description": "奶油橙高密度四口之家早餐计划总览"
+    },
+    {
+      "order": 3,
+      "type": "real_family_table",
+      "description": "葱香牛肉鸡蛋全麦贝果、温热无糖豆浆、小白菜与香蕉的真实家庭餐桌"
+    }
+  ],
+  "first_image_references": [
+    "/Users/xuezi/dir/growth-workspace/assets/image1_example/image_44641b65.jpg",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-15/01-family-table.png"
+  ],
+  "strategy": {
+    "structure": "贝果类",
+    "soup_type": "温热无糖豆浆",
+    "dry_main": "葱香牛肉鸡蛋全麦贝果",
+    "color_palette": "奶油橙",
+    "protein_focus": [
+      "牛肉",
+      "鸡蛋",
+      "豆浆"
+    ]
+  },
+  "tag_strategy": {
+    "mode": "local_top10",
+    "is_verified_trend": false,
+    "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-16/weekly-hot-tags.json"
+  },
+  "publishing_notes": "草稿保存按用户后续指令暂停，未发布。图片依照 images 随机顺序排列。",
+  "watermark_verification": "3 张最终图片均由 remove-ai-watermarks all 从独立 853×1280 源文件生成；identify --json 未检测到可识别水印或 metadata 信号。不可见水印阶段因缺少 GPU 依赖跳过，按 Skill 规则不拦截。详见 watermark-verification.json。",
+  "budget_rmb": 40,
+  "prep": "前晚将牛肉末180g与葱花拌匀做成4个薄肉饼，煎至内部全熟，及时放入4℃以下冰箱；小白菜300g洗净沥干，生熟分开。贝果4个、鸡蛋2个、无糖豆浆800ml、香蕉2根备好。",
+  "timeline": [
+    "0–5分钟：煎锅加热并彻底复热前夜熟牛肉饼；另锅温热无糖豆浆",
+    "5–10分钟：鸡蛋煎至蛋黄蛋白均全熟；贝果切开烤热",
+    "10–15分钟：小白菜焯熟，香蕉剥皮切段；老人份贝果略蒸软",
+    "15–20分钟：确认肉饼中心热透，贝果夹入肉饼与鸡蛋，按四人分装"
+  ],
+  "emergency_plan": "前夜已煎熟并及时冷藏的牛肉饼用微波炉充分复热，与全麦贝果、温热无糖豆浆和香蕉搭配；约5分钟完成。",
+  "menu": [
+    {
+      "name": "温热无糖豆浆",
+      "ingredients": "无糖豆浆800ml",
+      "method": "使用合格熟制豆浆，加热至充分温热后分装。"
+    },
+    {
+      "name": "葱香牛肉鸡蛋全麦贝果",
+      "ingredients": "全麦贝果4个、牛肉末180g、鸡蛋2个、葱花少许",
+      "method": "牛肉饼前晚煎至全熟并及时冷藏；次日彻底复热，鸡蛋煎全熟，贝果烤热后夹入。"
+    },
+    {
+      "name": "清烫小白菜",
+      "ingredients": "小白菜300g",
+      "method": "洗净后沸水焯至熟，少盐拌匀。"
+    },
+    {
+      "name": "香蕉",
+      "ingredients": "香蕉2根",
+      "method": "去皮切段，孩子份切小块。"
+    }
+  ]
+}

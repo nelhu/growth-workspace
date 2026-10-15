@@ -1,0 +1,17 @@
+[
+  {
+    "order": 1,
+    "role": "dish_process",
+    "stem": "beef-bagel-process"
+  },
+  {
+    "order": 2,
+    "role": "final_infographic",
+    "stem": "breakfast-overview"
+  },
+  {
+    "order": 3,
+    "role": "real_family_table",
+    "stem": "family-table"
+  }
+]
