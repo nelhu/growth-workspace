@@ -1,0 +1,29 @@
+[
+  {
+    "image": "01-shrimp-tofu-wrap-process.png",
+    "source": "sources/shrimp-tofu-wrap-process-resized.png",
+    "clean": "sources/shrimp-tofu-wrap-process-clean.png",
+    "identify": "sources/shrimp-tofu-wrap-process-identify.log",
+    "watermarks": [],
+    "signals": [],
+    "invisible_stage": "skipped_missing_gpu_dependencies"
+  },
+  {
+    "image": "02-breakfast-overview.png",
+    "source": "sources/breakfast-overview-resized.png",
+    "clean": "sources/breakfast-overview-clean.png",
+    "identify": "sources/breakfast-overview-identify.log",
+    "watermarks": [],
+    "signals": [],
+    "invisible_stage": "skipped_missing_gpu_dependencies"
+  },
+  {
+    "image": "03-family-table.png",
+    "source": "sources/family-table-resized.png",
+    "clean": "sources/family-table-clean.png",
+    "identify": "sources/family-table-identify.log",
+    "watermarks": [],
+    "signals": [],
+    "invisible_stage": "skipped_missing_gpu_dependencies"
+  }
+]

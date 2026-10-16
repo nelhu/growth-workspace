@@ -1,0 +1,23 @@
+[
+  {
+    "order": 1,
+    "name": "shrimp-tofu-wrap-process",
+    "type": "dish_process",
+    "description": "鲜虾豆腐手抓饼卷食材与四步制作过程",
+    "file": "01-shrimp-tofu-wrap-process.png"
+  },
+  {
+    "order": 2,
+    "name": "breakfast-overview",
+    "type": "final_infographic",
+    "description": "暖橙高密度四口之家早餐计划总览",
+    "file": "02-breakfast-overview.png"
+  },
+  {
+    "order": 3,
+    "name": "family-table",
+    "type": "real_family_table",
+    "description": "四口之家鲜虾豆腐手抓饼卷、山药小米羹、芝麻菠菜与橘子的真实家庭餐桌",
+    "file": "03-family-table.png"
+  }
+]
