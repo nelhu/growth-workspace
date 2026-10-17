@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-18",
+  "weekday": "星期日",
+  "title": "直接抄作业！牛肉毛豆饭团早餐",
+  "content": "今晚把杂粮饭、牛肉末、毛豆和胡萝卜分别做熟，及时冷藏；银耳雪梨羹也提前煮好。明早先把饭和馅彻底热透，拌匀捏成小饭团，同时热羹、焯小油菜，猕猴桃切好。四口之家20分钟吃上稀+干；老人份捏松软，孩子份切小块。极忙时复热前夜做熟的饭团和梨羹，5分钟开饭。关注我，明早继续抄作业。",
+  "tags": [
+    "#这次旅行local一下",
+    "#10月16日双十一预售",
+    "#10月18日重阳节",
+    "#10月23日霜降",
+    "#抽象力",
+    "#科学健身与体重管理",
+    "#主体性",
+    "#反精致",
+    "#一公里摄影大赛",
+    "#10月31日万圣节"
+  ],
+  "interaction_question": "明天我做 4 个版本：A. 小学生长高版 B. 老人好消化版 C. 上班族快手版 D. 评论区留下你专属版。你家更需要哪个？评论 A/B/C/D，我按票数发；选 D 的直接留下年龄、家庭人数、忌口和早上可用时间。关注我，明早直接抄作业。",
+  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，后面每天更新。",
+  "tomorrow_preview": "明天预告：做一套不喝牛奶也能吃得丰富的中式早餐。",
+  "status": "ready_for_review",
+  "is_original": true,
+  "should_publish": false,
+  "delivery_markdown_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-18/README.md",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-18/01-breakfast-overview.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-18/02-beef-edamame-riceball-process.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-18/03-family-table.png"
+  ],
+  "image_plan": [
+    {
+      "order": 1,
+      "type": "final_infographic",
+      "description": "暖橙高密度四口之家早餐计划总览"
+    },
+    {
+      "order": 2,
+      "type": "dish_process",
+      "description": "牛肉毛豆杂粮饭团食材与四步制作过程"
+    },
+    {
+      "order": 3,
+      "type": "real_family_table",
+      "description": "牛肉毛豆饭团、银耳雪梨羹、小油菜与猕猴桃的真实家庭餐桌"
+    }
+  ],
+  "first_image_references": [
+    "/Users/xuezi/dir/growth-workspace/assets/image1_example/image_44641b65.jpg",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-17/03-family-table.png"
+  ],
+  "strategy": {
+    "structure": "杂粮饭团类",
+    "soup_type": "银耳雪梨羹",
+    "dry_main": "牛肉毛豆杂粮饭团",
+    "color_palette": "秋日暖棕与暖橙",
+    "protein_focus": [
+      "牛肉末",
+      "毛豆"
+    ]
+  },
+  "tag_strategy": {
+    "mode": "local_top10",
+    "is_verified_trend": false,
+    "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-18/weekly-hot-tags.json"
+  },
+  "publishing_notes": "草稿保存按用户后续指令暂停，未发布。图片依照 images 随机顺序排列。",
+  "watermark_verification": "3 张最终图片均由 remove-ai-watermarks all 从独立 853×1280 源文件生成；identify --json 未检测到可识别水印或 metadata 信号。不可见水印阶段因缺少 GPU 依赖跳过，按 Skill 规则不拦截。详见 watermark-verification.json。",
+  "budget_rmb": 40,
+  "prep": "前晚煮熟杂粮饭约400g，牛肉末180g、毛豆100g、胡萝卜80g分别做熟；尽快分装并放入4℃以下冰箱。银耳和梨煮成羹，及时冷藏；小油菜洗净，猕猴桃备好。",
+  "timeline": [
+    "0–5分钟：银耳雪梨羹、杂粮饭和熟牛肉毛豆馅分别加热至热透",
+    "5–10分钟：另锅焯熟小油菜，沥水拌少量熟芝麻",
+    "10–15分钟：把热饭和热馅拌匀，捏成小而松软的饭团",
+    "15–20分钟：羹和菜分装，猕猴桃去皮切小块，核对饭团中心热透"
+  ],
+  "emergency_plan": "前夜已完全做熟并及时冷藏的牛肉毛豆饭团和银耳雪梨羹，次日分别充分复热，配即食猕猴桃；约5分钟完成。",
+  "menu": [
+    {
+      "name": "银耳雪梨羹",
+      "ingredients": "干银耳约15g、梨2个、水适量",
+      "method": "前晚将泡发银耳和梨煮至软烂，及时冷藏，次日充分热透。"
+    },
+    {
+      "name": "牛肉毛豆杂粮饭团",
+      "ingredients": "熟杂粮饭约400g、牛肉末180g、毛豆100g、胡萝卜80g、熟芝麻少量",
+      "method": "前晚把牛肉、毛豆、胡萝卜完全做熟并冷藏；早晨与饭分别热透后拌匀，捏成小饭团。"
+    },
+    {
+      "name": "芝麻小油菜",
+      "ingredients": "小油菜约250g、熟芝麻少量",
+      "method": "小油菜沸水焯熟，沥水后拌少量熟芝麻。"
+    },
+    {
+      "name": "猕猴桃",
+      "ingredients": "猕猴桃4个",
+      "method": "去皮切小块，给孩子和老人分装。"
+    }
+  ]
+}

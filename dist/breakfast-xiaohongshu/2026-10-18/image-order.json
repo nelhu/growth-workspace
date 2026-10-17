@@ -1,0 +1,20 @@
+[
+  {
+    "order": 1,
+    "role": "breakfast-overview",
+    "source": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-18/sources/breakfast-overview-resized.png",
+    "final": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-18/01-breakfast-overview.png"
+  },
+  {
+    "order": 2,
+    "role": "beef-edamame-riceball-process",
+    "source": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-18/sources/beef-edamame-riceball-process-resized.png",
+    "final": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-18/02-beef-edamame-riceball-process.png"
+  },
+  {
+    "order": 3,
+    "role": "family-table",
+    "source": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-18/sources/family-table-resized.png",
+    "final": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-18/03-family-table.png"
+  }
+]

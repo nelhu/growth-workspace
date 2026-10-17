@@ -1,0 +1,35 @@
+{
+  "images": [
+    {
+      "path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-18/01-breakfast-overview.png",
+      "source": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-18/sources/breakfast-overview-resized.png",
+      "size": [
+        853,
+        1280
+      ],
+      "visible_or_metadata_signal_detected": false,
+      "invisible_stage": "skipped_missing_gpu_dependencies"
+    },
+    {
+      "path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-18/02-beef-edamame-riceball-process.png",
+      "source": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-18/sources/beef-edamame-riceball-process-resized.png",
+      "size": [
+        853,
+        1280
+      ],
+      "visible_or_metadata_signal_detected": false,
+      "invisible_stage": "skipped_missing_gpu_dependencies"
+    },
+    {
+      "path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-18/03-family-table.png",
+      "source": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-18/sources/family-table-resized.png",
+      "size": [
+        853,
+        1280
+      ],
+      "visible_or_metadata_signal_detected": false,
+      "invisible_stage": "skipped_missing_gpu_dependencies"
+    }
+  ],
+  "note": "identify --json returned watermarks=[] and signals=[] for every final image; no absolute clean claim."
+}
