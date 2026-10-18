@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-19",
+  "weekday": "星期一",
+  "title": "答应我，试试这份牛肉蒸包早餐",
+  "content": "今晚把黑豆煮透，牛肉香菇馅炒熟，包子蒸熟后及时冷藏；南瓜小米粥也提前煮好。明早先把粥和包子充分热透，同时炒小白菜、切香蕉，20分钟端上桌。女儿份包子切小块，妈妈多分一只，老人份蒸软少盐。极忙时用前夜已熟并冷藏的粥和包子分装热透，配香蕉，约5分钟。关注我，明早继续抄作业。",
+  "tags": [
+    "#这次旅行local一下",
+    "#10月16日双十一预售",
+    "#10月18日重阳节",
+    "#10月23日霜降",
+    "#抽象力",
+    "#科学健身与体重管理",
+    "#主体性",
+    "#反精致",
+    "#一公里摄影大赛",
+    "#10月31日万圣节"
+  ],
+  "interaction_question": "明天我做 4 个版本：A. 小学生长高版 B. 老人好消化版 C. 上班族快手版 D. 评论区留下你专属版。你家更需要哪个？评论 A/B/C/D，我按票数发；选 D 的直接留下年龄、家庭人数、忌口和早上可用时间。关注我，明早直接抄作业。",
+  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，后面每天更新。",
+  "tomorrow_preview": "明天预告：做一套不喝牛奶也有优质蛋白的中式早餐。",
+  "status": "ready_for_review",
+  "is_original": true,
+  "should_publish": false,
+  "delivery_markdown_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-19/README.md",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-19/01-beef-blackbean-bun-process.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-19/02-breakfast-overview.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-19/03-family-table.png"
+  ],
+  "image_plan": [
+    {
+      "order": 1,
+      "type": "dish_process",
+      "description": "牛肉香菇黑豆蒸包制作过程"
+    },
+    {
+      "order": 2,
+      "type": "final_infographic",
+      "description": "暖橙与日式木色高密度早餐计划"
+    },
+    {
+      "order": 3,
+      "type": "real_family_table",
+      "description": "四口之家固定餐桌与完整早餐"
+    }
+  ],
+  "first_image_references": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-18/03-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/assets/image1_example/image_44641b65.jpg"
+  ],
+  "strategy": {
+    "structure": "粥类",
+    "soup_type": "南瓜小米粥",
+    "dry_main": "牛肉香菇黑豆蒸包",
+    "color_palette": "日式木色与暖橙",
+    "protein_focus": [
+      "牛肉末",
+      "黑豆"
+    ]
+  },
+  "tag_strategy": {
+    "mode": "local_top10",
+    "is_verified_trend": false,
+    "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-19/weekly-hot-tags.json"
+  },
+  "publishing_notes": "草稿保存按用户后续指令暂停，未发布。图片依照 images 随机顺序排列。",
+  "watermark_verification": "3张最终图片均由 remove-ai-watermarks all 从独立853×1280源文件生成；identify --json 未检测到可识别水印或 metadata 信号。不可见水印阶段因缺少 GPU 依赖跳过，按 Skill 规则不拦截。详见 watermark-verification.json。",
+  "budget_rmb": 40,
+  "prep": "前晚黑豆煮透，牛肉末和香菇炒熟；包成约8个中等蒸包并彻底蒸熟，放凉后及时冷藏。南瓜小米粥煮熟及时冷藏，小白菜洗净沥干，香蕉备好。",
+  "timeline": [
+    "0–5分钟：包子上锅复蒸，同时加热前晚煮熟的南瓜小米粥",
+    "5–10分钟：检查包子中心热透；小白菜入锅炒熟",
+    "10–15分钟：粥持续加热至热透，包子分装给四人",
+    "15–20分钟：香蕉切片，孩子份包子切小块，老人份再蒸软"
+  ],
+  "emergency_plan": "前夜已彻底做熟并及时冷藏的包子和南瓜小米粥分装后用微波炉充分热透，配香蕉；设备可同时加热四份时约5分钟。",
+  "menu": [
+    {
+      "name": "南瓜小米粥",
+      "ingredients": "南瓜300g、小米100g、水约1200ml",
+      "method": "前晚煮至软糯并及时冷藏，早晨充分热透。"
+    },
+    {
+      "name": "牛肉香菇黑豆蒸包",
+      "ingredients": "中筋面粉300g、牛肉末300g、熟黑豆150g、鲜香菇200g、酵母3g",
+      "method": "前晚将牛肉和香菇炒熟、熟黑豆切碎，包入面皮后彻底蒸熟；及时冷藏，早晨充分复蒸。"
+    },
+    {
+      "name": "清炒小白菜",
+      "ingredients": "小白菜约500g、蒜少量、食用油少量",
+      "method": "小白菜洗净沥水，早晨炒熟并少盐调味。"
+    },
+    {
+      "name": "香蕉",
+      "ingredients": "香蕉约4根",
+      "method": "临上桌去皮切片，孩子和老人分装。"
+    }
+  ]
+}

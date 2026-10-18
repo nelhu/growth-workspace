@@ -1,0 +1,12 @@
+{
+  "final_images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-19/01-beef-blackbean-bun-process.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-19/02-breakfast-overview.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-19/03-family-table.png"
+  ],
+  "visible_watermarks_detected": false,
+  "metadata_signals_detected": false,
+  "invisible_stage": "skipped_missing_gpu_dependencies",
+  "identify_result": "未检测到可识别水印，非绝对无水印证明",
+  "process_image_recleaned": true
+}
