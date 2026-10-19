@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-20",
+  "status": "saved",
+  "account": "Tiny.C",
+  "title": "直接抄作业！番茄牛腩汤面早餐",
+  "browser_profile": "/Users/xuezi/Library/Application Support/Codex-Breakfast-Chrome",
+  "image_count": 3,
+  "topic_bindings": [
+    {
+      "tag": "#这次旅行local一下",
+      "status": "omitted",
+      "evidence": "No exact native suggestion; only a shorter or altered name."
+    },
+    {
+      "tag": "#10月16日双十一预售",
+      "status": "omitted",
+      "evidence": "Only new-topic suggestion."
+    },
+    {
+      "tag": "#10月18日重阳节",
+      "status": "verified",
+      "evidence": "Exact existing platform topic selected and data-topic.name verified."
+    },
+    {
+      "tag": "#10月23日霜降",
+      "status": "omitted",
+      "evidence": "No exact native suggestion."
+    },
+    {
+      "tag": "#抽象力",
+      "status": "verified",
+      "evidence": "Exact existing platform topic selected and data-topic.name verified."
+    },
+    {
+      "tag": "#科学健身与体重管理",
+      "status": "omitted",
+      "evidence": "Only new-topic suggestion."
+    },
+    {
+      "tag": "#主体性",
+      "status": "verified",
+      "evidence": "Exact existing platform topic selected and data-topic.name verified."
+    },
+    {
+      "tag": "#反精致",
+      "status": "verified",
+      "evidence": "Exact existing platform topic selected and data-topic.name verified."
+    },
+    {
+      "tag": "#一公里摄影大赛",
+      "status": "omitted",
+      "evidence": "No exact native suggestion; similar names differed."
+    },
+    {
+      "tag": "#10月31日万圣节",
+      "status": "verified",
+      "evidence": "Exact existing platform topic selected and data-topic.name verified."
+    }
+  ],
+  "saved_at": "2026-10-19 18:14:36 (as displayed in draft box)",
+  "verified_at": "2026-10-19T10:15:30.258651+00:00",
+  "evidence": "Draft box count 6 to 7; save-success notice; exact title and displayed save time; reopened editor showed 3 images and 5 native topic bindings. Screenshots: draft-after-save.png, draft-reopened.png.",
+  "published": false,
+  "failure_reason": null
+}
