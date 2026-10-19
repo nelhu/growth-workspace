@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-20",
+  "weekday": "星期二",
+  "title": "直接抄作业！番茄牛腩汤面早餐",
+  "content": "前晚把牛腩番茄汤炖熟、毛豆玉米小包蒸熟，放凉后及时冷藏；小白菜洗净。明早同时热汤蒸包，下面条、烫青菜，切梨，20分钟端上桌。女儿牛腩切小块，老人面煮软少盐；哺乳期妈妈多分牛腩。极忙时把前夜熟汤和小包充分热透，配梨，约5分钟。关注我，明早继续抄作业。",
+  "tags": [
+    "#这次旅行local一下",
+    "#10月16日双十一预售",
+    "#10月18日重阳节",
+    "#10月23日霜降",
+    "#抽象力",
+    "#科学健身与体重管理",
+    "#主体性",
+    "#反精致",
+    "#一公里摄影大赛",
+    "#10月31日万圣节"
+  ],
+  "interaction_question": "明天我做 4 个版本：A. 小学生长高版 B. 老人好消化版 C. 上班族快手版 D. 评论区留下你专属版。你家更需要哪个？评论 A/B/C/D，我按票数发；选 D 的直接留下年龄、家庭人数、忌口和早上可用时间。关注我，明早直接抄作业。",
+  "pinned_comment": "想要「7天不重样早餐表」的，评论“7天”。选 D 的留下年龄、家庭人数、忌口和早上可用时间，我会挑典型家庭做专属版，后面每天更新。",
+  "tomorrow_preview": "明天预告：做一套不喝牛奶也有优质蛋白的中式早餐。",
+  "status": "ready_for_review",
+  "is_original": true,
+  "should_publish": false,
+  "delivery_markdown_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-20/README.md",
+  "images": [
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-20/01-family-table.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-20/02-tomato-beef-noodle-process.png",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-20/03-breakfast-overview.png"
+  ],
+  "image_plan": [
+    {
+      "order": 1,
+      "type": "real_family_table",
+      "description": "四口之家固定餐桌与完整早餐"
+    },
+    {
+      "order": 2,
+      "type": "dish_process",
+      "description": "番茄牛腩汤面制作过程"
+    },
+    {
+      "order": 3,
+      "type": "final_infographic",
+      "description": "暖橙与日式木色高密度早餐计划"
+    }
+  ],
+  "first_image_references": [
+    "/Users/xuezi/dir/growth-workspace/assets/image1_example/image_44641b65.jpg",
+    "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-19/03-family-table.png"
+  ],
+  "strategy": {
+    "structure": "noodle_soup",
+    "soup_type": "tomato_beef",
+    "dry_main": "edamame_corn_bun",
+    "color_palette": "warm_wood_orange",
+    "protein_focus": [
+      "beef",
+      "edamame"
+    ]
+  },
+  "tag_strategy": {
+    "mode": "local_top10",
+    "is_verified_trend": false,
+    "weekly_hot_tag_registry_path": "/Users/xuezi/dir/growth-workspace/dist/breakfast-xiaohongshu/2026-10-20/weekly-hot-tags.json"
+  },
+  "publishing_notes": "Draft save requested; no publication. Image order is randomized.",
+  "watermark_verification": "See watermark-verification.json; no recognizable visible or metadata signal. Invisible stage skipped for missing GPU dependency.",
+  "budget_rmb": 40,
+  "prep": "前晚将牛腩300g、番茄3个炖熟成汤，充分冷却后及时冷藏；面粉约250g、熟毛豆约120g、玉米粒约120g做成8个小包并蒸熟后及时冷藏。小白菜约300g洗净沥水，梨2个备好。",
+  "timeline": [
+    "0–5分钟：牛腩番茄汤上锅加热，小包同时复蒸",
+    "5–10分钟：汤煮至充分热透；另一锅烧水",
+    "10–15分钟：细面条入锅煮熟，小白菜同锅烫熟",
+    "15–20分钟：分碗加牛腩汤，确认小包中心热透，梨切块上桌"
+  ],
+  "emergency_plan": "前夜已彻底做熟并及时冷藏的牛腩番茄汤与毛豆玉米小包分装后用微波炉充分热透，配切好的梨；设备可同时加热四份时约5分钟。",
+  "menu": [
+    {
+      "name": "番茄牛腩汤面",
+      "ingredients": "牛腩约300g、番茄3个、细面条约400g、水适量",
+      "method": "前晚炖熟牛腩番茄汤并及时冷藏；早晨热透汤底，另煮熟面条后分碗。"
+    },
+    {
+      "name": "毛豆玉米小包",
+      "ingredients": "中筋面粉约250g、熟毛豆约120g、玉米粒约120g、酵母约3g",
+      "method": "前晚做成约8个小包并彻底蒸熟，及时冷藏；早晨复蒸至中心热透。"
+    },
+    {
+      "name": "清烫小白菜",
+      "ingredients": "小白菜约300g",
+      "method": "洗净沥水，早晨入滚水烫熟；成人按口味少量调味。"
+    },
+    {
+      "name": "梨",
+      "ingredients": "梨约2个",
+      "method": "临上桌洗净切小块；幼儿和老人按需要切薄。"
+    }
+  ]
+}
